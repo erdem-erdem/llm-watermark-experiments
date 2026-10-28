@@ -21,31 +21,19 @@ o metinle *eğitilmiş* bir modelde ve *o modelin cevaplarıyla* eğitilmiş bir
 - 📊 **Tüm sonuçlar düz CSV/JSON** (`results/`) ve **her şekil Türkçe ve İngilizce** (`figures/`).
 - 💻 **GPU olmadan keşfedin** — şekilleri yeniden üretin, testleri ve oyuncak demoyu dizüstünde çalıştırın.
 
-## Sonuçlardan bir kesit
+## Öne çıkanlar
 
-Dokuz şeklin üçü; bu depodaki tablolardan yeniden üretilebilir. Yorum ve geri kalanı blogda.
+Dokuz şeklin dördü; bu depodaki tablolardan yeniden üretilebilir. Yorum ve geri kalanı blogda.
 
-**İz gücü, puanlanan token sayısıyla artar.** Üretim sırasında işaretlenen cevaplarda medyan −log₁₀ p uzunlukla
-yükselir; 400 puanlanan tokende p < 10⁻⁶ olan cevapların payı %91 (yaratıcı), %96 (olgusal) ve %83 (matematik/kod);
-watermark'sız cevaplarda %0.
+| | |
+|:-:|:-:|
+| ![E1.1](figures/tr/main/fig_E1_1.png) | ![E2.1](figures/tr/main/fig_E2_1.png) |
+| **E1.1** — Her nokta bir (model, sıcaklık) yeniden yazım ayarıdır: medyan iz gücüne karşı ortalama anlam benzerliği. Gölgeli bölge hedeftir (p < 10⁻⁶ ve benzerlik ≥ 0.95), kesikli çizgi önceden belirlenen 0.85 benzerlik sınırı, yıldız seçilen ayardır (4B, T = 1.2). | **E2.1** — Üretim sırasında işaretlenen cevaplar: medyan −log₁₀ p, puanlanan token sayısıyla artar. 400 tokende p < 10⁻⁶ olan cevapların payı %91 (yaratıcı), %96 (olgusal) ve %83 (matematik/kod); watermark'sız cevaplarda %0. |
+| ![E3.1](figures/tr/main/fig_E3_1.png) | ![E4.1](figures/tr/main/fig_E4_1.png) |
+| **E3.1** — Watermark'lı verinin ρ payını içeren karışımlarla ince ayar görmüş öğrenci modeller, okuma modunda sınanır (düz turuncu: üretim sırasında, kesikli mavi: sonradan işaretlenmiş). Puanlanan token biriktikçe sinyal p = 10⁻⁶ çizgisinin çok üstüne çıkar; watermark'lı veri görmeyen kontrol (gri, A₀) şans bandında kalır. | **E4.1** — Aynı ölçüm zincirin dört halkasında: watermark'lı veri, onunla eğitilen model, o modelin kendi cevapları ve bu cevaplarla eğitilen ikinci öğrenci (log eksen, gri = kontrol). |
 
-![Uzunluk ve konu](figures/tr/main/fig_E2_1.png)
-
-**Metni değil, modeli okumak.** Watermark'lı veri içeren karışımlarla ince ayar görmüş öğrenci modeller okuma
-modunda sınanır (turuncu: üretim sırasında, mavi: sonradan işaretlenmiş). Puanlanan token biriktikçe sinyal
-p = 10⁻⁶ çizgisinin çok üstüne çıkar; watermark'lı veri görmeyen kontrol (gri, A₀) şans bandında kalır.
-
-![Eğitimde görülen watermark](figures/tr/main/fig_E3_1.png)
-
-**Sinyali bir zincir boyunca izlemek.** Aynı ölçüm dört halkada: watermark'lı veri, onunla eğitilen model, o modelin
-kendi cevapları ve bu cevaplarla eğitilen ikinci öğrenci (log eksen; gri = kontrol).
-
-![Sinyal zinciri](figures/tr/main/fig_E4_1.png)
-
-Dokuz şeklin hepsi PNG ve SVG olarak [`figures/tr/main/`](figures/tr/main) (ve İngilizce `figures/en/main/`)
-altındadır: `fig_5_0` deney zinciri · `fig_M_acilis` açılış örneği · `fig_E0` testin sağlaması ·
-`fig_E1_1`, `fig_E1_2` post-hoc yeniden yazım · `fig_E2_1`, `fig_E2_2` üretim sırasında watermark ·
-`fig_E3_1` eğitim · `fig_E4_1` zincir.
+Dokuz şeklin hepsi PNG ve SVG olarak [`figures/tr/`](figures/tr/main) (Türkçe) ve [`figures/en/`](figures/en/main) (İngilizce) altındadır.
+Dosya adları özgün Türkçe sözcükleri korur (`M_acilis` = açılış cümlesi örneği).
 
 ## Hızlı başlangıç
 

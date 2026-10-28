@@ -23,32 +23,19 @@ model's* answers?
 - 📊 **All results as plain CSV/JSON** (`results/`) and **every figure in Turkish and English** (`figures/`).
 - 💻 **Explore without a GPU** — rebuild the figures, run the tests and a toy demo on a laptop.
 
-## A glimpse of the results
+## Highlights
 
-Three of the nine figures, rebuilt from the tables in this repo. Interpretation and the rest are in the blog.
+Four of the nine figures, rebuilt from the tables in this repo. Interpretation and the rest are in the blog.
 
-**Trace strength grows with the number of scored tokens.** For answers watermarked while they were generated,
-the median −log₁₀ p climbs with length; at 400 scored tokens the share of answers with p < 10⁻⁶ is 91 %
-(creative), 96 % (factual) and 83 % (math/code) — and 0 % for unwatermarked answers.
+| | |
+|:-:|:-:|
+| ![E1.1](figures/en/main/fig_E1_1.png) | ![E2.1](figures/en/main/fig_E2_1.png) |
+| **E1.1** — Each point is one (model, temperature) rewriting setting: median trace strength against mean semantic similarity. The shaded zone is the target (p < 10⁻⁶ and similarity ≥ 0.95), the dashed line is the pre-set 0.85 similarity bound, and the star marks the selected setting (4B, T = 1.2). | **E2.1** — Answers watermarked during generation: median −log₁₀ p grows with the number of scored tokens. At 400 tokens the share of answers with p < 10⁻⁶ is 91 % (creative), 96 % (factual) and 83 % (math/code), and 0 % for unwatermarked answers. |
+| ![E3.1](figures/en/main/fig_E3_1.png) | ![E4.1](figures/en/main/fig_E4_1.png) |
+| **E3.1** — Student models fine-tuned on mixes with a share ρ of watermarked data, probed in reading mode (solid orange: watermarked during generation, dashed blue: afterwards). The signal rises far above the p = 10⁻⁶ line as scored tokens accumulate; the control trained without watermarked data (grey, A₀) stays in the chance band. | **E4.1** — The same measurement at four links of the chain: the watermarked data, the model trained on it, that model's own answers, and a second student trained on those answers (log axis, grey = control). |
 
-![Length and topic](figures/en/main/fig_E2_1.png)
-
-**Reading a model, not a text.** Student models fine-tuned on mixtures containing watermarked data
-(orange: watermarked during generation, blue: watermarked afterwards) are probed in reading mode. The
-signal rises far above the p = 10⁻⁶ line as scored tokens accumulate, while the control trained without
-watermarked data (grey, A₀) stays in the chance band.
-
-![Watermark seen in training](figures/en/main/fig_E3_1.png)
-
-**Following the signal down a chain.** The same measurement at four links — the watermarked data, the model
-trained on it, that model's own answers, and a second student trained on those answers (log axis; grey = control).
-
-![The signal chain](figures/en/main/fig_E4_1.png)
-
-All nine figures live in [`figures/en/main/`](figures/en/main) (and `figures/tr/main/` in Turkish), as PNG and SVG:
-`fig_5_0` experiment chain · `fig_M_acilis` opening-line example · `fig_E0` test sanity check ·
-`fig_E1_1`, `fig_E1_2` post-hoc rewriting · `fig_E2_1`, `fig_E2_2` generation-time watermark ·
-`fig_E3_1` training · `fig_E4_1` chain.
+All nine figures are in [`figures/en/`](figures/en/main) (English) and [`figures/tr/`](figures/tr/main) (Turkish), each as PNG and SVG.
+File names keep the original Turkish words (`M_acilis` = the opening-line example).
 
 ## Quick start
 
