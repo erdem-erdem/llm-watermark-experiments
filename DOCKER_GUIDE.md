@@ -156,7 +156,7 @@ wm bash scripts/run_all.sh 4
 By default the E1 setting is picked automatically (rule documented in `RUN_MANUAL.md` §3) and the run continues through the whole pipeline. To stop at the gate and choose yourself, run `wm env E1_GATE=manual bash scripts/run_all.sh 4`; it then prints `results/E1/GATE.md`.
 
 ### 6.3 Approve the gate (only with `E1_GATE=manual`; on the **host**, the files are in your project folder)
-Review `results/E1/SWEEP_REPORT.md` and `fig_E1_1.png`, then write (values from the report):
+Review `results/E1/SWEEP_REPORT.md` and `figures/en/main/fig_E1_1.png`, then write (values from the report):
 ```bash
 cat > results/E1/selected.json <<'EOF'
 {"model": "Qwen/Qwen3.5-9B", "T": 1.0, "approved": true}

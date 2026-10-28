@@ -77,7 +77,7 @@ python -m analyze.detect_all --config configs/detect.yaml --smoke --stage E3 --o
 
 echo "== 10. eval_loss (A-gen-10) + figürler =="
 python -m eval.eval_loss --config configs/eval.yaml --smoke --only A-gen-10 || echo "ATLANDI: eval_loss (isteğe bağlı)"
-python -m analyze.figures || echo "ATLANDI: bazı figürler eksik veriyle üretilemedi (smoke'ta beklenir)"
+python -m analyze.make_figures || echo "ATLANDI: bazı figürler eksik veriyle üretilemedi (smoke'ta beklenir)"
 
 echo
 echo "6GB DUMAN KOŞUSU TAMAM. Kontrol: results/E1/sweep.csv, data/D_gen.jsonl,"

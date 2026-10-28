@@ -76,7 +76,7 @@ Sıra ve neye bakılacağı:
 | 6 | E2 üretim (50×2) | `results/E2/D_gen.jsonl` alan şeması tamam |
 | 7 | E3 tek eğitim (1 epoch, 50 satır) | `results/E3/models/A-gen-10` klasörü |
 | 8 | Tespit (E0+E2 mini) | CSV'ler dolu |
-| 9 | Figürler | en az 1 `fig_*.png` oluştu |
+| 9 | Figürler | `figures/` altında en az 1 PNG oluştu |
 
 Duman koşusu temizse tam koşuya geçin.
 
@@ -149,25 +149,21 @@ Notlar:
   `tp_size: 4` yapın (o iş 4 GPU'yu tek vLLM'e verir, paralellik düşer).
 - 100-prompt hız testi duman koşusunun E1 adımında otomatik ölçülür.
 
-## 5. Çıktı Yerleri (yer tutucu → dosya)
+## 5. Çıktı Yerleri
 
-`results/placeholder_map.json`, docx'teki her yer tutucu için hangi
-dosya(lar)ın ve ana sayıların küratör AI'ya verileceğini listeler.
+Şekiller `figures/<tr|en>/main/` altına yazılır (`python -m analyze.make_figures`); tablolar ve ham çıktılar `results/` altındadır.
 
-| Yer tutucu | Çıktı |
+| Konu | Çıktı |
 |---|---|
-| GÖRSEL 5.0 zincir şeması | `results/E5_chain/fig_chain.png/.svg` |
-| GÖRSEL 5.x / E0 kalibrasyon | `results/E0/fig_E0_pvals.*`, `T_E0.csv` |
-| Anahtar ayrımı | `results/E0/fig_E0_wrongkeys.*` |
-| E1 tarama + seçim | `results/E1/fig_E1_1.*`, `T_E1.csv`, `SWEEP_REPORT.md` |
-| E2 eğrisi/dağılım/konu | `results/E2/fig_E2_1..3.*`, `T_E2.csv` |
-| AIME kalite | `results/E2/fig_E2_aime.*`, `aime_summary.json` |
-| E3 eğriler/kayıp | `results/E3/fig_E3_1..2.*`, `T_E3.csv`, `loss/*.csv` |
-| E4 zincir | `results/E4/fig_E4_1_chain.*`, `T_E4.csv` |
-| Mini 1.1 token renkleri | `results/mini/example_1_1.csv`, `fig_mini_tokens.png` |
-| Mini ilk-n eğrisi | `results/mini/fig13_curve.*` |
-| Mini diğerleri | `results/mini/same_prompt_twice.json`, `guess_pairs.csv`, `benchmark_marking.json`, `example_pairs.csv`, `detection_demo_steps.csv` |
-| Özet | `results/SUMMARY.md`, `results/LOG.md`, `results/run_manifest.json` |
+| Şekiller (TR + EN) | `figures/<lang>/main/fig_*.png/.svg` |
+| E0 kalibrasyon, anahtar ayrımı | `results/E0/` (`E0.json`, `T_E0.csv`, `pvals_*.csv`) |
+| E1 tarama + seçim | `results/E1/` (`sweep.csv`, `T_E1.csv`, `SWEEP_REPORT.md`, `selected.json`) |
+| E2 eğri/dağılım/konu | `results/E2/` (`curves*.csv`, `T_E2.csv`, `per_record.csv`) |
+| Matematik olimpiyatı kalite (`aime_*`) | `results/E2/aime_summary.json` |
+| E3 okuma modu, kayıp, GPQA | `results/E3/` (`reading_*.csv`, `T_E3.csv`, `loss/*.csv`, `gpqa_tr.json`) |
+| E4 zincir | `results/E4/` (`chain.csv`, `T_E4.csv`) |
+| Mini denemeler | `results/mini/` |
+| Günlük ve manifest | `results/LOG.md`, `results/run_manifest.json` (`results/SUMMARY.md`: `python -m analyze.summary`) |
 
 ## 6. Yeniden Koşum / Devam
 
@@ -207,18 +203,16 @@ dosya(lar)ın ve ana sayıların küratör AI'ya verileceğini listeler.
   uyarıları normaldir (§7.3 — kırpma yok).
 - **GPQA metni**: hiçbir çıktı dosyasına yazılmaz; yalnız sayılar.
 
-## 8. Koşum Sonrası Kontrol Listesi (docx §12)
+## 8. Koşum Sonrası Kontrol Listesi (SPEC.md §12)
 
 - [ ] `wm/tests` iki süite de PASS
 - [ ] Tokenizer karşılaştırma UYUMLU
 - [ ] E0 kabul: parça p ortalaması 0.4–0.6, KS p > 0.01
 - [ ] E1: KARAR-8 seçimi raporda, `selected.json` onaylı
 - [ ] E2: D_gen tespit oranı (n=400) yüksek, D_clean düşük; AIME farkı küçük
-- [ ] E3: 8 koşul eğrileri `fig_E3_1_curves` içinde; eval_loss/GPQA tabloda
-- [ ] E4: 4 halka `fig_E4_1_chain`; yanlış anahtar medyanları düşük
+- [ ] E3: 8 koşul eğrileri `detect_curves.csv` içinde; eval_loss/GPQA tabloda
+- [ ] E4: 4 halka `chain.csv`; yanlış anahtar medyanları düşük
 - [ ] Miniler: benchmark sayı korunması (≤3 deneme) raporu
-- [ ] `results/SUMMARY.md` + `results/placeholder_map.json` güncel
-- [ ] Küratör AI'ya verilecekler: placeholder_map.json'daki dosyalar
 
 
 ## Düzeltme koşumu (ana koşu bittikten sonra): `scripts/rerun_reading.sh`

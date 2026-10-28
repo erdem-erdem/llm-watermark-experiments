@@ -34,7 +34,7 @@ echo "== 8. Tespit (küçük) =="
 python -m analyze.detect_all --config configs/detect.yaml --smoke --stage E0,E2 || true
 
 echo "== 9. Bir figür =="
-python -m analyze.figures || true
+python -m analyze.make_figures || true
 
 echo "DUMAN KOŞUSU TAMAM — çıktılar results/ altında. Tam koşuya geçmeden önce"
 echo "her aşamanın çıktısını kontrol edin (bkz. RUN_MANUAL.md Bölüm 2)."

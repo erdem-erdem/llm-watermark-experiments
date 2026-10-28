@@ -168,7 +168,6 @@ python -m gen.gen_opening --config configs/mini.yaml
 python -m gen.gen_mini --config configs/mini.yaml
 
 echo "== 13. Figürler, tablolar, özet =="
-python -m analyze.figures
 python -m analyze.blog_examples
 python -m analyze.blog_figures
 python -m analyze.blog_figures_b
