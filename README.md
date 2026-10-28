@@ -9,7 +9,7 @@ trained on that text?
 The full write-up (method, experiments, results and their interpretation) is in the blog series:
 
 - 🇹🇷 Turkish: <https://kureansiklopedi.com/tr/detay/llm-watermarking-12-iz-birakmak-calisma-prensipl-2>
-- 🇬🇧 English: <https://kureansiklopedi.com/en/detay/llm-watermarking-12-iz-birakmak-calisma-prensipl-2>
+- 🇬🇧 English: <https://kureansiklopedi.com/en/detay/llm-watermarking-12-watermarking-working-principle>
 
 This repository does **not** discuss the findings; it gives you the code to reproduce them, the raw
 result tables, and every figure in Turkish and English.

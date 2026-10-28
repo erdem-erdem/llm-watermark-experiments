@@ -9,7 +9,7 @@ tespit edilebilir mi?
 Yöntemin, deneylerin, sonuçların ve yorumlarının tamamı blog serisindedir:
 
 - 🇹🇷 Türkçe: <https://kureansiklopedi.com/tr/detay/llm-watermarking-12-iz-birakmak-calisma-prensipl-2>
-- 🇬🇧 İngilizce: <https://kureansiklopedi.com/en/detay/llm-watermarking-12-iz-birakmak-calisma-prensipl-2>
+- 🇬🇧 İngilizce: <https://kureansiklopedi.com/en/detay/llm-watermarking-12-watermarking-working-principle>
 
 Bu depo bulguları **tartışmaz**; sonuçları yeniden üretecek kodu, ham sonuç tablolarını ve tüm şekilleri
 Türkçe ve İngilizce olarak verir.
