@@ -1,0 +1,30 @@
+{
+  "n": 5000,
+  "filtered": 2141,
+  "filter_rate": 0.4282,
+  "by_topic": {
+    "yaratici": {
+      "n": 2000,
+      "filtered": 841,
+      "rate": 0.4205
+    },
+    "olgusal": {
+      "n": 2000,
+      "filtered": 830,
+      "rate": 0.415
+    },
+    "matematik_kod": {
+      "n": 1000,
+      "filtered": 470,
+      "rate": 0.47
+    }
+  },
+  "len_ratio_quantiles_q10_50_90": [
+    0.7744807806687702,
+    1.13499180999181,
+    1.776143245434171
+  ],
+  "median_neglog10p_kept": 85.30805095105262,
+  "median_neglog10p_all": 102.05716637326498,
+  "n_rew": 5000
+}

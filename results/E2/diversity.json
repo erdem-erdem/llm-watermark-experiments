@@ -1,0 +1,16 @@
+{
+  "wm": {
+    "n_prompts": 200,
+    "same_output_rate": 1.0,
+    "distinct2": 0.8373025743066783,
+    "distinct2_all_runs": 0.41865128715333916,
+    "mean_len_tokens": 412.92
+  },
+  "nowm": {
+    "n_prompts": 200,
+    "same_output_rate": 0.01,
+    "distinct2": 0.8416552978626648,
+    "distinct2_all_runs": 0.7867705468988695,
+    "mean_len_tokens": 418.4925
+  }
+}

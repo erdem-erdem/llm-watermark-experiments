@@ -1,0 +1,8 @@
+{
+  "label": "B-sample",
+  "model": "results/E4/models/B-sample",
+  "accuracy": 0.2893772893772894,
+  "ci_lo": 0.25274725274725274,
+  "ci_hi": 0.32783882783882784,
+  "n": 546
+}

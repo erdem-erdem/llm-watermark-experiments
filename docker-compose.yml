@@ -1,0 +1,33 @@
+# Kullanım (proje kökünden):
+#   docker compose build
+#   docker compose run --rm wm python /opt/selfcheck.py
+#   docker compose run --rm wm bash scripts/run_smoke_all.sh
+#   docker compose run --rm wm bash scripts/run_all.sh 4
+# GPU sayısını sınırlamak için:  GPU_COUNT=2 docker compose run --rm wm ...
+# (compose sayıyı kabul etmezse DOCKER_GUIDE.md'deki `docker run --gpus` komutunu kullanın)
+services:
+  wm:
+    image: llm-watermark-experiments:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace                                  # kod + data/ + results/ (kalıcı)
+      - ${HF_CACHE_DIR:-${HOME}/hf_cache}:/hf         # model/veri önbelleği (kalıcı)
+    environment:
+      - HF_TOKEN                                      # ana makineden aktarılır (gated veri için)
+      - HF_HUB_OFFLINE                                # =1 → ağsız çalışma (önbellek dolu olmalı)
+    ipc: host                                         # vLLM/DataLoader paylaşımlı bellek
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    tty: true
+    stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: ${GPU_COUNT:-all}
+              capabilities: [gpu]

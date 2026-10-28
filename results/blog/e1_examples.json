@@ -1,0 +1,1253 @@
+{
+  "pairs": [
+    {
+      "slot": "high",
+      "id": "train-02804",
+      "topic": "olgusal",
+      "source": "Pertürbasyon hipotezi, eğer daha fazla su buz kristalleri oluşturursa, bunun daha az kar yağışına neden olacağını öne sürüyor. Bunun nedeni, daha fazla buz kristali oluşursa birbirleriyle çarpışıp birbirine yapışarak daha büyük kar taneleri oluşturmasıdır. Ancak buz kristalleri çok ağırlaşıp birbirine yapışmaya fırsat bulamadan yere düşerse kar yağışı azalacaktır. Bu nedenle, varsayılan tedirginlik, buz kristallerinin boyutunu ve ağırlığını değiştirerek süreç üzerinde dolaylı bir etkiye sahip olabilir ve bu da kar yağışı miktarını etkileyebilir.",
+      "rewrite": "Pertürbasyon ilkesi, mecahli su buz kristallerinin yetkinliliğini ortaya koymaktadır. Bunun nedeni, karlar takım arenolarları arasındaki daha doğrusu karalanma dünyasında her karaltı daha kecilik kristaller oluşturursak daha küçük karpostalar olduğunu istemiştir. Ancak buz kristalleri çok ağırlaşıp birbirine yapışmaya fırsat bulamadan yere düşerse kar yağışı azalacaktır. Bu nedenle, varsayılan tedirginlik, buz kristallerinin boyutunu ve ağırlığını değiştirerek süreç üzerinde dolaylı bir etkiye sahip olabilir ve bu da kar yağışı miktarını etkileyebilir.",
+      "tokens": [
+        {
+          "piece": "Pert",
+          "score": null
+        },
+        {
+          "piece": "ür",
+          "score": null
+        },
+        {
+          "piece": "b",
+          "score": 0.3542714481316205
+        },
+        {
+          "piece": "asyon",
+          "score": 1.2245012889046805
+        },
+        {
+          "piece": " il",
+          "score": 6.765892981599484
+        },
+        {
+          "piece": "kes",
+          "score": 0.942333639567451
+        },
+        {
+          "piece": "i",
+          "score": 3.0861790263724194
+        },
+        {
+          "piece": ",",
+          "score": 0.13690470043456443
+        },
+        {
+          "piece": " me",
+          "score": 6.787375922140616
+        },
+        {
+          "piece": "ca",
+          "score": 4.36606192059494
+        },
+        {
+          "piece": "h",
+          "score": 1.81233764392529
+        },
+        {
+          "piece": "li",
+          "score": 3.926081431942192
+        },
+        {
+          "piece": " su",
+          "score": 2.0450052701939363
+        },
+        {
+          "piece": " buz",
+          "score": 0.271050336592421
+        },
+        {
+          "piece": " krist",
+          "score": 1.0272537239510593
+        },
+        {
+          "piece": "aller",
+          "score": 4.531895083154466
+        },
+        {
+          "piece": "inin",
+          "score": 0.9928721110770989
+        },
+        {
+          "piece": " yet",
+          "score": 8.384474548033257
+        },
+        {
+          "piece": "kin",
+          "score": 3.5046974290691133
+        },
+        {
+          "piece": "lili",
+          "score": 6.918805580497356
+        },
+        {
+          "piece": "ğini",
+          "score": 2.881459125888523
+        },
+        {
+          "piece": " ortaya",
+          "score": 5.8599870063735064
+        },
+        {
+          "piece": " ko",
+          "score": 3.612818137708699
+        },
+        {
+          "piece": "ym",
+          "score": 0.3737794897892452
+        },
+        {
+          "piece": "aktadır",
+          "score": 0.8828943399003072
+        },
+        {
+          "piece": ".",
+          "score": 2.74308518142318
+        },
+        {
+          "piece": " Bunun",
+          "score": 2.4274184348337733
+        },
+        {
+          "piece": " nedeni",
+          "score": 4.194481954017211
+        },
+        {
+          "piece": ",",
+          "score": 1.5317511709074818
+        },
+        {
+          "piece": " kar",
+          "score": 5.703217964664058
+        },
+        {
+          "piece": "lar",
+          "score": 6.832167163418779
+        },
+        {
+          "piece": " takım",
+          "score": 10.078972540170401
+        },
+        {
+          "piece": " aren",
+          "score": 9.308718305466329
+        },
+        {
+          "piece": "olar",
+          "score": 6.213252609831456
+        },
+        {
+          "piece": "ları",
+          "score": 9.961253774566064
+        },
+        {
+          "piece": " arasındaki",
+          "score": 2.392509616461829
+        },
+        {
+          "piece": " daha",
+          "score": 5.441806061769403
+        },
+        {
+          "piece": " doğ",
+          "score": 8.244069137044896
+        },
+        {
+          "piece": "rus",
+          "score": 2.5752528004355972
+        },
+        {
+          "piece": "u",
+          "score": 0.5400272509537839
+        },
+        {
+          "piece": " kar",
+          "score": 3.3833831022359266
+        },
+        {
+          "piece": "alan",
+          "score": 8.735104301495053
+        },
+        {
+          "piece": "ma",
+          "score": 2.673535641291831
+        },
+        {
+          "piece": " düny",
+          "score": 8.59228296945569
+        },
+        {
+          "piece": "asında",
+          "score": 2.451285631609283
+        },
+        {
+          "piece": " her",
+          "score": 4.494278851105749
+        },
+        {
+          "piece": " kar",
+          "score": 4.839422468283244
+        },
+        {
+          "piece": "alt",
+          "score": 5.094356395247826
+        },
+        {
+          "piece": "ı",
+          "score": 0.5704564432576601
+        },
+        {
+          "piece": " daha",
+          "score": 2.8306296254521093
+        },
+        {
+          "piece": " kecil",
+          "score": 11.325286111059116
+        },
+        {
+          "piece": "ik",
+          "score": 3.0995440302486945
+        },
+        {
+          "piece": " krist",
+          "score": 2.3139844184532867
+        },
+        {
+          "piece": "aller",
+          "score": 1.8977621705495307
+        },
+        {
+          "piece": " oluştur",
+          "score": null
+        },
+        {
+          "piece": "urs",
+          "score": 2.942474372938332
+        },
+        {
+          "piece": "ak",
+          "score": 2.4283579246531755
+        },
+        {
+          "piece": " daha",
+          "score": 2.6188137634923536
+        },
+        {
+          "piece": " küçük",
+          "score": 4.053864253696445
+        },
+        {
+          "piece": " kar",
+          "score": 1.6289550880764263
+        },
+        {
+          "piece": "postal",
+          "score": 12.209012598911059
+        },
+        {
+          "piece": "ar",
+          "score": 1.9622051715020525
+        },
+        {
+          "piece": " olduğunu",
+          "score": 7.146039010673195
+        },
+        {
+          "piece": " ist",
+          "score": 10.008538832118418
+        },
+        {
+          "piece": "emi",
+          "score": 4.2556451336130605
+        },
+        {
+          "piece": "ştir",
+          "score": 0.24555802547292044
+        },
+        {
+          "piece": ".",
+          "score": 1.5680558667008964
+        },
+        {
+          "piece": " Ancak",
+          "score": 0.12256204691335168
+        },
+        {
+          "piece": " buz",
+          "score": 0.2595151953571859
+        },
+        {
+          "piece": " krist",
+          "score": 1.5278032446679715
+        },
+        {
+          "piece": "aller",
+          "score": null
+        },
+        {
+          "piece": "i",
+          "score": null
+        },
+        {
+          "piece": " çok",
+          "score": 0.538073525431439
+        },
+        {
+          "piece": " a",
+          "score": 0.8158263586912019
+        },
+        {
+          "piece": "ğı",
+          "score": 1.9421774657110062
+        },
+        {
+          "piece": "rl",
+          "score": 0.5529499998049394
+        },
+        {
+          "piece": "a",
+          "score": 2.6530128047402104
+        },
+        {
+          "piece": "şı",
+          "score": 0.19621837012918783
+        },
+        {
+          "piece": "p",
+          "score": 0.7047821523224388
+        },
+        {
+          "piece": " birbir",
+          "score": 0.4727094727985296
+        },
+        {
+          "piece": "ine",
+          "score": 1.8446865104999477
+        },
+        {
+          "piece": " yap",
+          "score": 0.29825162530990784
+        },
+        {
+          "piece": "ış",
+          "score": 0.7009582414307703
+        },
+        {
+          "piece": "maya",
+          "score": 2.6147441484295513
+        },
+        {
+          "piece": " fırsat",
+          "score": 0.274638023085885
+        },
+        {
+          "piece": " bul",
+          "score": 0.3393716119997362
+        },
+        {
+          "piece": "am",
+          "score": 0.20314072190293944
+        },
+        {
+          "piece": "adan",
+          "score": 0.19518944461811585
+        },
+        {
+          "piece": " y",
+          "score": 0.24332453346553282
+        },
+        {
+          "piece": "ere",
+          "score": 1.4323768782125095
+        },
+        {
+          "piece": " düş",
+          "score": 0.8998284240412935
+        },
+        {
+          "piece": "erse",
+          "score": 0.9251303650661086
+        },
+        {
+          "piece": " kar",
+          "score": 0.10606025747234168
+        },
+        {
+          "piece": " yağ",
+          "score": 0.8850644018564258
+        },
+        {
+          "piece": "ışı",
+          "score": 0.859494948486004
+        },
+        {
+          "piece": " az",
+          "score": 1.3718564621863836
+        },
+        {
+          "piece": "al",
+          "score": 0.28565319690804614
+        },
+        {
+          "piece": "acaktır",
+          "score": 2.3603966602630537
+        },
+        {
+          "piece": ".",
+          "score": 1.2714267921163143
+        },
+        {
+          "piece": " Bu",
+          "score": 1.076929386362721
+        },
+        {
+          "piece": " nedenle",
+          "score": 5.3768382469650104
+        },
+        {
+          "piece": ",",
+          "score": 1.1708900511625269
+        },
+        {
+          "piece": " vars",
+          "score": 0.19238148137196498
+        },
+        {
+          "piece": "ayı",
+          "score": 0.42826067367191356
+        },
+        {
+          "piece": "lan",
+          "score": 4.227965816357155
+        },
+        {
+          "piece": " ted",
+          "score": 0.6488345713360938
+        },
+        {
+          "piece": "ir",
+          "score": 1.690317447292373
+        },
+        {
+          "piece": "gin",
+          "score": 1.9723894216855387
+        },
+        {
+          "piece": "lik",
+          "score": 1.7846732588637113
+        },
+        {
+          "piece": ",",
+          "score": 0.24736891819395312
+        },
+        {
+          "piece": " buz",
+          "score": 1.636497555895439
+        },
+        {
+          "piece": " krist",
+          "score": 0.6331241042850236
+        },
+        {
+          "piece": "aller",
+          "score": null
+        },
+        {
+          "piece": "inin",
+          "score": null
+        },
+        {
+          "piece": " boy",
+          "score": null
+        },
+        {
+          "piece": "ut",
+          "score": 2.7063502546862916
+        },
+        {
+          "piece": "unu",
+          "score": 0.7221950582159189
+        },
+        {
+          "piece": " ve",
+          "score": 3.4573650067065715
+        },
+        {
+          "piece": " a",
+          "score": 0.035060534778681776
+        },
+        {
+          "piece": "ğı",
+          "score": 0.9115890955047418
+        },
+        {
+          "piece": "rl",
+          "score": null
+        },
+        {
+          "piece": "ığını",
+          "score": null
+        },
+        {
+          "piece": " değiştir",
+          "score": 0.756225574067483
+        },
+        {
+          "piece": "erek",
+          "score": 1.4795586685045667
+        },
+        {
+          "piece": " süreç",
+          "score": 0.25909228009254825
+        },
+        {
+          "piece": " üzerinde",
+          "score": 0.043892361202983024
+        },
+        {
+          "piece": " dol",
+          "score": 1.1065727002075616
+        },
+        {
+          "piece": "ay",
+          "score": 1.198568228479681
+        },
+        {
+          "piece": "lı",
+          "score": 0.7970955633795541
+        },
+        {
+          "piece": " bir",
+          "score": 0.264350694513891
+        },
+        {
+          "piece": " et",
+          "score": 0.182649452338308
+        },
+        {
+          "piece": "kiye",
+          "score": 0.24181190506406064
+        },
+        {
+          "piece": " sahip",
+          "score": 0.9042565026537006
+        },
+        {
+          "piece": " olabilir",
+          "score": 1.633157955117684
+        },
+        {
+          "piece": " ve",
+          "score": 0.5045275338878729
+        },
+        {
+          "piece": " bu",
+          "score": 0.7159990390447403
+        },
+        {
+          "piece": " da",
+          "score": 0.05119010537879392
+        },
+        {
+          "piece": " kar",
+          "score": 0.307132739351983
+        },
+        {
+          "piece": " yağ",
+          "score": 0.3480210059586658
+        },
+        {
+          "piece": "ışı",
+          "score": null
+        },
+        {
+          "piece": " miktar",
+          "score": null
+        },
+        {
+          "piece": "ını",
+          "score": 0.12285373179584312
+        },
+        {
+          "piece": " etk",
+          "score": 3.004387948857985e-05
+        },
+        {
+          "piece": "iley",
+          "score": 1.4401381805761306
+        },
+        {
+          "piece": "ebilir",
+          "score": 1.3478824794959907
+        },
+        {
+          "piece": ".",
+          "score": 0.521993949753435
+        },
+        {
+          "piece": "<|im_end|>",
+          "score": 2.3422808453134976
+        }
+      ],
+      "similarity": 0.9619596004486084,
+      "len_ratio": 1.012704174228675,
+      "N": 135,
+      "neglog10p": 35.115350993135316
+    },
+    {
+      "slot": "mid",
+      "id": "train-01176",
+      "topic": "yaratici",
+      "source": "Verilen bağlama göre Bailey, çok çalışan ve amacına ulaşmaya kararlı biri olarak tanımlanabilir. Bir ay boyunca başarısızlıklarla karşılaşmasına rağmen pes etmedi ve hedefi doğrultusunda çalışmaya devam etti. Bu onun güçlü bir iş ahlakına sahip olduğunu ve başarılı olmak için gereken çabayı göstermeye istekli olduğunu gösterir. Dolayısıyla Bailey'nin beceri eksikliği olan biri değil, ısrarcı ve dirençli biri olduğu sonucuna varılabilir. Ayrıca pes etmediği ve hedefi doğrultusunda çalışmaya devam ettiği için kendisiyle gurur duyması da mümkündür.",
+      "rewrite": "Bailey, çok çalışan ve mükemmeliyetçilik içeren bireyler gibi hizmet içindedir. Solaktaki başaramana razi olduğuna bölük güzide hayaller bir koştu, benzerliğinde, pes etmedi ve hedefe yönelik çalışmaya devam etti. Bu onun güçlü bir şarj ahlakına sahip olduğunu ve başarılı olmak için gereken çabayı göstermeye istekli olduğunu gösterir. Dolayısıyla Bailey'nin uzman açısından varlık olan biri değil, hemen ısrarcı ve dirençli biri olduğu için söyleyilebilir. Ayrıca pes etmediği ve hedefe doğru çabaloş kısmaddığı için keyfes şişembe umudu olduğu için sağlıklı üzerine değil iyi yineckenin önemli.",
+      "tokens": [
+        {
+          "piece": "Ba",
+          "score": null
+        },
+        {
+          "piece": "iley",
+          "score": null
+        },
+        {
+          "piece": ",",
+          "score": 0.5700321920454118
+        },
+        {
+          "piece": " çok",
+          "score": 2.4657329129929293
+        },
+        {
+          "piece": " çalışan",
+          "score": 4.862848992608685
+        },
+        {
+          "piece": " ve",
+          "score": 0.8288805671406394
+        },
+        {
+          "piece": " m",
+          "score": 11.520731436125223
+        },
+        {
+          "piece": "ük",
+          "score": 1.7766750124779167
+        },
+        {
+          "piece": "emm",
+          "score": 0.5009098105906317
+        },
+        {
+          "piece": "eli",
+          "score": 2.3112548798138266
+        },
+        {
+          "piece": "yet",
+          "score": 0.7900964422429009
+        },
+        {
+          "piece": "ç",
+          "score": 2.0766278132956444
+        },
+        {
+          "piece": "ilik",
+          "score": 1.25237969481861
+        },
+        {
+          "piece": " iç",
+          "score": 1.2496513474020692
+        },
+        {
+          "piece": "eren",
+          "score": 1.0308187143170626
+        },
+        {
+          "piece": " bire",
+          "score": 7.356687772035357
+        },
+        {
+          "piece": "y",
+          "score": 0.28060468618271905
+        },
+        {
+          "piece": "ler",
+          "score": 1.109981875116244
+        },
+        {
+          "piece": " gibi",
+          "score": 3.6691430503373708
+        },
+        {
+          "piece": " hizmet",
+          "score": 6.952866697907235
+        },
+        {
+          "piece": " iç",
+          "score": 4.778022339223941
+        },
+        {
+          "piece": "inded",
+          "score": 6.30005796570789
+        },
+        {
+          "piece": "ir",
+          "score": 0.9698925762162427
+        },
+        {
+          "piece": ".",
+          "score": 2.952263985582966
+        },
+        {
+          "piece": " Sol",
+          "score": 9.541986090337671
+        },
+        {
+          "piece": "akt",
+          "score": 5.05342756594395
+        },
+        {
+          "piece": "aki",
+          "score": 3.251969233067742
+        },
+        {
+          "piece": " baş",
+          "score": 7.969064557364528
+        },
+        {
+          "piece": "aram",
+          "score": 1.9934623032835612
+        },
+        {
+          "piece": "ana",
+          "score": 6.446251639040484
+        },
+        {
+          "piece": " r",
+          "score": 7.316228155022125
+        },
+        {
+          "piece": "azi",
+          "score": 2.4669566740412505
+        },
+        {
+          "piece": " olduğ",
+          "score": 6.317742375546197
+        },
+        {
+          "piece": "una",
+          "score": 1.6594220401142472
+        },
+        {
+          "piece": " böl",
+          "score": 11.816278238797159
+        },
+        {
+          "piece": "ük",
+          "score": 4.779235305446894
+        },
+        {
+          "piece": " güz",
+          "score": 8.522367311703542
+        },
+        {
+          "piece": "ide",
+          "score": 2.453286511254823
+        },
+        {
+          "piece": " hay",
+          "score": 7.095179928779733
+        },
+        {
+          "piece": "aller",
+          "score": 1.8670275258550242
+        },
+        {
+          "piece": " bir",
+          "score": 5.436885794663083
+        },
+        {
+          "piece": " koş",
+          "score": 7.979493653556936
+        },
+        {
+          "piece": "tu",
+          "score": 9.205410999029514
+        },
+        {
+          "piece": ",",
+          "score": 0.8983663541824881
+        },
+        {
+          "piece": " ben",
+          "score": 6.069857884631398
+        },
+        {
+          "piece": "zer",
+          "score": 4.435102570534877
+        },
+        {
+          "piece": "liğ",
+          "score": 5.3717073597416025
+        },
+        {
+          "piece": "inde",
+          "score": 2.7412167331210644
+        },
+        {
+          "piece": ",",
+          "score": 3.2669165890805827
+        },
+        {
+          "piece": " pes",
+          "score": 4.16812782645934
+        },
+        {
+          "piece": " et",
+          "score": 1.5231526224430607
+        },
+        {
+          "piece": "medi",
+          "score": 1.6639913522198575
+        },
+        {
+          "piece": " ve",
+          "score": 0.4100703077116849
+        },
+        {
+          "piece": " hedef",
+          "score": 0.8569643189403056
+        },
+        {
+          "piece": "e",
+          "score": 4.437789161516589
+        },
+        {
+          "piece": " yönelik",
+          "score": 5.0155968009907586
+        },
+        {
+          "piece": " çalış",
+          "score": 2.348755346317013
+        },
+        {
+          "piece": "maya",
+          "score": 1.5103863016069932
+        },
+        {
+          "piece": " devam",
+          "score": 0.23411043432302583
+        },
+        {
+          "piece": " etti",
+          "score": 0.8233578249839607
+        },
+        {
+          "piece": ".",
+          "score": 1.149535394002818
+        },
+        {
+          "piece": " Bu",
+          "score": 1.4169986066935651
+        },
+        {
+          "piece": " onun",
+          "score": 1.836594741328448
+        },
+        {
+          "piece": " güçlü",
+          "score": 0.6783250773219823
+        },
+        {
+          "piece": " bir",
+          "score": 1.9885491194598908
+        },
+        {
+          "piece": " ş",
+          "score": 6.582143085195323
+        },
+        {
+          "piece": "ar",
+          "score": 5.592570385166832
+        },
+        {
+          "piece": "j",
+          "score": 1.2436305655705866
+        },
+        {
+          "piece": " a",
+          "score": 1.9367519612397974
+        },
+        {
+          "piece": "hlak",
+          "score": 1.0972338480748771
+        },
+        {
+          "piece": "ına",
+          "score": 1.0469252051914246
+        },
+        {
+          "piece": " sahip",
+          "score": 0.7231887470019425
+        },
+        {
+          "piece": " olduğunu",
+          "score": 1.507194750204762
+        },
+        {
+          "piece": " ve",
+          "score": 1.8284294802175176
+        },
+        {
+          "piece": " başarılı",
+          "score": 0.40607416092491383
+        },
+        {
+          "piece": " olmak",
+          "score": 0.692802574928765
+        },
+        {
+          "piece": " için",
+          "score": 0.6249286080640483
+        },
+        {
+          "piece": " gereken",
+          "score": 2.9844945282669384
+        },
+        {
+          "piece": " ç",
+          "score": 1.3768280849298762
+        },
+        {
+          "piece": "abay",
+          "score": 6.1023106229461215
+        },
+        {
+          "piece": "ı",
+          "score": 0.41079746153460145
+        },
+        {
+          "piece": " göster",
+          "score": 0.4176814323609619
+        },
+        {
+          "piece": "meye",
+          "score": 0.8247932711537826
+        },
+        {
+          "piece": " ist",
+          "score": 0.6732889020534474
+        },
+        {
+          "piece": "ekli",
+          "score": 0.66056407976524
+        },
+        {
+          "piece": " olduğunu",
+          "score": 3.17139568732927
+        },
+        {
+          "piece": " göster",
+          "score": 0.4114555793776306
+        },
+        {
+          "piece": "ir",
+          "score": 1.956150995883151
+        },
+        {
+          "piece": ".",
+          "score": 0.09860221018122027
+        },
+        {
+          "piece": " Dol",
+          "score": null
+        },
+        {
+          "piece": "ay",
+          "score": 0.38102613386213824
+        },
+        {
+          "piece": "ısıyla",
+          "score": 0.0826557463800496
+        },
+        {
+          "piece": " Bailey",
+          "score": 1.5548623176901664
+        },
+        {
+          "piece": "'n",
+          "score": 1.7436271191403405
+        },
+        {
+          "piece": "in",
+          "score": 0.6199591386537395
+        },
+        {
+          "piece": " uzman",
+          "score": 8.19258163111803
+        },
+        {
+          "piece": " açısından",
+          "score": 12.37845767933842
+        },
+        {
+          "piece": " var",
+          "score": 7.779867436017324
+        },
+        {
+          "piece": "lık",
+          "score": 4.2505282209135595
+        },
+        {
+          "piece": " olan",
+          "score": 2.9139972428086645
+        },
+        {
+          "piece": " biri",
+          "score": 0.9337989303456158
+        },
+        {
+          "piece": " değil",
+          "score": 0.9221921306912393
+        },
+        {
+          "piece": ",",
+          "score": 3.464030283573024
+        },
+        {
+          "piece": " hemen",
+          "score": 11.761570097790885
+        },
+        {
+          "piece": " ",
+          "score": 5.679220697779684
+        },
+        {
+          "piece": "ı",
+          "score": 2.231961682951181
+        },
+        {
+          "piece": "sr",
+          "score": 1.9663566996506587
+        },
+        {
+          "piece": "arc",
+          "score": 0.596910333555865
+        },
+        {
+          "piece": "ı",
+          "score": 2.802243242985511
+        },
+        {
+          "piece": " ve",
+          "score": 1.2127749907733918
+        },
+        {
+          "piece": " dire",
+          "score": 0.023568956363579426
+        },
+        {
+          "piece": "n",
+          "score": 0.9379848858770954
+        },
+        {
+          "piece": "ç",
+          "score": 1.5541289052186145
+        },
+        {
+          "piece": "li",
+          "score": 0.11201914514164518
+        },
+        {
+          "piece": " biri",
+          "score": 2.088068432822454
+        },
+        {
+          "piece": " olduğu",
+          "score": 1.2534487402808163
+        },
+        {
+          "piece": " için",
+          "score": 7.9884478462628286
+        },
+        {
+          "piece": " söyle",
+          "score": 9.452324684151876
+        },
+        {
+          "piece": "y",
+          "score": 1.3672369281638932
+        },
+        {
+          "piece": "ile",
+          "score": 1.685222860855337
+        },
+        {
+          "piece": "bilir",
+          "score": 0.6466032396733123
+        },
+        {
+          "piece": ".",
+          "score": 0.9883532934636218
+        },
+        {
+          "piece": " Ayrıca",
+          "score": 0.3504757736435602
+        },
+        {
+          "piece": " pes",
+          "score": 0.3763450981603983
+        },
+        {
+          "piece": " et",
+          "score": 3.376638435005194
+        },
+        {
+          "piece": "medi",
+          "score": null
+        },
+        {
+          "piece": "ği",
+          "score": null
+        },
+        {
+          "piece": " ve",
+          "score": 0.8584270008694082
+        },
+        {
+          "piece": " hedef",
+          "score": 2.3315011527249774
+        },
+        {
+          "piece": "e",
+          "score": null
+        },
+        {
+          "piece": " doğru",
+          "score": null
+        },
+        {
+          "piece": " ç",
+          "score": 3.5451301232087493
+        },
+        {
+          "piece": "ab",
+          "score": 1.3169349434536444
+        },
+        {
+          "piece": "alo",
+          "score": 9.117720167228365
+        },
+        {
+          "piece": "ş",
+          "score": 1.0684732138501147
+        },
+        {
+          "piece": " kısm",
+          "score": 13.1239496311675
+        },
+        {
+          "piece": "add",
+          "score": 7.562289944303293
+        },
+        {
+          "piece": "ığı",
+          "score": 1.554287377409931
+        },
+        {
+          "piece": " için",
+          "score": 3.633278141116826
+        },
+        {
+          "piece": " key",
+          "score": 10.261051753975195
+        },
+        {
+          "piece": "fes",
+          "score": 8.925362315928131
+        },
+        {
+          "piece": " şi",
+          "score": 11.437274840743276
+        },
+        {
+          "piece": "ş",
+          "score": 1.1561479270048611
+        },
+        {
+          "piece": "embe",
+          "score": 8.147900453981196
+        },
+        {
+          "piece": " um",
+          "score": 7.85206369495748
+        },
+        {
+          "piece": "udu",
+          "score": 6.053083042262178
+        },
+        {
+          "piece": " olduğu",
+          "score": 8.208191879199212
+        },
+        {
+          "piece": " için",
+          "score": 2.6854796972214134
+        },
+        {
+          "piece": " sağlıklı",
+          "score": null
+        },
+        {
+          "piece": " üzerine",
+          "score": 11.423314606480492
+        },
+        {
+          "piece": " değil",
+          "score": 7.4427710412496895
+        },
+        {
+          "piece": " iyi",
+          "score": 9.292809440865506
+        },
+        {
+          "piece": " yine",
+          "score": 8.026058975874575
+        },
+        {
+          "piece": "cken",
+          "score": 12.917548968871172
+        },
+        {
+          "piece": "in",
+          "score": 0.600348832063999
+        },
+        {
+          "piece": " önemli",
+          "score": 8.86916918128707
+        },
+        {
+          "piece": ".",
+          "score": 2.4162831967958778
+        },
+        {
+          "piece": "<|im_end|>",
+          "score": 0.08671637751128093
+        }
+      ],
+      "similarity": 0.9396721124649048,
+      "len_ratio": 1.0834845735027223,
+      "N": 150,
+      "neglog10p": 89.59208506006377
+    }
+  ],
+  "pool_size": 75,
+  "candidates_scored": 72,
+  "criteria": "docstring: analyze/blog_examples.py"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "train-01600",
+  "prompt": "Bu özeti temel alan bir metin yazın: Clinton ve eyalet yetkilileri gençlerin tütün kullanımına karşı baskı sözü verdi\n\nMetin:",
+  "D_gen": {
+    "N": 193,
+    "neglog10p": 6.835517391495125
+  },
+  "D_clean": {
+    "N": 184,
+    "neglog10p": 0.20662214580956692
+  }
+}

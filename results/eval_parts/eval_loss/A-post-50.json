@@ -1,0 +1,10 @@
+{
+  "label": "A-post-50",
+  "model": "results/E3/models/A-post-50",
+  "mean_loss": 1.480249032407999,
+  "ppl": 4.394039802990157,
+  "ci_lo": 1.4361114676766098,
+  "ci_hi": 1.521183773701638,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

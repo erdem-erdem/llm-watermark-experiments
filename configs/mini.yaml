@@ -1,0 +1,13 @@
+# Mini denemeler yapılandırması (gen/gen_opening.py, gen/gen_mini.py, analyze/mini_from_data.py)
+model: "Qwen/Qwen3.5-9B"
+seed: 20260814
+k: 2
+top_p: 0.95
+# ÖNEMLİ: sıcaklık 0 KULLANMAYIN — dağılım tek-sıcak olur, watermark seçimi değiştiremez,
+# iz hiç oluşmaz. Post-hoc yeniden yazımlar (açılış, benchmark) T=1.0 ile (E1: T↑ → iz↑).
+opening_T: 1.0
+rewrite_T: 1.0
+max_new_tokens: 400            # açılış: söz/paragraf kısa
+benchmark_n: 100               # olimpiyat sorusu sayısı (ortaokul_matematik, sayı-cevaplı; eval ile aynı 100 problem)
+benchmark_max_new_tokens: 700
+tp_size: 1

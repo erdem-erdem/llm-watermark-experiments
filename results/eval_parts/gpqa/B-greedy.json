@@ -1,0 +1,8 @@
+{
+  "label": "B-greedy",
+  "model": "results/E4/models/B-greedy",
+  "accuracy": 0.28205128205128205,
+  "ci_lo": 0.2454212454212454,
+  "ci_hi": 0.31868131868131866,
+  "n": 546
+}

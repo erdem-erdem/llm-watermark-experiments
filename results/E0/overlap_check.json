@@ -1,0 +1,26 @@
+{
+  "n": 8,
+  "summary": [
+    {
+      "pair": "eval_loss↔sweep",
+      "n_pairs_with_shared_8gram": 61,
+      "n_samples_a": 500,
+      "n_distinct_a_overlapping": 39,
+      "pct_a": 7.8
+    },
+    {
+      "pair": "eval_loss↔train",
+      "n_pairs_with_shared_8gram": 900,
+      "n_samples_a": 500,
+      "n_distinct_a_overlapping": 136,
+      "pct_a": 27.2
+    },
+    {
+      "pair": "sweep↔train",
+      "n_pairs_with_shared_8gram": 558,
+      "n_samples_a": 300,
+      "n_distinct_a_overlapping": 139,
+      "pct_a": 46.333333333333336
+    }
+  ]
+}

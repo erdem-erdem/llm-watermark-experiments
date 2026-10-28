@@ -1,0 +1,15 @@
+# A-rew — yeniden yazım kontrolü
+name: A-rew
+base_model: "Qwen/Qwen3.5-2B-Base"
+source_file: "D_rew.jsonl"          # data/ altındaki dosya
+subset: S100               # S10 / S50 / S100
+rho: 1.0                  # watermark'lı payı
+epochs: 3
+lr: 2.0e-5
+effective_batch: 32
+per_device_batch: 4           # 8 → 4 (OOM: uzun D_post/D_rew + 248k sözlük); accum = 32/4 = 8
+max_len: 2048
+train_seed: 20260814
+data_seed: 20260814
+smoke_n: 50
+out_dir: "results/E3/models/A-rew"   # B koşuları results/E4/models'e taşınır

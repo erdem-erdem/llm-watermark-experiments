@@ -1,0 +1,10 @@
+{
+  "label": "A-rew",
+  "model": "results/E3/models/A-rew",
+  "mean_loss": 1.6462672796845437,
+  "ppl": 5.187579857652252,
+  "ci_lo": 1.6023082031413913,
+  "ci_hi": 1.6876048419818284,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

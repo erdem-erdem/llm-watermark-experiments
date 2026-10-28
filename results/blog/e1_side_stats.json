@@ -1,0 +1,10 @@
+{
+  "n": 5000,
+  "n_kept": 2859,
+  "cjk_answer_all": 0.6528,
+  "cjk_answer_kept": 0.6190975865687304,
+  "cjk_source": 0.0004,
+  "nonlatin_answer_all": 0.7596,
+  "nonlatin_source": 0.0108,
+  "cjk_gen_answer": 0.0052
+}

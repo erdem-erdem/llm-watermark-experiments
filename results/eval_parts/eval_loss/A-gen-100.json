@@ -1,0 +1,10 @@
+{
+  "label": "A-gen-100",
+  "model": "results/E3/models/A-gen-100",
+  "mean_loss": 2.2685798746347428,
+  "ppl": 9.665664607332639,
+  "ci_lo": 2.2203642315477135,
+  "ci_hi": 2.3156027516871687,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

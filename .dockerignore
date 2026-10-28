@@ -1,0 +1,13 @@
+# Derleme bağlamına girmemesi gerekenler (imaj yalnızca bağımlılık içerir)
+.venv/
+**/__pycache__/
+*.pyc
+results/
+data/*.jsonl
+data/*.json
+data/*.md
+*.docx
+~$*
+.git/
+.hf_cache/
+scripts/_jobs_*.json

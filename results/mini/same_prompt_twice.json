@@ -1,0 +1,72 @@
+{
+  "examples": [
+    {
+      "id": "train-00184",
+      "prompt": "\"Adı ne demiştin yine?\" Çekçe'ye mi?",
+      "wm_identical": true,
+      "wm_run1": {
+        "N": 318,
+        "neglog10p": 10.655531233327691
+      },
+      "wm_run2": {
+        "N": 318,
+        "neglog10p": 10.655531233327691
+      },
+      "nowm_identical": false,
+      "nowm_run1": {
+        "N": 296,
+        "neglog10p": 0.3198638028407344
+      },
+      "nowm_run2": {
+        "N": 234,
+        "neglog10p": 0.973928136656994
+      }
+    },
+    {
+      "id": "train-00090",
+      "prompt": "İslamabad'da soluk bir mürekkep keşfeden Kral Arthur hakkında kısa bir Gazel hikayesi hayal edin",
+      "wm_identical": true,
+      "wm_run1": {
+        "N": 275,
+        "neglog10p": 24.6997281700972
+      },
+      "wm_run2": {
+        "N": 275,
+        "neglog10p": 24.6997281700972
+      },
+      "nowm_identical": false,
+      "nowm_run1": {
+        "N": 273,
+        "neglog10p": 0.5078323681443442
+      },
+      "nowm_run2": {
+        "N": 244,
+        "neglog10p": 0.08157521018220133
+      }
+    },
+    {
+      "id": "train-00119",
+      "prompt": "bu onun Lassahn'da doğduğunu kanıtlamaz; yalnızca Lassahn'da ona kefil olacak birini yeterince iyi tanıdığını kanıtlar.\n\nÖnceki cümle nasıl doğru bir şekilde büyük harfle yazılır?",
+      "wm_identical": true,
+      "wm_run1": {
+        "N": 323,
+        "neglog10p": 9.583946492855063
+      },
+      "wm_run2": {
+        "N": 323,
+        "neglog10p": 9.583946492855063
+      },
+      "nowm_identical": false,
+      "nowm_run1": {
+        "N": 159,
+        "neglog10p": 0.20631367228296638
+      },
+      "nowm_run2": {
+        "N": 337,
+        "neglog10p": 0.18318901782581917
+      }
+    }
+  ],
+  "overall_same_rate_wm": 1.0,
+  "overall_same_rate_nowm": 0.01
+}

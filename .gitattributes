@@ -1,0 +1,6 @@
+# Uzak Linux makinede CRLF ("set: pipefail: invalid option") sorununu önler:
+# metin dosyaları her checkout'ta LF olur (Windows dahil).
+* text=auto eol=lf
+*.docx binary
+*.png binary
+*.pdf binary

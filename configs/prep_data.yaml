@@ -1,0 +1,18 @@
+# InstrucTurca veri hazırlığı yapılandırması (Bölüm 4.2)
+dataset: "turkish-nlp-suite/InstrucTurca"
+tokenizer_model: "Qwen/Qwen3.5-9B"     # tüm modeller aynı tokenizer'ı paylaşır
+teacher_model: "Qwen/Qwen3.5-9B"       # konu etiketleme (watermark'sız)
+seed: 20260814
+n_pool: 20000
+n_train: 5000
+n_eval_loss: 500
+n_sweep: 300
+tp_size: 1                              # 9B yavaşsa 4 yap
+filters:
+  prompt_min: 10
+  prompt_max: 300
+  answer_min: 120
+  answer_max: 500
+  min_turkish_ratio: 0.25
+quotas:
+  max_code: 1000                        # matematik_kod kotası (havuz içinde)

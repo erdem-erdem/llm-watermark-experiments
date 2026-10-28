@@ -1,0 +1,10 @@
+{
+  "auto_selected": {
+    "model": "Qwen/Qwen3.5-4B",
+    "T": 1.2,
+    "median_neglog10p": 106.06153391027127,
+    "yield": 0.53,
+    "rule": "fallback_verim",
+    "approved": true
+  }
+}

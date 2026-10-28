@@ -1,0 +1,33 @@
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# large / regenerable run outputs (see README → "What is committed")
+results/**/*.npz
+results/logs/
+results/_stale_rho_bug/
+results/E1/full_parts/
+results/**/models/
+results/.hf_offline_ok
+results/hf_assets.json
+
+# generated datasets (code in data/*.py is tracked; data is rebuilt by data/prep_data.py)
+data/*.jsonl
+data/*.json
+data/*.csv
+data/opening_draft.txt
+
+# local / scratch
+.env
+*.tgz
+run.log
+run.pid
+nohup.out
+scripts/_jobs_*.json
+~$*
+.DS_Store
+
+# archived superseded output made by analyze/reading_rerun.py
+results/E4/chain_v1_hatali.csv

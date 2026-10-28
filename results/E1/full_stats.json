@@ -1,0 +1,9 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "T": 1.2,
+  "seed": 20260814,
+  "n": 5000,
+  "n_filtered": 2141,
+  "n_retried": 0,
+  "filter_rate": 0.4282
+}

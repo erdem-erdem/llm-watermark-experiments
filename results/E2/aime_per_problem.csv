@@ -1,0 +1,801 @@
+problem_id,condition,wm,correct,has_boxed,boxed_numeric,n_tokens,truncated,tail
+aime-00,main,True,True,True,True,799,False,nılmıştır. Bulduğumuz geçerli $n$ değerleri **2** ve **8**'dir. Dolayısıyla toplam **2** farklı değer vardır.  \boxed{2}
+aime-01,main,True,True,True,True,1125,False,0.9)^8$ $= 10 \cdot (1-(0.9)^8) + 10(0.9)^8$ $= 10 - 10(0.9)^8 + 10(0.9)^8$ $= 10$  Hesaplamalar doğrulandı.  \boxed{10}
+aime-02,main,True,False,False,False,4096,True,"99999$ (6 tane 9).   $S(n) = S(99998) + 8 + 54 = 44 + 8 + 54 = 106$.   $n+1$: Son 6 tane 9, 0 olur. 8, 9 olur.   $n+1 = "
+aime-03,main,True,False,True,True,3783,False,|AB| = 8$ mümkün değildir.  Sonuç olarak $|AB| < 8$. $|AB|$ nin alabileceği en büyük tam sayı değeri $7$'dir.  \boxed{7}
+aime-04,main,True,False,False,False,4096,True,"am 1, diğerleri 9 olmalı. $T=19 \implies 199$. $T=20 \implies 299$. $T=28 \implies 999$ (Çünkü $9+9+9=27$ yetersiz, $9+9"
+aime-05,main,True,True,True,True,304,False,": $$ 7.5 < n < 8.75 $$  $n$ bir tam sayı olduğu için, $7.5$ ile $8.75$ arasında bulunan tek tam sayı $8$'dir.  \boxed{8}"
+aime-06,main,True,False,False,False,4096,True," eşitlik değişmez. Sadece büyüklük değişir. Denklem sistemimiz $d$'ye bağlı olarak değişmez, sadece $d$'nin değeri değiş"
+aime-07,main,True,True,True,True,423,False,$117 \times 6 = 702$ gün kullanım sağlar ki bu 700'e yeter.     *   Dolayısıyla en az 117 bisiklet gerekir.  \boxed{117}
+aime-08,main,True,True,True,True,968,False,"y)$ çiftleri şunlardır: 1.  $(1, 14)$ 2.  $(2, 13)$ 3.  $(4, 11)$ 4.  $(7, 8)$  Toplamda 4 tane ikili vardır.  \boxed{4}"
+aime-09,main,True,True,True,True,1206,False,i altküme sayısı = (Senaryo A) + (Senaryo B) + (Senaryo C) + (Senaryo D)     Toplam = $0 + 1 + 1 + 18 = 20$.  \boxed{20}
+aime-10,main,True,False,False,False,4096,True,"ar vermek daha iyi çünkü alıcıların fazlaya dönüş riskini azaltır. En iyi strateji, verici fazlasını mümkün olduğunca az"
+aime-11,main,True,False,False,False,4096,True,şedeki sayıları da içerir. $\sum_{v \in K} x_v = \sum_{w \in N(C)} x_w + \sum_{v \in K \setminus N(C)} x_v$. Eşitsizlik:
+aime-12,main,True,False,False,False,4096,True,rasındaki gruplar tamamen $2011$'i geçmektedir. $m=44$ grubu ise $44^2 < n \le 45^2$ yani $1936 < n \le 2025$ aralığıdır
+aime-13,main,True,False,True,True,1602,False," değeri olduğu için, buna karşılık gelen %15 değeri de en küçük olanağa sahiptir.  Hesaplanan değer: $495$.  \boxed{495}"
+aime-14,main,True,True,True,True,2221,False, \times 512 = 1536$ $5120 + 1536 = 6656$. Hesaplama doğru.  **Sonuç** Aradığımız alt küme sayısı 6656'dır.  \boxed{6656}
+aime-15,main,True,False,True,True,870,False,sındaki ilişkiyi verdiğinden bu değer sonucun değişmesine neden olmaz.)*  Sonuç olarak $|CE|$ uzunluğu 3'tür.  \boxed{3}
+aime-16,main,True,True,True,True,1472,False,irebilir: $(2!)^4 = 16$ yol.  Çarpım: $3 \times 3 \times 24 \times 16 = 9 \times 384 = 3456$.  Cevap: 3456  \boxed{3456}
+aime-17,main,True,False,False,False,4096,True,sı $[AB]$ üzerinde. $AE = \frac{5}{3}AC$. $AE' = \frac{3}{5}AC$. $E$ ve $E'$ çember üzeri. $A$ teğet noktası. $A$ noktas
+aime-18,main,True,True,True,True,1566,False," Bu denklemin sağlayan tek gerçel sayı ikilisi $(2, 1)$'dir. Dolayısıyla çözüm kümesinin eleman sayısı 1'dir.  \boxed{1}"
+aime-19,main,True,False,False,False,4096,True,".   Daha büyük $k$ seçelim.   $k=15$ (3'e bölünür). $S = 60$.   $57 + y_1 + y_2 = 60 \Rightarrow y_1 + y_2 = 3$.   $y_1,"
+aime-20,main,True,True,True,True,1667,False,"ikilileri şunlardır: 1.  $(1, 6)$ 2.  $(5, 8)$ 3.  $(10, 12)$ 4.  $(33, 34)$  Toplamda 4 farklı ikili vardır.  \boxed{4}"
+aime-21,main,True,False,True,True,2231,False,ılır veya cevap 1 olduğunda bu ifade testin zorluk derecesini gösterir (tek çözüm vardır).          Cevap: 1.  \boxed{1}
+aime-22,main,True,False,True,True,2057,False,\frac{324}{2} = 162$.  Bu durum fiziken gerçekleşir (satranç tahtasında yan yana 2'li kutular oluşturarak).  \boxed{162}
+aime-23,main,True,False,False,False,4096,True,16 \to 9$ Toplam: $3+4+5+6+7+8+9$. Bu bir aritmetik dizi. Ortalama $\frac{3+9}{2} = 6$. Sayı sayısı 7. Toplam $6 \times 
+aime-24,main,True,False,False,False,4096,True,$S(n)=5$ olanları bulalım:     - $104$ ($1+0+4=5$): $104^2 = 10816$ (5 basamak). **Eşitlik sağlandı.** **4. Sayı: 104** 
+aime-25,main,True,False,False,False,4096,True,"Ama lider 1G, diğerleri 1G -> 4G.             *   Mağlubiyetler:                 *   Lider: 0M (1G, 2B).                "
+aime-26,main,True,False,False,False,4096,True," 5\sqrt{6}$ değeri için $a$ tam sayı çıkmaz. Ancak, bazen bu tür sorularda ""yaklaşık"" değil ""kesin"" cevap istenir. Kesin"
+aime-27,main,True,False,True,True,1201,False,"üçük olan, farklı üç pozitif tam sayı böleninin toplamı kendisine eşit olan pozitif tam sayının sayısı 0'dır.  \boxed{0}"
+aime-28,main,True,True,True,True,1487,False,ardır ($x=1$). $u=-1/2$ için de tek $y$ değeri vardır. Dolayısıyla iki farklı $S$ değeri vardır.  Sonuç: $7$.  \boxed{7}
+aime-29,main,True,True,True,True,1230,False,{17}{6} \cdot 42 = 119$. Yenilen beyaz: $\frac{11}{17} \cdot 119 = 77$. Fark: $77 - 24 = 53$.  Sonuç 53'tür.  \boxed{53}
+aime-30,main,True,True,True,True,609,False,ve $B$ rakamlarını belirleriz: $A = 6$ $B = 9$  Soruda $A + B$ toplamı istenmektedir: $$A + B = 6 + 9 = 15$$  \boxed{15}
+aime-31,main,True,False,False,False,4096,True,"aman $a_1 = 3 \cdot 5 \cdot u = 15u$, $a_2 = 5 \cdot 3 \cdot v = 15v$. Şimdi $a_1, a_2$ ve $2015$'i alalım: $\gcd(a_1, a"
+aime-32,main,True,False,False,False,4096,True,"uiv 0$     $12+16+16=44 \equiv 4$     $16+16+16=48 \equiv 8$          Görünen o ki $C_3$ kümesi de $\{0, 2, 4, 6, 8, 10,"
+aime-33,main,True,True,True,True,2270,False,esaplama:**     Bulunan değerler:     Kırmızı ($R$) = 90     Beyaz ($W$) = 57          Fark: $90 - 57 = 33$.  \boxed{33}
+aime-34,main,True,False,False,False,4096,True," \times 2$ bloklar. $2 \times 2$ bloklar halinde aynı renk, bloklar arası farklı. Aralardaki kenarlarda problem çıkar mı"
+aime-35,main,True,True,True,True,738,False,yan $x$ gerçel sayılarının toplamı istenmektedir. Bulduğumuz değerler: $0$ ve $-1$. Toplam: $0 + (-1) = -1$.  \boxed{-1}
+aime-36,main,True,True,True,True,2049,False,0 / 4 = 5$ $21 / 3 = 7$ $22 / 2 = 11$ $11 \cdot 7 \cdot 5 \cdot 19 = 77 \cdot 95 = 7315$.  Cevap 7315'tir.  \boxed{7315}
+aime-37,main,True,False,True,True,3816,False,} \cdot AB \cdot OC = \frac{1}{2} \cdot 12 \cdot 12.5 = 6 \cdot 12.5 = 75$.  Hesaplamalar tutarlı görünüyor.  \boxed{75}
+aime-38,main,True,False,False,False,4096,True,". $\sum x^5 \equiv \sum x = 0 \pmod 5$. Evet, 5'e bölünür.  Lcm(2, 3, 5) = 30. Yani ifade her zaman 30'a bölünür. 30, 15"
+aime-39,main,True,False,True,True,1824,False,içbir pozitif tam sayı bulunamaz.  **5. Sonuç** Aradığımız küme boş kümedir. Boş kümenin eleman sayısı 0'dır.  \boxed{0}
+aime-40,main,True,True,True,True,2774,False,t (10 + 3) = 2250 + 675 = 2925$. Doğru.  $4 \times 2925 = 11700$.  $23426 - 11700 = 11726$.  Cevap 11726.  \boxed{11726}
+aime-41,main,True,False,True,True,721,False,". döngü bitip yeni bir döngü başladığında, gelen ilk rakam `1`'dir.  **Sonuç:** Soldan 2017. rakam **1**'dir.  \boxed{1}"
+aime-42,main,True,False,False,False,4096,True,"il.  12. **$X = 441$** ($a=4, b=4, c=1$)     *   $c = 1$.     *   $b = 4$. $Y = \overline{41d}$.     *   $400-499$ arası"
+aime-43,main,True,True,True,True,1306,False,leştirelim:     $x - x^2 + 1 = -(x^2 - x) + 1$     $x^2 - x = -1$     $= -(-1) + 1 = 1 + 1 = 2$  Sonuç 2'dir.  \boxed{2}
+aime-44,main,True,True,True,True,2755,False,"dk = 14:56. Soru metninde tam olarak ""evdeki saatin 14:56 olduğunu görüyor"" deniyor. Çakıştı!  Sonuç 13'tür.  \boxed{13}"
+aime-45,main,True,True,True,True,3463,False,\times 31 = 62$ 2.  $3 \times 23 = 69$ 3.  $7 \times 11 = 77$ 4.  $2 \times 3 \times 7 = 42$  Toplam sayı: 4.  \boxed{4}
+aime-46,main,True,False,True,True,1716,False,r. (Diğer seçenekler arasında 5'in katları varsa onları da elenebiliriz ama en temel çözüm 5'tir).  Cevap: 5.  \boxed{5}
+aime-47,main,True,False,False,False,4096,True,"_7$, $A_3A_{23}$ doğrularının bir noktada kesişmesi için gerekli ve yeterli koşul olabilir. Bu tür problemlerde, ardışık"
+aime-48,main,True,True,True,True,3243,False,", 6, 7, 8\}$ örneği gösterdiği gibi şart sağlanmaz.  Sonuç olarak, $n$'in alabileceği en küçük değer 10'dur.  \boxed{10}"
+aime-49,main,True,True,True,True,2134,False,"6. Rakamları Toplama** Bulduğumuz sayı $n = 165$. Rakamları: $1, 6, 5$. Rakamları toplamı: $1 + 6 + 5 = 12$.  \boxed{12}"
+aime-50,main,True,True,True,True,1076,False,) - (y+4) = 32$. *   Soruda bu farkın 32 olması gerektiği yazılıyordu. Hesap doğru.  Toplam taş sayısı 9'dur.  \boxed{9}
+aime-51,main,True,True,True,True,1455,False, $|EC| \cdot |EF| = 12 \cdot 3 = 36$. $|ED| \cdot |EG| = 4 \cdot (3+6) = 4 \cdot 9 = 36$. Eşitlik sağlanıyor.  \boxed{3}
+aime-52,main,True,False,False,False,4096,True," = Komşu sayısı (8). $8 \le 1$. **Sağlanmaz.** Sonuç: En küçük sayı, komşu sayısı 8'den az olan bir karede olmalıdır. Ya"
+aime-53,main,True,False,False,False,4096,True,64$: $6 \times 5 = 30$. Toplam Onlar: $10+20+30+40+50+30 = 180$. Birler basamağı: $10..59$: $5 \times 45 = 225$. $60..64
+aime-54,main,True,True,True,True,557,False, = $\frac{R}{x}$ $R = 0.8T$ $x = 0.2T$  $\frac{R}{x} = \frac{0.8T}{0.2T} = \frac{0.8}{0.2} = 4$  Cevap 4'tür.  \boxed{4}
+aime-55,main,True,True,True,True,1163,False,z: $2^{13} + 2^{12} = 2^{12} \times (2 + 1) = 2^{12} \times 3 = 4096 \times 3 = 12288$.  Sonuç 12288'dir.  \boxed{12288}
+aime-56,main,True,True,True,True,3047,False,1) - 11: Şanslı (n=5) - 13: Şanslı (n=6) - 17: Şanslı (n=1) - 19: Şanslı değil  Toplam şanslı sayı sayısı: 4.  \boxed{4}
+aime-57,main,True,True,True,True,3563,False,3 olurdu (büyük). 7.  $k > 4$ olsaydı koşul bozulurdu. 8.  Dolayısıyla minimum mümkün maksimum değer 25'tir.  \boxed{25}
+aime-58,main,True,False,False,False,4096,True, Tek - Çift = Tek. Yani $2m$ tek çıkıyor. $m$ tam sayı olamaz. Sonuç: $k \ge 1$ durumunda çözüm yoktur.  **Durum 2: $k =
+aime-59,main,True,False,False,False,4096,True,"7=-23$.   Belki de yok. Ancak $k=1$ çözümünü bulduk.  - **4**: Evet ($m=2, n=2 \Rightarrow 16-12=4$).   $m+2n = 28/4 = 7"
+aime-60,main,True,True,True,True,1617,False,1$ değerini ikinci denklemde kullandık: $1 - (a+c) + 2c = 0 \Rightarrow 1 - a + c = 0 \Rightarrow a - c = 1$.  \boxed{1}
+aime-61,main,True,False,True,False,1714,False,45^\circ$. Eşitlik sağlanıyor. $|AD| = 2/\sqrt{5}$ verildiği doğru. $|AE| = 2\sqrt{10}/5$.  \boxed{\frac{2\sqrt{10}}{5}}
+aime-62,main,True,True,True,True,966,False," $2$ (İkinci denklemden geldi)  Bu üç değer birbirinden farklıdır: $\{0, -2, 2\}$. Farklı değer sayısı 3'tür.  \boxed{3}"
+aime-63,main,True,False,False,False,4096,True,"times \binom{3}{0} = 1 \times 1 \times 1 = 1$.        - $\{1, 5, 5, 5\}$: Yok (3 tane 5 yok).    - $\{3, 3, 3, 3\}$: Yok"
+aime-64,main,True,True,True,True,2925,False," 0$ $= 8$  Görüldüğü üzere $z$'nin değeri ne olursa olsun (sistem tutarlı olduğu sürece), toplam sabit kalır.  \boxed{8}"
+aime-65,main,True,False,False,False,4096,True," ""E ve F ... orta noktalarıdır. [AE] ... üzerinde K"". Hayır, $A$'dan başlıyor.  **Mantıksal Bir Tutarsızlığın Çözümü:** "
+aime-66,main,True,False,False,False,4096,True," x_3), (x_3, x_4) \dots$ $x_1=x, x_2=-x, x_3=x, x_4=-x$. İkililer: $(x, -x)$ OK, $(-x, x)$ OK, $(x, -x)$ OK. $m$ çift ($"
+aime-67,main,True,True,True,True,947,False," sayısıdır. Bu sayının rakamları toplamı: $$6 + 0 = 6$$  Sonuç olarak, soruda istenen rakamlar toplamı 6'dır.  \boxed{6}"
+aime-68,main,True,False,False,False,4096,True, edilsin (önceki mod 16 analizinde elendi ama tekrar kontrol edelim): $m^4 - 25 = 6560 \Rightarrow m^4 = 6585$. $10^4 = 
+aime-69,main,True,True,True,True,921,False,"durumda denklem $0 = 0$ olur ve $z$ serbest bir değişken olarak kalır, yani sonsuz çözüm kümesi elde edilir.  \boxed{23}"
+aime-70,main,True,True,True,True,3494,False,4/2=2$). Bu mantık hatasızdır. Üçgen in eşitsizliği doğru uygulandı. Tam sayılar doğru sayıldı.  Cevap 3'tür.  \boxed{3}
+aime-71,main,True,False,False,False,4096,True, = 3 + \frac{2.5}{\sin 75}$. Alan $= |AD| \cdot (5 \sin 75) = (3 + \frac{2.5}{\sin 75}) \cdot 5 \sin 75$ $= 15 \sin 75 +
+aime-72,main,True,True,True,True,1930,False, + 5^2 + 6^3 \] \[ = 1 + 25 + 216 \] \[ = 26 + 216 \] \[ = 242 \]  Bulduğumuz sonuç seçeneklerde mevcuttur.  \boxed{242}
+aime-73,main,True,True,True,True,2004,False,"2: 10 boş $\rightarrow$ 13 dolu. 13 top. $13 = c+d$, $c+2d=13$. $d=0, c=13$. Mümkün.  Farklı değer sayısı: 3.  \boxed{3}"
+aime-74,main,True,False,False,False,4096,True,ken: $6k \le 39 \Rightarrow k \le 6.5$. $k_{max} = 6$. $r=3$ iken: $6k \le 38 \Rightarrow k \le 6.33$. $k_{max} = 6$. $r
+aime-75,main,True,False,False,False,4096,True,"aman $a+c=30$ olmalı. Peki $b+c$ ne olur? $b=16, c=18 \Rightarrow b+c=34$. Listede 34 yok. Demek ki $b+c$ 34 olmamalı. Y"
+aime-76,main,True,True,True,True,1325,False,küçüktür ve tüm koşulları sağlar. Daha büyük bir $y$ değeri ($14$) kullanılsaydı $N$ 111'den büyük olacaktı.  \boxed{95}
+aime-77,main,True,True,True,True,3657,False,"a dönünce) B, A'yı 9 kez geçer. 3. Her geçiş farklı bir konumda gerçekleşir. 4. Toplam 9 farklı nokta vardır.  \boxed{9}"
+aime-78,main,True,True,True,True,1221,False, Bu iki değer birbirinden farklıdır. Dolayısıyla $x+y$ toplamının alabileceği farklı değerlerin sayısı 2'dir.  \boxed{2}
+aime-79,main,True,True,True,True,1977,False,"tap çekme gibidir, hangisinin ne sıra geldiği önemli değil, sadece kesişim noktası önemli).  Cevap 600'dür.  \boxed{600}"
+aime-80,main,True,False,False,False,4096,True,"toplamına eşittir. Örnek: Kutu 1'de Renk A ve Renk B var. Renk A top sayısı +1, Renk B top sayısı +1. Toplam top sayısı "
+aime-81,main,True,True,True,True,3146,False,24)$ Fark = $30 \times 351$ $30 \times 351 = 30 \times (350 + 1) = 10500 + 30 = 10530$.  Sonuç 10530'dur.  \boxed{10530}
+aime-82,main,True,True,True,True,989,False,çünkü kareler toplamı en az 0'dır ve sabit 2 terimi vardır. Dolayısıyla kesirli ifadenin değeri 11'i aşamaz.  \boxed{11}
+aime-83,main,True,True,True,True,2238,False,çin \( p \) 68'in böleni olmadığından koşul sağlanmaz. Toplam çözüm sayısı: 2 tane (\( p=2 \) ve \( p=17 \)).  \boxed{2}
+aime-84,main,True,True,True,True,816,False,tar: $600 - 480 = 120$. Soruda verilen 120 ile eşleşiyor.)  Başlangıçtaki portakal suyu hacmi 384 birimdir.  \boxed{384}
+aime-85,main,True,False,False,False,4096,True,"ontrol edelim: Beyaz taşlar: $50, 1$ ($B=51$). Kırmızı taşlar: $15, 15, 15$ ($K=45$). $B > K$ ($51 > 45$) sağlanır. Fark"
+aime-86,main,True,False,False,False,4096,True,çünkü $5\overline{CD}-100 \le \overline{CD} \implies 4\overline{CD} \le 100$). $5\overline{CD} > 100 \implies \overline{
+aime-87,main,True,False,False,False,4096,True,"k"" noktasında bir seçim yapmalıyız.  Aslında bu problem, **2 ve 3 tabanlı sayı sistemlerinde** her sayıyı temsil eden dü"
+aime-88,main,True,True,True,True,1819,False,"\sqrt{5})$ $S = 0 + 1 + 1 + \sqrt{5} - \sqrt{5}$ $S = 2$  Sonuç olarak, $a$ gerçel sayılarının toplamı 2'dir.  \boxed{2}"
+aime-89,main,True,False,False,False,4096,True,"seçilirse $H$ 1 artar). $S_{rest, new} = S_{rest, old} - 5 + 5 = S_{rest, old}$? Hayır. $K_i$ seçildiğinde: $K_i \to K_i"
+aime-90,main,True,False,False,False,4096,True,Bu imkansız. Demek ki 12 kişi hepsi 32 puan alamaz. Maksimum puanlarını düşürmemiz gerekiyor.  Yeni Deneme: $x$ öğrenci 
+aime-91,main,True,False,False,False,4096,True,"il.                                                         *   $A, C, E, F$ köşeleri olan dörtgenin köşegenleri $AC$ ve"
+aime-92,main,True,False,False,False,4096,True, 2500$. Eğer bir kare hem kırmızı satırda kırmızıysa hem de mavi sütunda mavidirse... bu imkansızdır. Bir kare tek renkt
+aime-93,main,True,False,False,False,4096,True," sayısı \(x_k\). \(x_k = 1\) olan durumlar hariç (çünkü \(m>n\), \(m^2-n^2 \ge 3 \cdot 1 = 3\)? Hayır, \(2^2-1^2=3\). En"
+aime-94,main,True,False,False,False,4096,True,          Ekstra 1'lik öğrenciler eklenirse ikili sayısı artmaz.           Eğer 4 öğrenci daha eklersek (her biri 1 soru
+aime-95,main,True,False,False,False,4096,True,"trolü:     *   Matematik: 22 öğrenci, her biri farklı $M$ seçer. Toplam 22 farklı $M$ gerekir.     *   **SORU:** Sınıfta"
+aime-96,main,True,False,False,False,4096,True,\implies 129601$ (asal değil). $n=3 \implies (19^3-1)^2+1 = (6859-1)^2+1 = 6858^2+1 = 47032165$. Bu sayı 5'e bölünür mü?
+aime-97,main,True,False,False,False,4096,True,"subset \{1..100\}, |A|=20 \implies \exists i, A \subseteq S_i$. 2. $\nexists i, S_i = \{1..100\}$.  Bu yapıyı en az renk"
+aime-98,main,True,False,False,False,4096,True,"rkiye Matematik Olimpiyatları** veya benzeri bir kaynaktan gelmişse, bazen $x_i$'lerin **tam sayı** olması istenir? ""Ger"
+aime-99,main,True,False,False,False,4096,True,"1, 2, 3. Bilyeler: 1, 3. Eğer sütunlar 1, 2, 3 şeklinde tekrarlanırsa: Sütun 1: 1, 2, 3, 1, 2, 3... Sütun 2: 0, 0, 0, 0,"
+aime-00,seed0,False,False,True,True,1956,False,"""kaç tane"" diye sormak yerine seçenekli bir şekilde veya bağlamla netleştirilirdi. Standart cevap $n=8$'dir.)  \boxed{8}"
+aime-01,seed0,False,True,True,True,3047,False,b = 10(1-a^8) = 10 - 10a^8$ olur. 5. İstenen ifade $19b + 10a^8$ olduğundan:    $(10 - 10a^8) + 10a^8 = 10$.  \boxed{10}
+aime-02,seed0,False,True,True,True,3969,False,lmalıdır. $n$'nin toplam basamak sayısı = $A$'nın basamak sayısı + 6. Minimum = $6 + 6 = 12$.  Cevap 12'dir.  \boxed{12}
+aime-03,seed0,False,False,False,False,4096,True,Rightarrow 10 > \frac{5}{6}x \Rightarrow x < 12$. 2) $4 + \frac{5}{6}x > 6 \Rightarrow \frac{5}{6}x > 2 \Rightarrow x > 
+aime-04,seed0,False,False,False,False,4096,True, $1999$. ($1999 < 2010$) -> Kabul. *   $S=29$: $2999$. ($2999 > 2010$) -> Red.  Şimdi $S=28$ için $n=1999$. Bu sayı $201
+aime-05,seed0,False,True,True,True,386,False," 7.5 < n < 8.75 $$  5.  $n$ bir tam sayı olduğuna göre, 7.5 ile 8.75 arasında bulunan tek tam sayı **8**'dir.  \boxed{8}"
+aime-06,seed0,False,False,False,False,4096,True,"=7, A=8, F=4$.   - Farklılık kontrolü: $A=8, B=1, C=7, F=4$. Şu an için farklı.   - $D$'yi bulalım: $d = D - C$.   - $T_"
+aime-07,seed0,False,True,True,True,442,False, 1 daha fazla bisiklet gereklidir.     $$ 116 + 1 = 117 $$  Bu kampta en az 117 bisiklet bulunması gerekir.  \boxed{117}
+aime-08,seed0,False,True,True,True,1348,False,"tarrow (m, n) = (44, 121)$ 4.  $(7, 8) \rightarrow (m, n) = (77, 88)$  Toplamda **4** tane ikili bulunmuştur.  \boxed{4}"
+aime-09,seed0,False,True,True,True,1037,False, geçerli durumları toplayalım: - Senaryo 2: 1 - Senaryo 3: 1 - Senaryo 4: 18  Toplam sayı: $1 + 1 + 18 = 20$  \boxed{20}
+aime-10,seed0,False,False,False,False,4096,True,$y$'nin kendisi: $(x_0 - 4k) + m$          Hepsinin 15 olması lazım.     $x_0 - 4k - 4m = 15$     $x_i + k + m = 15$ ($x
+aime-11,seed0,False,False,False,False,4096,True,"ol taraf $3S$. $3 \sum_{i=1}^7 v_i < 3S - N(v_8)$ ? Hayır, eşitsizlikler ayrı ayrı. Toplamı yazalım: $\sum_{i=1}^7 (3v_i"
+aime-12,seed0,False,False,True,True,2634,False,1$: 5 sayı - $k=2 \dots 43$ (42 değer): Her biri için 2 sayı $\rightarrow 84$ sayı. - Toplam: $5 + 84 = 89$.  \boxed{89}
+aime-13,seed0,False,False,True,True,672,False,". Daha büyük bir $x$ seçilirse (örneğin 200), %15'i de o kadar artacaktır. Dolayısıyla minimum değer 15'tir.  \boxed{15}"
+aime-14,seed0,False,True,True,True,1510,False,times 512)$ $3 \times 500 = 1500$ $3 \times 12 = 36$ $1500 + 36 = 1536$ $5120 + 1536 = 6656$  Sonuç: 6656.  \boxed{6656}
+aime-15,seed0,False,False,False,False,4096,True,"tıklı Yol:**     Soruda $D$ noktası $AC$ üzerinde, $E$ noktası $AB$ üzerinde.     Ve alan eşitliği $s(\triangle ADE) = s"
+aime-16,seed0,False,True,True,True,1923,False,yerleştirelim: $4! = 24$.        Toplam: $6 \times 24 \times 1 \times 24 = 3456$.  Sonuç aynı çıkmaktadır.  \boxed{3456}
+aime-17,seed0,False,False,False,False,4096,True,ıp $B$'ye gidiyor ve çemberi $E$'de kestiğinde geçerlidir. Kiri $AB$ doğrusudur. Çember $AB$'yi $A$ ve $E$ noktalarından
+aime-18,seed0,False,True,True,True,1297,False," 5$ Sağ taraf: $4(2) + 2(1) - 5 = 8 + 2 - 5 = 5$ Eşitlik sağlanmaktadır.  Sadece bir $(x, y)$ ikilisi vardır.  \boxed{1}"
+aime-19,seed0,False,False,False,False,4096,True,"lması için $n-1=2$ sayısının $S$ ile bir ilişkisi mi vardır? Aslında, $n$ öğrenci için bu tür bir durumun ulaşılabilmesi"
+aime-20,seed0,False,True,True,True,1429,False,çift çarpana sahip değildir ve $u=v$ durumu olan $\sqrt{135}$ tam sayı değildir).  Toplam çözüm sayısı 4'tür.  \boxed{4}
+aime-21,seed0,False,True,True,True,3387,False,. 45     5. 50     6. 75     7. 90     8. 150     9. 225     10. 450          Toplam 10 farklı değer vardır.  \boxed{10}
+aime-22,seed0,False,False,True,True,886,False,olan 2'li gruplar halinde ayırmak gerekir.  Sonuç olarak en fazla yazılabilecek farklı sayı sayısı 162'dir.  \boxed{162}
+aime-23,seed0,False,False,False,False,4096,True,913}}{2}$. $\sqrt{913} \approx 30.2$. $m \approx 25.2 / 2 \approx 12.6$. Tam sayı çıkmadı. Bu durumda $N-1$ sayısı $200$
+aime-24,seed0,False,False,False,False,4096,True,^2 = 4096$.         Basamak sayısı: 4.         Rakamlar toplamı: $6+4=10$.         $4 \neq 10$.      *   **65:**        
+aime-25,seed0,False,False,False,False,4096,True,"an veya kaybedilen) bir ""sonuçlanmış maç"" sayar. Eğer L 2 maç kaybederse, bu 2 maç sonuçlanmıştır. Yani $k \ge 2$ olmalı"
+aime-26,seed0,False,False,False,False,4096,True,Bu doğru. $C=90^\circ$ ise $\cos(45) = 1/\sqrt{2}$. $w_c = \frac{2 \cdot 30 \cdot x}{30+x} \frac{1}{\sqrt{2}} = \frac{30
+aime-27,seed0,False,False,False,False,4096,True,m: $n = \frac{km}{km - k - m}$. $n > 1$. $km - k - m > 0 \implies (k-1)(m-1) > 1$. $n = 1 + \frac{k+m}{(k-1)(m-1) - 1}$.
+aime-28,seed0,False,False,False,False,4096,True,eşsizdir. Bu durumda doğru cevap **7** olmalı.  Bir başka kontrol: $x^3+y^3$ ifadesi $3-y^3$ eşitliğine denktir. $x^3+2y
+aime-29,seed0,False,True,True,True,674,False,ozitif tam sayı olduğu için $k=1$ alınırsa fark en küçük değerini alır.     $$ D_{min} = 53 \times 1 = 53 $$  \boxed{53}
+aime-30,seed0,False,True,True,True,1025,False,"15$$  Kontrol: Sayı 201569'dur. $201569 / 71 = 2839$ tam bölünür mü? $2839 \times 71 = 201569$. Evet, doğru.  \boxed{15}"
+aime-31,seed0,False,False,False,False,4096,True, Her asal sayı en fazla 2 elemanla paylaşılabilir. Her eleman 2 asal sayı kullanır. Toplam asal-eleman ilişkisi sayısı $
+aime-32,seed0,False,False,False,False,4096,True,"alı (imkansız, min $k \ge 2$) veya 21 olmalı. Eğer $k=2$ ise, min toplam 2. 1 elde edilemez. 21 elde edilebilir mi? Evet"
+aime-33,seed0,False,True,True,True,1486,False,"n ne kadar fazladır?""     $$\text{Fark} = \text{Kırmızı} - \text{Beyaz}$$     $$\text{Fark} = 90 - 57 = 33$$  \boxed{33}"
+aime-34,seed0,False,False,False,False,4096,True, her $R_1$ karesinin en fazla 1 komşusu $R_2$ olabilir (kenar için) veya en fazla 2 (iç için).         Yani $R_2$ bölges
+aime-35,seed0,False,True,True,True,722,False,ğu için ikisi de kabul edilir. Soruda bu değerlerin toplamı istenmektedir: $$\text{Toplam} = 0 + (-1) = -1$$  \boxed{-1}
+aime-36,seed0,False,True,True,True,2405,False, = 77$. Evet. $77 \cdot 5 \cdot 19 = 385 \cdot 19$ $385 \cdot 20 = 7700$ $7700 - 385 = 7315$.  Sonuç 7315.  \boxed{7315}
+aime-37,seed0,False,False,False,False,4096,True,9) = 25\sqrt{2}/2$.         $y_M = r = 9/\sqrt{2} = 9\sqrt{2}/2$.         $CM = 25\sqrt{2}/2 - 9\sqrt{2}/2 = 16\sqrt{2}/
+aime-38,seed0,False,True,True,True,2709,False,"ölünür). - **35**: Hayır ($7$'ye bölünmez, örnek: -30).  Tam bölünebildiği sayılar: 15 ve 30. Toplam sayı: 2.  \boxed{2}"
+aime-39,seed0,False,False,True,True,1835,False,yısı: $(165 - 1) / 2 = 82$. - Bu 82 sayı $2016$'dan küçük olduğu için $2016$'ya bölünemezler.  Cevap 82'dir.  \boxed{82}
+aime-40,seed0,False,True,True,True,2484,False,"e 50 nesne olacak şekilde, her türden en fazla 25 alabileceği koşulunu sağlayan dağılım sayısı 11726'dır.  \boxed{11726}"
+aime-41,seed0,False,False,True,True,624,False,"ın tamamı **1**'dir.     *   Dolayısıyla, döngünün 1. basamağı da $1$'dir.  Bu nedenle, 2017'nci rakam 1'dir.  \boxed{1}"
+aime-42,seed0,False,False,False,False,4096,True, iki basamak **61**. 61 ile başlayan tam kare var mı?             Listede yok.                  11. **X = 400**: Son iki
+aime-43,seed0,False,True,True,True,1437,False,"-1$.     Buradan $-(x^2 - x) = -(-1) = 1$.     O halde $S = 1 + 1 = 2$.  Sonuç olarak, ifadenin değeri 2'dir.  \boxed{2}"
+aime-44,seed0,False,False,False,False,4096,True,i okuldan ayrılıp eve varış süresi: 40 dakika.     *   Okul saati bazlı varış saati: $15:00 + 40 = 15:40$. *   Bu anda (
+aime-45,seed0,False,True,True,True,3564,False,"r mü? Hayır.  ### Sonuç  Bu koşulları sağlayan pozitif tam sayılar şunlardır: 42, 62, 69, 77. Toplam sayı: 4.  \boxed{4}"
+aime-46,seed0,False,False,True,True,1948,False,"olduğuna göre $a \in \{5, 10, 15, ...\}$.          Standart bu tür sorularda cevap **5** olarak kabul edilir.  \boxed{5}"
+aime-47,seed0,False,False,False,False,4096,True,lu sağlamalıdır: $$ \frac{1}{\sin(a\pi/n)} + \frac{1}{\sin(b\pi/n)} = \frac{1}{\sin(c\pi/n)} \quad \text{(Bu doğru değil
+aime-48,seed0,False,True,True,True,3320,False,"er (Pigeonhole: 8 kutuya 10 kuş). O zaman $x+y=17$. Koşul sağlanır.  Bu nedenle, en küçük $n$ değeri 10'dur.  \boxed{10}"
+aime-49,seed0,False,True,True,True,789,False,*     Bulduğumuz sayı $165$.     Rakamları toplamı: $1 + 6 + 5 = 12$.  Sonuç olarak rakamlar toplamı 12'dir.  \boxed{12}
+aime-50,seed0,False,True,True,True,762,False,az taş sayısı $n = 8$'dir.     *   Masada ayrıca 1 siyah taş vardır.     *   Toplam taş sayısı = $8 + 1 = 9$.  \boxed{9}
+aime-51,seed0,False,True,True,True,1338,False, \Rightarrow |ED| \cdot |EG| = 4 \cdot 9 = 36$.     *   Güç değerleri eşit ($36 = 36$). Sonuç doğrulanmıştır.  \boxed{3}
+aime-52,seed0,False,False,False,False,4096,True,"ç yapısını $n^2$ düğüme sığdırmak mümkün mü? Evet, evet, her düğümden en fazla 1 tane yukarı gider. Yani bu bir ağaçtır."
+aime-53,seed0,False,False,False,False,4096,True,"= 1764 + 340 = 2104$ (Mükemmel kare değil, $45^2=2025, 46^2=2116$).          *   **$B = 3$:**         $10A^2 + 2A(43) - "
+aime-54,seed0,False,True,True,True,765,False,\text{Çıkarılan Top Sayısı}} = \frac{0.8T}{0.2T} $$          $T$'ler sadeleşir:     $$ \frac{0.8}{0.2} = 4 $$  \boxed{4}
+aime-55,seed0,False,True,True,True,1405,False,8 = 12288 $$  Alternatif kontrol: $2^{13} = 8192$ $2^{12} = 4096$ $8192 + 4096 = 12288$  Sonuç 12288'dir.  \boxed{12288}
+aime-56,seed0,False,True,True,True,3545,False,"mkansız mertebesi 9 olduğu için. (Şanssız)  Liste: 7, 11, 13, 17, 19. Şanslı olanlar: 7, 11, 13, 17. Sayı: 4.  \boxed{4}"
+aime-57,seed0,False,False,False,False,4096,True,"$1 + 8 \times 11 = 89$ (Yetersiz). $9 \times 11 = 99$. Yani $11, 11, 11, 11, 11, 11, 11, 11, 11$. Bu durumda her renkte "
+aime-58,seed0,False,False,True,True,3466,False,Biz tek bir geçerli durum bulduk ($d=3$). Diğer durumlar matematiksel olarak imkansız. Bulduğumuz değer: 24.  \boxed{24}
+aime-59,seed0,False,False,False,False,4096,True,o 1+4+3-25 = -17$. $m=-1 \to -1+4-3-25 = -25$. $m=-2 \to -8+16-6-25 = -23$. $m=-3 \to -27+36-9-25 = -25$. $m=-4 \to -64+
+aime-60,seed0,False,True,True,True,739,False,$ olması gerekir). Hesaplanan sonuç $a - c = 1$ olarak sabittir.  **Sonuç**  $a - c$ ifadesinin değeri 1'dir.  \boxed{1}
+aime-61,seed0,False,False,False,False,4096,True,(\sqrt{5}+1)}{\sqrt{5}}$. Pay: $2bc \cos(\frac{\alpha}{2}) = 2 \cdot 2 \cdot \frac{2}{\sqrt{5}} \cdot \sqrt{\frac{\sqrt{
+aime-62,seed0,False,True,True,True,1007,False,"Durum B'den: $-2$  Bu küme $\{0, 2, -2\}$ şeklindedir. Elemanların sayısı 3'tür.  Farklı değerlerin sayısı: 3  \boxed{3}"
+aime-63,seed0,False,False,False,False,4096,True,"t küme sayısı $2^7 = 128$. Hesaplarımı kontrol edeyim. $S_{12}$ toplamı: $2+4+2+3+6+3+3+6+3 = 32$. ($2^5=32$, doğru). $G"
+aime-64,seed0,False,True,True,True,1965,False,"stenen toplamın değeri her iki durumda da aynı çıkıyor.  Sonuç olarak, $x + 2y + 3z$ ifadesinin değeri 8'dir.  \boxed{8}"
+aime-65,seed0,False,True,True,True,2040,False,dir. Bu da problemde belirtilen $|AK| = |LF|$ koşulundan doğrudan çıkar.  Sonuç olarak $|CN|$ uzunluğu 2'dir.  \boxed{2}
+aime-66,seed0,False,False,False,False,4096,True,çin gerekli partner sayıların hiçbiri kalmamış durumda. Dolayısıyla 151 ikili yapılamaz. Maksimum 150 ikili yapılabilir.
+aime-67,seed0,False,True,True,True,844,False, = 60$'dır.  **5. Rakamları Toplama** Bulduğumuz $n$ sayısı 60'dır. Bu sayının rakamları toplamı: $6 + 0 = 6$  \boxed{6}
+aime-68,seed0,False,False,False,False,4096,True,"88$. 688 çift ama 5 değil. $153440 = 5 \times 30688$. 30688 5'e bölünmüyor. $m$ son basamağı 5 ise ($5, 15, ...$), $m^4$"
+aime-69,seed0,False,True,True,True,1177,False,e belirlenebileceği anlamına gelir. Dolayısıyla sonsuz sayıda çözüm vardır.  Sonuç olarak $c$ değeri 23'tür.  \boxed{23}
+aime-70,seed0,False,False,True,True,3834,False,"nı keser).     Hesaplarımız tutarlı.  Sonuç olarak, $|AC|$ uzunluğu 3, 4, 5, 6, 7, 8, 9 değerlerini alabilir.  \boxed{7}"
+aime-71,seed0,False,False,False,False,4096,True,"llel BC$, $EC$ transvers. İç alter açılar: $s(\widehat{AEC})$ ve $s(\widehat{BCE})$? Hayır. $E$ noktası $AD$ üzerinde. $"
+aime-72,seed0,False,False,False,False,4096,True,+ 306 = 100a + 98$. $a^2 - 65a + 208 = 0$. Diskriminant: $65^2 - 4(208) = 4225 - 832 = 3393$. Karekökü tam sayı değil.  
+aime-73,seed0,False,True,True,True,1936,False,"  ### 5. Sonuç Hesabı Kutu sayısı $n$ alabileceği değerler: $\{21, 22, 23\}$. Bu kümenin eleman sayısı 3'tür.  \boxed{3}"
+aime-74,seed0,False,True,True,True,3035,False,"ar). Toplam: $6 \times 7 = 42$. $42 > 41$. Koşul sağlanmaz.  Sonuç olarak, öğrenci sayısı en az 25 olabilir.  \boxed{25}"
+aime-75,seed0,False,True,True,True,2449,False,"isteyle birebir örtüşüyor.          Dolayısıyla sayılar: $10, 18, 20, 28, 30$.     En küçük sayı $a_1 = 10$.  \boxed{10}"
+aime-76,seed0,False,False,True,True,2106,False,lanıyor.     $N = R = 102$.     $102 < 111$ koşulu sağlanıyor.      Sonuç olarak $N$ en fazla 102 olabilir.  \boxed{102}
+aime-77,seed0,False,True,True,True,3288,False,"$ ifadesi 9 farklı değer üretir.    Bu 9 değer, pist üzerindeki 9 farklı konuma karşılık gelir.  Cevap 9'dur.  \boxed{9}"
+aime-78,seed0,False,True,True,True,1211,False,"irbirinden farklıdır ($1 \neq -2$).  Dolayısıyla, $x+y$ toplamının alabileceği farklı değer sayısı **2**'dir.  \boxed{2}"
+aime-79,seed0,False,False,True,True,941,False,llerinin sayılması anlamına gelir ve yukarıdaki çarpma işlemi doğrudan doğru cevabı verir.  Sonuç: 14400.  \boxed{14400}
+aime-80,seed0,False,True,True,True,1843,False, renge en az bir top düşer.     *   Koşul sağlanır.  ### Sonuç  $n$ en az değeri: $$n = 7 \times 23 = 161$$  \boxed{161}
+aime-81,seed0,False,True,True,True,2394,False,     $10550 - 20 = 10530$      Kontrol:       11250     -   720     -------       10530  Sonuç 10530'dur.  \boxed{10530}
+aime-82,seed0,False,True,True,True,934,False,"değerini alır: $$ E_{max} = \frac{22}{2} = 11 $$  Bu değere $x=-2, y=2, z=-2$ koordinatlarında ulaşılabilir.  \boxed{11}"
+aime-83,seed0,False,True,True,True,1292,False,"  Sonuç olarak, problemi sağlayan *p* asal sayıları **2** ve **17**'dir. Bulunan asal sayıların sayısı 2'dir.  \boxed{2}"
+aime-84,seed0,False,True,True,True,1197,False,Sonuç 600 ve ikinci ekleme 120 olarak verilerle uyumlu.  Başlangıçtaki portakal suyunun hacmi 384 birimdir.  \boxed{384}
+aime-85,seed0,False,False,False,False,4096,True, toplamı 2 olabilir mi?     *   $0+0+2$ (2 yok).     *   $14-14+2$ (yok).     *   $35-35+2$ (yok).     *   $14-14+0=0$. 
+aime-86,seed0,False,False,True,True,2409,False,"m bulduğumuz tek geçerli durum vardır.  Dolayısıyla, $\overline{ABCD}$ sayısı sadece 1 farklı değer alabilir.  \boxed{1}"
+aime-87,seed0,False,False,False,False,4096,True,". $N$ toplam sayısı, tüm $m$'ler için $(a+b)$ çift olan sayıların sayısının toplamıdır. Bu, tüm sayılar kümesinde ""2 ve "
+aime-88,seed0,False,True,True,True,1087,False,+ (1 + \sqrt{5}) + (1 - \sqrt{5})$$ $$\text{Toplam} = 0 + 1 + 1 + \sqrt{5} - \sqrt{5}$$ $$\text{Toplam} = 2$$  \boxed{2}
+aime-89,seed0,False,False,False,False,4096,True,$325 - 25 = 300$. Kaç adım atılabilir? Toplam adım sayısı $300$. Her adımda 80'lik kutuya 1 bilye gelir. Son durumda 80'
+aime-90,seed0,False,False,False,False,4096,True,bunun bu maçlarda topladığı puan $x \cdot y - K$ olmalıdır.     $y$ grubunun toplam puanı $S_{diğer} = \binom{y}{2} + (x
+aime-91,seed0,False,False,False,False,4096,True,"AD$ doğrusu $y$ ekseni üzerindedir ($x=0$). Çünkü $A(0,20)$ ve $D(0,0)$. $CE$ denklemine $x=0$ dersek: $y = \frac{1}{3}("
+aime-92,seed0,False,False,False,False,4096,True,problemi.   46 sütun var. Her satırda bu 46 sütunun tam 24 tanesini seçip boyayalım.   Toplam seçilen kare sayısı: $50 \
+aime-93,seed0,False,False,False,False,4096,True,a ikisi de $3 \pmod 4$ olmalıdır. Eğer biri $1$ biri $3$ olsaydı çarpım $3$ olurdu. Demek ki tüm çarpan çiftleri için $d
+aime-94,seed0,False,False,False,False,4096,True,n - n(n-1) = 4n - n^2 + n = 5n - n^2$.     Bu kalan çözüm sayısı negatif olamaz.     $5n - n^2 \ge 0 \implies n(5-n) \ge
+aime-95,seed0,False,False,False,False,4096,True,"işi. $F_{11}$'i de kullanalım: $F_{11}$: $M_1, M_2$ (2 kişi) -> Toplam 22 kişi. Bu 22 ikili farklı mı? $(M_1, F_1), (M_2"
+aime-96,seed0,False,False,False,False,4096,True, 2'nin mümkün olmadığına dair güçlü bir ipucu olabilir mi? Yoksa $n=1$ sadece bir örnek mi?  Daha dikkatli düşünelim. $1
+aime-97,seed0,False,False,False,False,4096,True,"renk bu 20 tabloyu kapsamaz. Sonuç: $K$ için ortak renk yoktur. Bu, sorunun ""Herhangi 20 sinde ortak bir renk bulunması"""
+aime-98,seed0,False,False,False,False,4096,True,"x_i\) tam sayı ise, \(S = (\sum x_i)^2 - (n-1) \sum x_i^2\). Bu ifadeyi \(x_i\) için ortalama alalım. \(x_i = k\). \(S ="
+aime-99,seed0,False,False,True,True,1618,False,nle maksimum bilye sayısı toplam kare sayısına eşittir.      Hesaplama:     $$100 \times 2025 = 202500$$  \boxed{202500}
+aime-00,seed1,False,False,True,False,4096,True,(sadece 8).     Ama burada metin açıkça $n \ge 2$ diyor.     O zaman cevap **2** olmalı.          **BİR DÜŞÜNCE DAHA:** 
+aime-01,seed1,False,True,True,True,962,False,3046721 = 4.3046721$  Toplam: $5.6953279 + 4.3046721 = 10.0000000$  Hesaplamalar doğrultusunda sonuç 10'dur.  \boxed{10}
+aime-02,seed1,False,True,True,True,1958,False, basamaklar kısmı 6 tane 9 olmak zorunda. Toplam basamak sayısı en az $6 + 6 = 12$ olmalıdır.  Cevap 12'dir.  \boxed{12}
+aime-03,seed1,False,True,True,True,4058,False,"12$ imkansızdır.  Sonuç olarak, $|AB|$ 12'den küçük olmalıdır. Tam sayı olduğuna göre en büyük değer 11'dir.  \boxed{11}"
+aime-04,seed1,False,False,True,True,3135,False,çin sağlanmalı. Bu da $n+1$ için sağlanmadığı anlamına gelir. O zaman böyle bir $n$ sayısı yoktur.  Cevap: 0.  \boxed{0}
+aime-05,seed1,False,True,True,True,415,False,"5 < n < 8.75 $$  $n$ bir tam sayı olduğuna göre, 7.5'ten büyük ve 8.75'ten küçük olan tek tam sayı **8**'dir.  \boxed{8}"
+aime-06,seed1,False,False,False,False,4096,True,$11F = 18 + D + E$. Ve $E = 2D - 12$. $11F = 18 + D + (2D - 12) = 6 + 3D = 3(2+D)$. $11F$ sayısı 11'in katı olmalı. $3(2
+aime-07,seed1,False,True,True,True,565,False,"17 bisiklet varsa, maksimum $117 \times 6 = 702$ gün kullanım sağlanır. Bu da 700 günlük ihtiyacı karşılar.  \boxed{117}"
+aime-08,seed1,False,True,True,True,954,False,"$ 3.  $(4, 11) \implies (44, 121)$ 4.  $(7, 8) \implies (77, 88)$  Toplamda 4 tane geçerli ikili bulunmuştur.  \boxed{4}"
+aime-09,seed1,False,True,True,True,1147,False,"rum 2 (0, 1, 2): 18 - Durum 3 (1, 1, 1): 1 - Durum 4 (2, 2, 2): 1  Toplam altküme sayısı: $18 + 1 + 1 = 20$.  \boxed{20}"
+aime-10,seed1,False,False,False,False,4096,True,"ğrenci sırasıyla** bir miktar verirse? Ya da belki **1 adım** yeterlidir? Eğer bir öğrenci, elindeki şekerleri **tamamen"
+aime-11,seed1,False,False,True,True,3711,False,"mi çözen kaynaklar ve mantıksal çıkarımlar ışığında, bir küpte bu koşulu sağlayan en fazla köşe sayısı 4'tür.  \boxed{4}"
+aime-12,seed1,False,False,False,False,4096,True,yılar: $m \times j$. $m^2 < m \times j \le (m+1)^2$. $m < j \le m+2$ (tam kare sınırına dikkat: $n \le (m+1)^2$ ise $j \
+aime-13,seed1,False,True,True,True,846,False,"50} = \frac{3300}{150} = 22$ (Tam sayı, koşul sağlandı).  Sonuç olarak, $x$ sayısının %15'i en az 5 olabilir.  \boxed{5}"
+aime-14,seed1,False,True,True,True,1277,False,= 512$ $13 \times 512$: $10 \times 512 = 5120$ $3 \times 512 = 1536$ $5120 + 1536 = 6656$  Sonuç 6656'dır.  \boxed{6656}
+aime-15,seed1,False,False,False,False,4096,True,|AC| \cdot \sin A$. Eğer $S_1 = S_2$ ise: $5 = |AC|$. Demek ki $D$ noktası ile $C$ noktası aynı uzaklıktadır. $D$ ve $C$
+aime-16,seed1,False,False,True,True,913,False,n yer değiştirmesi ($2$ seçenek). 4 sıra olduğuna göre $2^4$. Sonuç aynı: $24 \times 24 \times 16 = 9216$.  \boxed{9216}
+aime-17,seed1,False,False,False,False,4096,True,amayız (çünkü $AC$ kiriş olur ve $A$'da teğet olması için $A=C$ olmalı).          O halde çemberin $BC$ doğru ile ikinci
+aime-18,seed1,False,True,True,True,1100,False,Sağ taraf: $4(2) + 2(1) - 5 = 8 + 2 - 5 = 5$ Eşitlik sağlanıyor.  Sadece bir tane gerçel sayı ikilisi vardır.  \boxed{1}
+aime-19,seed1,False,False,False,False,4096,True,"sı $n$'e bölünebildiği sürece ve $n > 1$ ise, **herhangi bir** pozitif tam sayı dağılımı (toplam $S$ sabit) erişilebilir"
+aime-20,seed1,False,True,True,True,1876,False,"(33, 34)$ 2.  $(10, 12)$ 3.  $(5, 8)$ 4.  $(1, 6)$  Toplamda 4 farklı pozitif tam sayı ikilisi bulunmaktadır.  \boxed{4}"
+aime-21,seed1,False,False,False,False,4096,True,\frac{450}{18} = 25$.         Bu koşul zaten $F_{çöz} \le 25$ ile örtüşüyor.          Şimdi $F_{çöz}$ değerlerinin 450'n
+aime-22,seed1,False,False,True,True,972,False,"eştirerek tahtayı tamamen kaplayabiliriz.  Sonuç olarak, en fazla yazılabilecek farklı sayı sayısı 162'dir.  \boxed{162}"
+aime-23,seed1,False,False,False,False,4096,True," = 945 + 1000 = 1945$.  Hedef $2013$. Mevcut $1945$. Fark: $2013 - 1945 = 68$. Bu farkı, $200$ sayısından itibaren ekley"
+aime-24,seed1,False,False,True,True,2430,False,$1 + 101 = 102$ $102 + 110 = 212$ $212 + 200 = 412$ $412 + 1001 = 1413$ $1413 + 1010 = 2423$  Sonuç: 2423.  \boxed{2423}
+aime-25,seed1,False,False,False,False,4096,True,"3+1=4$), 0G 4B (imkansız 2 maç).     Yani A, Y'yi ve Z'yi birini kazanıp birinde berabere kalmalı.     Durum:     A vs X"
+aime-26,seed1,False,False,False,False,4096,True,"m.  Ancak, bir dakika. Belki de ben içaçortay formülünü hafifçe yanlış kullandım? Standart formül: $t_c = \frac{2ab}{a+b"
+aime-27,seed1,False,True,True,True,2711,False,$).  **5. Sonuç Hesabı** $n$ sayısı $6$'nın $k$ katıdır ve $1 \le k \le 335$. Toplam sayı sayısı $335$'tir.  \boxed{335}
+aime-28,seed1,False,True,True,True,1279,False,".5$ (veya $\frac{7}{2}$). Soruda, bu değerlerin çarpımı istenmektedir. Çarpım $P = 2 \times \frac{7}{2} = 7$.  \boxed{7}"
+aime-29,seed1,False,True,True,True,760,False,farkın alabileceği en küçük değer $k=1$ olduğunda ortaya çıkar. $$ \text{Minimum Fark} = 53 \times 1 = 53 $$  \boxed{53}
+aime-30,seed1,False,True,True,True,659,False, için çözersek: $A = 6$ $B = 9$  Şimdi soruda istenen $A + B$ toplamını hesaplayalım: $$A + B = 6 + 9 = 15$$  \boxed{15}
+aime-31,seed1,False,False,False,False,4096,True,". Bu durumda $x$ ve $y$ ortak bir asal $z$ paylaşmalı. Eğer $z$ $d$'nin çarpanı değilse: $x = p \cdot z$, $y = q \cdot z"
+aime-32,seed1,False,False,False,False,4096,True," 10$.   $16+12+4 = 32 \equiv 12$.   $16+12+8 = 36 \equiv 16$. Evet ($16, 12, 8$). - $18$: $2+16$. $2+16+20 \equiv 2+16$."
+aime-33,seed1,False,True,True,True,1353,False,"sayısından ne kadar fazladır?"" Bu farkı hesaplayalım: $$\text{Fark} = R - W$$ $$\text{Fark} = 90 - 57 = 33$$  \boxed{33}"
+aime-34,seed1,False,False,False,False,4096,True,"     Ancak satırlar arası farklı renk olursa, üst-alt komşular farklı olur.     Köşe karesi (1,1): Renk $A$. Komşular: ("
+aime-35,seed1,False,True,True,True,941,False,"kökler: $0, -1$. Toplam: $0 + (-1) = -1$.  Sonuç olarak, denklemin sağlayan gerçel sayıların toplamı -1'dir.  \boxed{-1}"
+aime-36,seed1,False,True,True,True,3843,False,": $1+1+8+7+5+9 = 31$ (1, 3 taşı) Yüzler: $3+7+9+4+6+4 = 33$ (3, 3 taşı) Binler: $3+1+2+1 = 7$ Sonuç: 7315.  \boxed{7315}"
+aime-37,seed1,False,True,True,True,2955,False,{2} \cdot AB \cdot CM $$ $$ \text{Alan} = \frac{1}{2} \cdot 12 \cdot 8 $$ $$ \text{Alan} = 6 \cdot 8 = 48 $$  \boxed{48}
+aime-38,seed1,False,False,False,False,4096,True,4 = 2e_2^2 - 4e_4$. $p_5 = 5e_2e_3 - 5e_5$.  Literatürde $a+b+c+d+e=0$ ise $a^5+b^5+c^5+d^5+e^5$ ifadesinin 15'e bölündü
+aime-39,seed1,False,False,True,True,1726,False,"$2016/d > 1$ olmadığı için tam sayı olamaz). 7.  Dolayısıyla, 82 sayının hepsi problemi sağlayan sayılardır.  \boxed{82}"
+aime-40,seed1,False,True,True,True,2873,False,", 25, 25) alması farklı dağılımlardır. Biz bu iki farklı durumu zaten saymaya dahil ettik.  Cevap: 11726.  \boxed{11726}"
+aime-41,seed1,False,False,True,True,688,False,gıcı olduğu için bu döngünün ilk rakamına eşittir. Döngünün ilk rakamı: **1**.  **Sonuç:** 2017. rakam 1'dir.  \boxed{1}
+aime-42,seed1,False,False,False,False,4096,True,"z $\overline{abc}$ değerini $441$ olarak seçmiştik. Bu durumda $100a+10b+c = 441$. Bu eşitliği sağlayan $(a,b,c)$ triple"
+aime-43,seed1,False,True,True,True,1487,False,emiz: $x - x^2 + 1 = -(x^2 - x) + 1$. $x^2 - x = -1$ yerine koyalım: $-( -1 ) + 1 = 1 + 1 = 2$.  Sonuç 2'dir.  \boxed{2}
+aime-44,seed1,False,True,True,True,3399,False, - 13 dk) = 15:09 - 13 dk = 14:56.     *   Soruda verilen ev saati: 14:56.     *   Eşleşiyor!  Cevap 13'tür.  \boxed{13}
+aime-45,seed1,False,True,True,True,2425,False,"4 \times 8 = 96$.     - Doğru.  ### Sonuç Toplamda 4 farklı pozitif tam sayı bulunmaktadır: 42, 62, 69 ve 77.  \boxed{4}"
+aime-46,seed1,False,False,True,True,1523,False,"onuç olarak, Ali'nin yaşı $5k$ formundadır. En küçük tam sayı çözümü için $k=1$ alınırsa Ali'nin yaşı 5 olur.  \boxed{5}"
+aime-47,seed1,False,False,False,False,4096,True,ir denklem vardır. $p+q+r = n+3$? $n=6$ için: $4+5+6 = 15$. $n+3 = 9$. Uygun değil. $p+q+r = 2n$? $15 \neq 12$. $p+q+r =
+aime-48,seed1,False,False,False,False,4096,True,", her iki eleman arası fark 17'ye bölünür. Koşul sağlanır.         Yani $S_1$ sınıfından 100 eleman alırsak, her çift ar"
+aime-49,seed1,False,True,True,True,1334,False,"plamının Hesaplanması** Bulduğumuz sayı $N = 165$. Rakamları: 1, 6, 5. Rakamların toplamı: $1 + 6 + 5 = 12$.  \boxed{12}"
+aime-50,seed1,False,True,True,True,913,False,"eyaz taşların sayısıdır ve 8'dir. Siyah taş sayısı 1 olduğuna göre, toplam taş sayısı: $$Toplam = 1 + 8 = 9$$  \boxed{9}"
+aime-51,seed1,False,True,True,True,1489,False," - $|ED| = 4$, $|EG| = 3 + 6 = 9 \Rightarrow 4 \cdot 9 = 36$. - Sonuçlar eşit.  Bulunan değer $|EF| = 3$'tür.  \boxed{3}"
+aime-52,seed1,False,False,False,False,4096,True," kenar kare) için, en fazla 1 küçük komşu olabilir. Yani en az 2 büyük komşu olmalı.     Derecesi 4 olan bir düğüm (köşe"
+aime-53,seed1,False,False,False,False,4096,True,", $n=AB$, $S_n=BA$.  Belki de $n$ sayısının kendisi $BA$ değil, $n$'nin basamakları $A$ ve $B$ ve toplamın basamakları $"
+aime-54,seed1,False,True,True,True,1321,False,"\frac{0.8}{0.2}$ $\text{Oran} = 4$  Sonuç olarak, kesede kalan top sayısı, çıkarılan top sayısının 4 katıdır.  \boxed{4}"
+aime-55,seed1,False,True,True,True,2509,False,+ 18 = 12288$  Alternatif hesaplama: $2^{13} = 8192$ $2^{12} = 4096$ $8192 + 4096 = 12288$  Sonuç: 12288.  \boxed{12288}
+aime-56,seed1,False,True,True,True,2814,False,ç Sayısının Hesaplanması**  Şanslı sayılar olanlar: 1.  7 2.  11 3.  13 4.  17  Toplam şanslı sayı sayısı: 4.  \boxed{4}
+aime-57,seed1,False,False,False,False,4096,True,"        *   5 grup 2'liden, 1 grup 1'liden. $5 \times 2 + 1 = 11$. 10 toptan seçmek için: 4 grup 2'liden, 2 grup 1'liden"
+aime-58,seed1,False,False,False,False,4096,True," Eğer $n \approx 10m$ ise, $11m \approx 282021 \Rightarrow m \approx 25638$. Bu durumda $m$ 5 basamaklı, $n$ 6 basamaklı"
+aime-59,seed1,False,False,False,False,4096,True,"$     $= 500 - 800 - 240 + 576 = 36$.          $m=5, n=-2$ denesek:     $4(125) + 8(25)(-2) - 3(5)(4) - 9(-8)$     $= 50"
+aime-60,seed1,False,True,True,True,824,False,"çözmüştür, ancak $b \neq c$ koşulu bu yöntemi meşrulaştırmıştır.  **Sonuç:** $a - c$ ifadesinin değeri 1'dir.  \boxed{1}"
+aime-61,seed1,False,True,True,True,3997,False, $ACE$ üçgeninde Sinüs Teoremi uygulandığında $|AE| = 2 \tan C$ elde edildi. 7.  Hesaplama sonucu $|AE| = 1$.  \boxed{1}
+aime-62,seed1,False,True,True,True,958,False,"'den: $2$ 3.  Durum 2'den: $-2$  Farklı değerler: $\{-2, 0, 2\}$. Bu kümede toplam **3** farklı değer vardır.  \boxed{3}"
+aime-63,seed1,False,False,False,False,4096,True,"1'ler: 2 tane ($F, G$)        - Kombinasyon sayısı: $2 \times 3 \times 2 = 12$.     3. Başkası var mı?        - $5+5$ (1"
+aime-64,seed1,False,True,True,True,1991,False, -0.5 + 2(0.5) + 3(2.5) = -0.5 + 1 + 7.5 = 8\)  Her iki durumda da sonuç aynıdır.  Sonuç: \(x + 2y + 3z = 8\)  \boxed{8}
+aime-65,seed1,False,True,True,True,3140,False,"ağımsız çıktı). Bu, sorunun $k$'ya göre değişmediğini ve cevabın sabit olduğunu gösterir.  Sonuç: $|CN| = 2$.  \boxed{2}"
+aime-66,seed1,False,False,True,True,1999,False,na sayıların toplamının 7'ye bölünebildiği ikilinin sayısı en fazla $\lfloor 303/2 \rfloor = 151$ olabilir.  \boxed{151}
+aime-67,seed1,False,True,True,True,1135,False,"aplama** $n = 60$ olduğu için rakamları toplamı şudur: $$6 + 0 = 6$$  Sonuç olarak, rakamların toplamı 6'dır.  \boxed{6}"
+aime-68,seed1,False,False,False,False,4096,True,"abilir.        Listeyi güncelleyelim (sadece $d$ ve $6560/d$ çift olanlar):        - $d=2 \implies 3280$ (Çift, Çift) ->"
+aime-69,seed1,False,True,True,True,846,False,"an bir sistemi oluşturur ve sonsuz çözüm seti \(\{(1+12z, -7z, z) \mid z \in \mathbb{R}\}\) şeklinde oluşur.  \boxed{23}"
+aime-70,seed1,False,False,False,False,4096,True,"lı tam sayı değeri vardır.  **Adım Adım Özet:** 1.  Verilenler: $|BC|=4$, $B$ köşesinin dış açortayı $A$ köşesinin kenar"
+aime-71,seed1,False,False,False,False,4096,True,elkenar alanı $= |CD| \cdot |AD| \cdot \sin(75^\circ)$. $= 5 \cdot (3 + |DE|) \cdot \sin(75^\circ)$. Bu ifade çok karmaş
+aime-72,seed1,False,True,True,True,1924,False,^3$$ $$= 1 + 25 + 216$$ $$= 26 + 216$$ $$= 242$$  Bu sonuç seçenekler arasında (c) şıkkında yer almaktadır.  \boxed{242}
+aime-73,seed1,False,False,True,True,1093,False,"7, 28, 29, 30\}$  Farklı değerlerin sayısını bulmak için: $30 - 17 + 1 = 14$  Toplam 14 farklı değer vardır.  \boxed{14}"
+aime-74,seed1,False,False,False,False,4096,True,lan öğrenci ($x_1$) diğer 5 öğrenciyle birleşince 41'i geçemez.     Yani $x_1 + x_2 + x_3 + x_4 + x_5 + x_6 \le 41$.    
+aime-75,seed1,False,True,True,True,2831,False," $x_5 = 20 + 10 = 30$ Sayılar: 10, 18, 20, 28, 30. (Sıralı ve pozitif tam sayılar). En küçük sayı $x_1$'dir.  \boxed{10}"
+aime-76,seed1,False,True,True,True,1753,False,4} = 120$. $120$ sayı 111'den büyük olduğu için kabul edilmez.  Dolayısıyla $N$ sayısı en fazla 95 olabilir.  \boxed{95}
+aime-77,seed1,False,False,True,True,2168,False,"Burada payda ($n$) $20$'dir. Bu durumda, koşucular pist üzerinde **20** farklı noktada aynı anda bulunurlar.  \boxed{20}"
+aime-78,seed1,False,True,True,True,2112,False," orada çözümler mevcuttur.  Yani $x+y$ alabileceği değerler: $\{-2, 1\}$. Toplamda **2** farklı değer vardır.  \boxed{2}"
+aime-79,seed1,False,False,True,True,416,False,sil eder ve $n!$ (n faktöriyel) ile hesaplanır.  Hesaplama: $$5 \times 4 \times 3 \times 2 \times 1 = 120$$  \boxed{120}
+aime-80,seed1,False,True,True,True,3460,False,"ktur. Koşul ihlal edildi.  Bu nedenle, her renk için en az 23 top gerekir. Minimum $n = 7 \times 23 = 161$.  \boxed{161}"
+aime-81,seed1,False,False,False,False,4096,True,"30 ise, üst derecelerin 1'e eklenmişlerinin çarpımı 30 olmalıdır. 2.  Sayının 30'a bölünmesi için asal çarpanlarında 2, "
+aime-82,seed1,False,True,True,True,1089,False,"yük olamaz. Bu nedenle kesrin oranı 11'i geçemez.  Sonuç olarak, ifadenin alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,seed1,False,True,True,True,1687,False,"aten duruma 1 ve 2'de bulundu. $p=17$ durum 4'te bulundu.  Toplam çözüm kümesi: $\{2, 17\}$. Çözüm sayısı: 2.  \boxed{2}"
+aime-84,seed1,False,True,True,True,827,False,miktarın $120$ olması soruda belirtilen şartı sağlıyor.  Başlangıçtaki portakal suyunun hacmi 384 birimdir.  \boxed{384}
+aime-85,seed1,False,False,False,False,4096,True,"\{1, 15, 50\}$. $S=7$ ise: $7 - 1 = 6$. $7 - 15 = -8$. $7 - 50 = -43$. En küçük pozitif $D = 6$.  Daha küçük bir $S$ var"
+aime-86,seed1,False,False,False,False,4096,True,ı.     $k - 1/x$ ifadesi bir rasyonel sayıdır.     $y$ bu rasyonel sayı ile 100'ün çarpımıdır ve tam olmalıdır.         
+aime-87,seed1,False,False,False,False,4096,True,"d 4$. Evet böler! Neden bulamadım? $b=1$ ise $b+2=3$. $2(b+1)=4$. $3 \nmid 4$. $a=3, b=1$ için $a-b=2$. $a+b=4$. $2 \mid"
+aime-88,seed1,False,True,True,True,1602,False,"1-\sqrt{5}$) sorunun koşullarını sağlar.  Sonuç olarak, istenen toplam: $0 + 1 + \sqrt{5} + 1 - \sqrt{5} = 2$  \boxed{2}"
+aime-89,seed1,False,False,False,False,4096,True,"utu da 0'dan 4 arasında değerlerdeyse hiçbiri seçilemez. Ama biz işlemleri durdurmak istemiyoruz, tam tersine, bilyeleri"
+aime-90,seed1,False,True,True,True,3068,False,rencinin toplam puanı: $153 + 270 = 423$. Genel toplam puan: $105 + 423 = 528$. Tam uyuşuyor.  Cevap 15'tir.  \boxed{15}
+aime-91,seed1,False,True,True,True,2710,False,\frac{9}{16} = 4 \cdot \frac{4}{16} = 4 \cdot \frac{1}{4} = 1$. Denklem sağlandı.  Sonuç olarak $|AF| = 16$.  \boxed{16}
+aime-92,seed1,False,False,False,False,4096,True,).  Bu düzenlemede $n_K=48$ ama $n_M=24$. Toplam = 72. Çok düşük. Soruyu çözmek için mavi sütunları artırmak lazım. Mavi
+aime-93,seed1,False,False,False,False,4096,True,"5$. $b-a=1, b+a=285 \Rightarrow b=143, a=142$. Evet.     $x = \frac{1995}{285} \cdot 142^2 = 7 \cdot 20164 = 141148$. 14"
+aime-94,seed1,False,False,True,True,3760,False,olsa: Sol taraf: $40$. Sağ taraf: $10 \times 9 / 2 = 45$. Eşitlik sağlanmaz. Bu nedenle $N$ kesinlikle 9'dur.  \boxed{9}
+aime-95,seed1,False,False,False,False,4096,True,"enci 1: $(M_1, F_1)$ Öğrenci 2: $(M_1, F_2)$ Burada $M_1$ 2 kez seçilmiş. $F_1$ 1 kez, $F_2$ 1 kez. Öğrenci 1 için: $M_1"
+aime-96,seed1,False,True,True,True,2221,False,"rli olan alt sınır (minimum) olacaktır.  Sonuç olarak, $n=1$ için 3 farklı asal çarpan vardır. Bu minimumdur.  \boxed{3}"
+aime-97,seed1,False,False,False,False,4096,True,"     $S \subseteq T$, $|S|=20$.     $S$'yi kapsayan bir renk var mı?     Var olması için, $S \subseteq R_j$ olması lazım"
+aime-98,seed1,False,False,False,False,4096,True,"ıymış? Hayır, 30.  Düşünelim, belki de $[x]$ tanımı **Kesirli kısım** ($\{x\}$) olabilir mi? Hayır, tanım veriliyor. Bel"
+aime-99,seed1,False,False,True,True,2866,False,"ştirerek toplamı maksimize ederiz.          Maksimum toplam bilye sayısı = Toplam kare sayısı = 202,500.  \boxed{202500}"
+aime-00,seed2,False,True,True,True,978,False,"uda ""Kaç $n \ge 2$ değeri"" diye sorulmuştur. Bulduğumuz değerler 2 ve 8'dir. Yani toplam 2 tane değer vardır.  \boxed{2}"
+aime-01,seed2,False,True,True,True,1595,False,esaplamadaki ondalık hassasiyet sorunlarını ortadan kaldırarak sonucu kesin olarak 10 olarak göstermektedir.  \boxed{10}
+aime-02,seed2,False,True,True,True,2440,False,mı 52 yapabilmek için).   Son kısımda en az 6 basamak 9 olmalı (modüler denklemden).   Toplam: $6 + 6 = 12$.  \boxed{12}
+aime-03,seed2,False,True,True,True,2968,False,"ı doğru üzerinde olur, bu çelişkidir.  Sonuç olarak, $|AB|$ nin alabileceği en büyük tam sayı değeri 11'dir.  \boxed{11}"
+aime-04,seed2,False,False,True,True,3140,False,"u nedenle, böyle bir $n$ sayısı yoktur. Aralık $1 \le n < 2010$. Bu aralıkta uygun $n$ sayısı yok.  Cevap: 0.  \boxed{0}"
+aime-05,seed2,False,True,True,True,423,False," sayı olduğu belirtilmiştir. $7.5$ ile $8.75$ aralığındaki tek tam sayı **8**'dir.  Dolayısıyla, $n = 8$'dir.  \boxed{8}"
+aime-06,seed2,False,False,False,False,4096,True,"ntrol: $D=0, E=17$ (Rakam değil, $E$ tek haneli olmalı). Hayır.     $D=5 \Rightarrow 50-15=35$ (Hayır).     $D=1$? $50-3"
+aime-07,seed2,False,True,True,True,439,False,yuvarlamamız gerekir.     $$ 116.666... \rightarrow 117 $$  Bu kampta en az 117 bisiklet bulunması gerekir.  \boxed{117}
+aime-08,seed2,False,True,True,True,1218,False,"{Toplam}=165, m<n$) 4.  $m=77, n=88$ ($\text{EBOB}=11, \text{Toplam}=165, m=n$)  Tüm koşullar sağlanmaktadır.  \boxed{4}"
+aime-09,seed2,False,True,True,True,1126,False,  Sayı: $\binom{3}{3} = 1$.  **5. Tüm durumları toplayalım:** Toplam altküme sayısı = $0 + 18 + 1 + 1 = 20$.  \boxed{20}
+aime-10,seed2,False,False,False,False,4096,True,rumda.  **2. Adım:** $22.5$'e sahip öğrenci hareket eder. $22.5 - 15 = 7.5$ fazla. $7.5 / 4 = 1.875$. Yeni durum: $9.375
+aime-11,seed2,False,False,False,False,4096,True,",1$. Toplam $3$. $3(4)=12 \not< 3$. Sağlanmıyor. $4$: Sağlanmıyor. $4$: Sağlanmıyor. $100$: Komşular $1,1,1$. $300 \not<"
+aime-12,seed2,False,False,False,False,4096,True,"1980 \le 2011$, dahil).         *   $44^2 + 88 = 1936 + 88 = 2024$. ($2024 > 2011$, dahil değil).     *   Yani bu son ar"
+aime-13,seed2,False,True,True,True,1332,False,koşulları sağlayan en küçük $x$'in %15'i değerini bulmuşturuz.  **Sonuç:** $x$'in %15'i en az **5** olabilir.  \boxed{5}
+aime-14,seed2,False,True,True,True,2292,False, 512$ $13 \times 512 = ?$  $10 \times 512 = 5120$ $3 \times 512 = 1536$ $5120 + 1536 = 6656$  Sonuç: 6656.  \boxed{6656}
+aime-15,seed2,False,False,False,False,4096,True,$ denmiş ve bu yazım hatasıyla $s(ABC)$ olmuş? Eğer $s(ABD) = s(DBC)$ olsaydı: $|AB| = |AD| + |BD| = 5 + 3 = 8$. $D$ nok
+aime-16,seed2,False,False,True,True,1075,False,i seç: $2^4 = 16$. Çarpım: $24 \times 24 \times 16 = 9216$.  Sonuç olarak toplam 9216 farklı biçim vardır.  \boxed{9216}
+aime-17,seed2,False,False,False,False,4096,True,"zunğunun karesi. Ama $BC$ doğrusu $D$'de teğet olduğu için, $BC$ doğrusu çemberle sadece $D$'de kesişir. Yani $D$ noktas"
+aime-18,seed2,False,True,True,True,1367,False," 5 = 5$ $5 = 5$ olduğu doğrulandı.  Sonuç olarak, denklemin tam olarak **1** tane gerçel sayı ikilisi vardır.  \boxed{1}"
+aime-19,seed2,False,False,False,False,4096,True,": **Bir öğrenci diğerlerine eşit olarak dağıtıyorsa, bu işlem $(n-1)$ sayısına bölünebilirlikte bir değişikliğe yol açar"
+aime-20,seed2,False,False,False,False,4096,True,Y=24$ (4'e bölünür). $b=6$.    $Y-X-2 = 15-9-2 = 4$. $4/4 = 1$. $a=1$.    Kontrol: $1^2+1+34 = 36$. $6^2 = 36$. **Çözüm:
+aime-21,seed2,False,True,True,True,1089,False,klıdır.  Dolayısıyla matematik ödevindeki toplam soru sayısının alabileceği farklı değerlerin sayısı 10'dur.  \boxed{10}
+aime-22,seed2,False,True,True,True,2014,False,asını gerektirir. $18 \times 18$ alana sığabilecek maksimum $2 \times 2$ bloğu sayısı $9 \times 9 = 81$'dir.  \boxed{81}
+aime-23,seed2,False,False,False,False,4096,True,": 1-9: 9 sayı, 1 basamak. $9 \times 1 = 9$. 10-99: 90 sayı, 2 basamak. $90 \times 2 = 180$. 100-199: 100 sayı, 3 basamak"
+aime-24,seed2,False,False,False,False,4096,True,  *   $n^2 = 3600$. Basamak sayısı: **4**.     *   $S(n) = 6$.     *   $4 \neq 6$. Uygun değil.  61. **$n = 61$**:     *
+aime-25,seed2,False,False,False,False,4096,True,"$k=5 \implies 21$ (18'den büyük). Kandidalar: $S=13$ ($k=3$) ve $S=17$ ($k=4$).  **Durum 1: $k=3, S=13$** Puanlar: {4, 3"
+aime-26,seed2,False,False,False,False,4096,True," $5\sqrt{2} \approx 7.07$. Eğer $x=6$ ise, $u=5$, $|CD|=5\sqrt{2}$. Eğer $x=12$ ise? $u = \frac{30 \cdot 12}{42} = \frac"
+aime-27,seed2,False,False,False,False,4096,True,"d_3 > 3$). $1+2+d_3=n \Rightarrow d_3=n-2$. $d_3|n \Rightarrow n-2|2 \Rightarrow n=3,4$. Ama $3|n$ koşulu var, $3 \nmid "
+aime-28,seed2,False,True,True,True,2097,False,"ac{7}{2} = 7$.      Sonuç olarak, sorunun kastettiği ""alabileceği değerler"" setinin elemanlarının çarpımıdır.  \boxed{7}"
+aime-29,seed2,False,True,True,True,1170,False,a elde edilen değerdir.  **Sonuç:** Yenilen beyaz şeker sayısı: 77 Yenilen kırmızı şeker sayısı: 24 Fark: 53  \boxed{53}
+aime-30,seed2,False,True,True,True,1693,False,$ $71 \times 39 = 71 \times (40 - 1) = 2840 - 71 = 2769$ $198800 + 2769 = 201569$ Tam bölündü.  Sonuç doğru.  \boxed{15}
+aime-31,seed2,False,False,False,False,4096,True,"ek asal çarpanı olan"" sayılarda görünmesini sağladığı anlamına gelir.                         Eğer $a$ sadece $p$'ye böl"
+aime-32,seed2,False,False,False,False,4096,True,"2+5$ (5 yok), $1+6$ (6 yok). $7$'yi 2 terimle alamayız. - $11$: $8+2+1$ (3 terim). $8+3$ (yok), $4+7$ (yok), $12-1$ (yok"
+aime-33,seed2,False,True,True,True,1590,False,"kırmızı top sayısı beyaz top sayısından ne kadar fazladır?"" Bu, $R - W$ değeridir.  $$R - W = 90 - 57 = 33$$  \boxed{33}"
+aime-34,seed2,False,False,False,False,4096,True,"an yana konulursa (örneğin A'nın sağında B), A'daki sağdaki kare, A'daki soldaki kareye komşudur (aynı renk, 1 komşu) ve"
+aime-35,seed2,False,True,True,True,649,False,ğer de gerçel sayıdır.  Adım 6: Bulunan gerçel sayıların toplamını hesaplayalım. Toplam $S = 0 + (-1) = -1$.  \boxed{-1}
+aime-36,seed2,False,True,True,True,1644,False, \times 19$ $22/2 = 11$ $11 \times 7 \times 5 \times 19 = 77 \times 95 = 7315$  Sonuç doğru görünmektedir.  \boxed{7315}
+aime-37,seed2,False,False,False,False,4096,True,$M$'nin üzerinde ve $CM \perp AB$'dir. 6.  $AC$ büyük çembere teğet olduğundan $\triangle OAC$'de $A$'da dik açı vardır.
+aime-38,seed2,False,True,True,True,3915,False,r mi? Hayır.  Dolayısıyla ifadenin her zaman bölündüğü sayılar listesinde: 15 ve 30 yer alır. Toplam sayı: 2.  \boxed{2}
+aime-39,seed2,False,True,True,True,3859,False,oğru. $n$'den küçük $n$'nin bölen sayısı = $36 - 1 = 35$. Doğru. Fark = $82 - 35 = 47$.  Cevap 47 olmalıdır.  \boxed{47}
+aime-40,seed2,False,True,True,True,3366,False,$. (Doğru) $23426 - 11700 = 11726$. (Doğru)  **Sonuç:** Farklı paylaştırma biçimlerinin sayısı 11726'dır.  \boxed{11726}
+aime-41,seed2,False,False,True,True,680,False,"hemen ardından gelen yeni bir döngünün ilk rakamıdır. Bu rakam `1`'dir.  Sonuç olarak, 2017. rakam **1**'dir.  \boxed{1}"
+aime-42,seed2,False,False,True,True,3295,False,2$'nin son iki basamağı ile başlayan bir tam kare bulunamamıştır.  Toplam farklı doğal sayı sayısı **2**'dir.  \boxed{2}
+aime-43,seed2,False,True,True,True,1128,False, olarak aradığımız ifadedir.  $$(x^2 - x + 1) = 0$$ olduğu için: $$-(0) + 2 = 2$$  Sonuç olarak değeri 2'dir.  \boxed{2}
+aime-44,seed2,False,False,True,True,4022,False," oturdu.  Soruda ""evdeki saat kaç dakika geri alınmıştır?"" diye soruluyor. Hesapladığımız $x$ değeri 40'tır.  \boxed{40}"
+aime-45,seed2,False,True,True,True,3127,False,elirlenmesi**  Bulduğumuz sayılar: 1.  62 2.  69 3.  77 4.  42  Toplam 4 tane pozitif tam sayı bulunmaktadır.  \boxed{4}
+aime-46,seed2,False,False,True,True,1322,False,"eklenirken, en mantıklı ve tekil cevap 5'tir.  Ali'nin yaşı $x = 5k$ formundadır. En küçük olası değer 5'tir.  \boxed{5}"
+aime-47,seed2,False,False,True,True,2071,False,"ece $n=24$ için doğrusal olduğunu (yani bir noktada kesiştiğini) gösterir.  Sonuç olarak, $n$ sayısı 24'tür.  \boxed{24}"
+aime-48,seed2,False,True,True,True,2817,False,"       Bu yüzden $n$ en az $9 + 1 = 10$ olmalıdır.  Sonuç olarak, $n$ nin alabileceği en küçük değer 10'dur.  \boxed{10}"
+aime-49,seed2,False,True,True,True,2120,False,üçük pozitif tam sayı 165'tir.  **5. Rakamları toplamı:** 165 sayısının rakamları toplamı: $1 + 6 + 5 = 12$.  \boxed{12}
+aime-50,seed2,False,True,True,True,828,False," sayısı ($w$), bir siyah taş ve 8 beyaz taşın toplamıdır. $$w = n + 1 = 8 + 1 = 9$$  Toplam taş sayısı 9'dur.  \boxed{9}"
+aime-51,seed2,False,True,True,True,1244,False,araftan $4x$'i çıkaralım: $$ 8x = 24 $$ Her iki tarafa $8$'e bölüml: $$ x = 3 $$  Dolayısıyla $|EF| = 3$'tür.  \boxed{3}
+aime-52,seed2,False,False,False,False,4096,True,"  Durum 2: $y > x$. $x$ için: $y$'den küçük. $y$, $x$'in küçük komşu sayısına +1 katkı yapar. $y$ için: $x$'ten büyük. $"
+aime-53,seed2,False,False,False,False,4096,True,ormül: $45 + (B+1)A + \frac{B(B+1)}{2}$. Bu formül sadece $10 \dots 10A+B$ aralığını (yani tens basamağı $A$ olan kısmı)
+aime-54,seed2,False,True,True,True,555,False,n çıkarılan top sayısı: $0.2T$  Oran: $$\text{Oran} = \frac{0.8T}{0.2T} = \frac{0.8}{0.2} = 4$$  Sonuç 4'tür.  \boxed{4}
+aime-55,seed2,False,True,True,True,1530,False,^{13} + 2^{12} = 2^{12} \times (2 + 1) = 2^{12} \times 3 $$ $$ 4096 \times 3 = 12288 $$  Sonuç 12288'dir.  \boxed{12288}
+aime-56,seed2,False,True,True,True,2844,False,"ğildir.**  **4. Sonuç** Şanslı sayılar: 7, 11, 13, 17. Şanslı olmayan sayı: 19. Toplam şanslı sayı sayısı: 4.  \boxed{4}"
+aime-57,seed2,False,False,False,False,4096,True,lta$ ($\delta \ge 0$).     Değerleri deneyeelim.     Amacımız $x_1$'i en aza indirmek. $x_1=1$ olabilir mi? $a \ge 1$ ol
+aime-58,seed2,False,False,False,False,4096,True,"- m = 10^j (9A + d)$. Buradan $n - m$, $10^j$ ile bölünebilir. Bizim elimizde $m + n = 282021$. $n - m = K$ olsun. $2n ="
+aime-59,seed2,False,False,False,False,4096,True,urum 18: $m = 6$ ise $4(216) + 8(36)n - 3(6)n^2 - 9n^3 = 28$ $864 + 288n - 18n^2 - 9n^3 = 28$ $-9n^3 - 18n^2 + 288n + 83
+aime-60,seed2,False,True,True,True,781,False,ektedir. Ayrıca soruda istenen ifadenin $a - c$ olduğunu gördük.  **Sonuç:** $a - c$ ifadesinin değeri 1'dir.  \boxed{1}
+aime-61,seed2,False,True,True,True,3054,False,}| = \frac{0.4 \sqrt{5} \cdot \sqrt{5}}{2} = \frac{0.4 \cdot 5}{2} = \frac{2}{2} = 1$$  Hesaplama doğrulandı.  \boxed{1}
+aime-62,seed2,False,True,True,True,1260,False,"um 2'den (a): $2$ 3.  Durum 2'den (b): $-2$  Farklı değerler: $\{0, 2, -2\}$. Toplamda 3 farklı değer vardır.  \boxed{3}"
+aime-63,seed2,False,False,False,False,4096,True,a 3 farklı altküme elde ederiz.    Sonuç: **3 adet**.        **Yöntem B: Doğrudan Toplama**    Hangi elemanların toplamı
+aime-64,seed2,False,False,False,False,4096,True,"i de $x$ ve $z$'nin tanımı farklı olabilir mi? $x-1 = \pm k$, $z-1 = \mp k$. Eğer $x = 1-k$ ve $z = 1+k$ alsak? Durum 3:"
+aime-65,seed2,False,False,False,False,4096,True,"{1}{2}F = (\frac{k-2a}{2a})E + (\frac{a-k-a}{2a})F = \frac{k-2a}{2a}(E-F)$. Bu ifade, $\vec{EF}$ vektörünün bir katıdır."
+aime-66,seed2,False,False,False,False,4096,True, Hayır. Her ikili iki sayı kullanır ama çemberde arka arkaya geldiklerinde sayılar paylaşılır. Dizilim şöyle olmalı: ...
+aime-67,seed2,False,True,True,True,741,False,  **$n$ sayısının rakamları toplamını bulalım:**     $n = 60$     Rakamları: 6 ve 0.     Toplam: $6 + 0 = 6$.  \boxed{6}
+aime-68,seed2,False,True,True,True,3670,False,"zümler: $m^4 = 6561 \implies m = 9$ veya $m = -9$. İkiliçler: $(9, 0)$ ve $(-9, 0)$.  Toplam çözüm sayısı: 2.  \boxed{2}"
+aime-69,seed2,False,True,True,True,1477,False,"rum sonsuz çözümü doğrudan sağlar.  Sonuç olarak, sonsuz çoklukta çözüm olması için $c$ değeri 23 olmalıdır.  \boxed{23}"
+aime-70,seed2,False,False,False,False,4096,True,"\beta/2$. Yükseklik $BC$'ye dik. Açıları karşılaştıralım. Genel durum: $AM \parallel BK$ ise, $|AB| = |AC| + |BC|$ değil"
+aime-71,seed2,False,False,False,False,4096,True,"        $|AE| = 3 \Rightarrow |ED| = x - 3$.                **Adım 1: $\triangle CDE$ Analizi**        Kenarlar: $CD=5$,"
+aime-72,seed2,False,True,True,True,1462,False,1 + 25 + 216 \] \[ = 26 + 216 \] \[ = 242 \]  Bulunan sonuç seçeneklerdeki c) şıkkına karşılık gelmektedir.  \boxed{242}
+aime-73,seed2,False,True,True,True,2247,False,", 23**.  Bu değerlerin sayısı: 3.  Sonuç olarak, kutu sayısının alabileceği farklı değerler 21, 22 ve 23'tür.  \boxed{3}"
+aime-74,seed2,False,False,True,True,1704,False,"varı çıkmaktadır, maksimum 41'dir). Bu durum koşulu sağlar.  Sonuç olarak, öğrenci sayısı en az 23 olabilir.  \boxed{23}"
+aime-75,seed2,False,True,True,True,1372,False,r.  **7. Sonuç:** Soru tahtadaki en küçük sayıyı soruyor. Bulduğumuz sayılardan en küçüğü $a$'dır. $a = 10$.  \boxed{10}
+aime-76,seed2,False,True,True,True,1790,False,57 < 111$ koşulu sağlanıyor.  Sonraki değer (120) 111'den büyük olduğu için $N$ sayısı en fazla 95 olabilir.  \boxed{95}
+aime-77,seed2,False,True,True,True,2044,False,$. ... Burada payda 9'dur. 20 ve 9 aralarında asaldır. Dolayısıyla tüm 9 kesirli kısım farklıdır. Sayı 9'dur.  \boxed{9}
+aime-78,seed2,False,True,True,True,1300,False,  Bu iki değer birbirinden farklıdır. Dolayısıyla $x+y$ toplamının alabileceği farklı değer sayısı **2**'dir.  \boxed{2}
+aime-79,seed2,False,True,True,True,772,False,erekir. $(25 \times 16 \times 9 \times 4) / 24 = 14400 / 24 = 600$.  Her iki yöntem de aynı sonuca götürür.  \boxed{600}
+aime-80,seed2,False,False,False,False,4096,True,"7 renk olsun. Bu $\iff$ Her renk için, o renk olmayan kutu sayısı $\le 9$. $\iff$ Her renk için, o renk olan kutu sayısı"
+aime-81,seed2,False,True,True,True,2647,False, $$ 11250 - 720 = 10530 $$  Sonuç kontrolü: $11250 - 700 = 10550$ $10550 - 20 = 10530$.  Cevap 10530'dır.  \boxed{10530}
+aime-82,seed2,False,True,True,True,1083,False,"eri küçülür. Dolayısıyla maksimum değer $11$'dir.  Sonuç olarak, ifadenin alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,seed2,False,True,True,True,1699,False,tı olmadığından çalışma zeminindeyken işe yaramazlar.  Bu durumda toplamda **2** tane $p$ asal sayısı vardır.  \boxed{2}
+aime-84,seed2,False,True,True,True,795,False,480 = 0.25$ (%25) olur. Her iki adımda artış oranı eşittir.  Sonuç olarak başlangıçtaki hacim 384 birimdir.  \boxed{384}
+aime-85,seed2,False,False,False,False,4096,True,"Fark $13$.  $n_w=1$ için en küçük fark **13**.  **Durum 5: $n_w = 4, n_r = 5$** $B_{max} = 200$. $K$ (5 taş) toplamının "
+aime-86,seed2,False,False,False,False,4096,True,$m=7$**:     $\overline{AB} = \frac{107}{7k}$.     $107$ asal sayıdır (7'ye bölünmez: $7 \times 15 = 105$).     $7k$ 107
+aime-87,seed2,False,False,False,False,4096,True,"k=1$. $2x+k = 2027$. $1$ sayısı $2027$'yi böler. Yasak! Yani aralıklı küme çalışmaz çünkü fark 1 olursa, her zaman bölen"
+aime-88,seed2,False,True,True,True,1213,False," (1 + \sqrt{5}) + (1 - \sqrt{5})$ $S = 1 + 1 = 2$  Sonuç olarak, aranan $a$ gerçel sayılarının toplamı 2'dir.  \boxed{2}"
+aime-89,seed2,False,False,False,False,4096,True,"'in altına düşer.     Ancak biz $A$ (55) kutusunu seçmiyoruz.     Diğerlerini seçerken, en küçüğü olanı (örneğin 60) seç"
+aime-90,seed2,False,False,False,False,4096,True,m{18}{2} = \frac{18 \times 17}{2} = 153$ maç -> 153 puan. - 18 öğrencinin dış maç sayısı (15 kişiyle): $15 \times 18 = 2
+aime-91,seed2,False,False,False,False,4096,True,\beta}$. Alternatif: $|AD| = |AB| \sin \beta = 25 \sin \beta$. $|BD| = 25 \cos \beta$. Buradan $25 \cos \beta = 9 / \cos
+aime-92,seed2,False,False,False,False,4096,True," 26 kırmızı koyabiliriz. Kalan 50-96=-46 satır kalmaz? Hayır, 50 satır var. 96 satır olmuyor, 50 satır var. $n_r$ max 50"
+aime-93,seed2,False,False,False,False,4096,True,ox 0.15$ $5/19 \approx 0.26$ $7/19 \approx 0.36$ $15/7 \approx 2.14$ $7/19$? $3 \cdot 19 / (5 \cdot 7) = 57/35 \approx 1
+aime-94,seed2,False,False,True,True,1284,False,". Dolayısıyla hiç kimse tüm 5 soruyu çözmemiştir. Koşul sağlanıyor.  Sonuç olarak, en çok 5 soru bulunabilir.  \boxed{5}"
+aime-95,seed2,False,False,False,False,4096,True,$|A|$ ve $|B|$ değerlerini seçelim. $N \le 40 - |A|$ ve $N \le 22 - |B|$. Buradan $|A| \le 40 - N$ ve $|B| \le 22 - N$. 
+aime-96,seed2,False,False,False,False,4096,True,51 = 173.5 26209 / 157 = 166.9 26209 / 161 = 162.79 Görünüşe göre 26209 asaldır. Şimdi $A = 129601$. Asal mı? 129601 / 1
+aime-97,seed2,False,False,False,False,4096,True,"m: {1,2} -> Renk 1 ve 2 var. {1,3} -> Renk 1 ve 3 var. {3,4} -> Renk 3 ve 4 var. Herhangi 2 tanisinde ortak renk var mı?"
+aime-98,seed2,False,False,False,False,4096,True,"1, j \neq 1 \implies [k \cdot 0] = 0$. - $i \neq 1, j=1 \implies 0$. - $i \neq 1, j \neq 1 \implies [0] = 0$. Toplam = $"
+aime-99,seed2,False,False,False,False,4096,True,"kural: ""Aynı renkli iki bilye komşu olamaz"". Farklı renkli bilyeler komşu olabilir. Yani $K_4$ üzerinde, R kümesi bağıms"
+aime-00,seed3,False,True,True,True,809,False,r. Bulduğumuz geçerli $n$ değerleri: 1.  $n = 2$ 2.  $n = 8$  Toplamda **2** adet farklı değer bulunmaktadır.  \boxed{2}
+aime-01,seed3,False,True,True,True,1793,False,ğerinden bağımsızdır (sadece $a-1 \neq 0$ ve verilen özel oran nedeniyle) ve her zaman 10 çıkar.  Sonuç: 10.  \boxed{10}
+aime-02,seed3,False,False,False,False,4096,True,". Sonra soldaki basamak ($d_6$) 1 artar. $d_6$ 9 olduğu için 10 olur, 0 yazılır, 1 soldaki ($d_5$) basamağa taşınır. $d_"
+aime-03,seed3,False,False,False,False,4096,True,H| = 20 - z^2$. $|CH| = \frac{20-z^2}{2z}$. $|CH| > 0 \Rightarrow 20 - z^2 > 0 \Rightarrow z < \sqrt{20} \approx 4.47$. 
+aime-04,seed3,False,False,False,False,4096,True,"anmaz.        Dolayısıyla, soruda aranan $n$ sayısı, $S(n)=k$ toplamına sahip **en küçük** sayı olmalıdır.    Ve bu $n <"
+aime-05,seed3,False,True,True,True,397,False,lduğu belirtilmiştir.     $7.5$ ile $8.75$ arasında bulunan tek tam sayı **8**'dir.  Dolayısıyla $n = 8$'dir.  \boxed{8}
+aime-06,seed3,False,True,True,True,2465,False, Alternatif olarak genel formülle de kontrol edelim: $T_6 = A + 5d = 5 + 5(7) = 5 + 35 = 40$.  Sonuç 40'dır.  \boxed{40}
+aime-07,seed3,False,True,True,True,397,False,"ling) operasyonudur.     $$116.666... \rightarrow 117$$  Dolayısıyla, en az 117 bisiklet bulunması gerekir.  \boxed{117}"
+aime-08,seed3,False,True,True,True,1162,False,"mplies (m, n) = (44, 121)$ 4.  $(7, 8) \implies (m, n) = (77, 88)$  Toplamda **4** tane geçerli ikili vardır.  \boxed{4}"
+aime-09,seed3,False,True,True,True,1138,False,"yalım: - $(0, 1, 2)$ durumu: 18 - $(1, 1, 1)$ durumu: 1 - $(2, 2, 2)$ durumu: 1  Toplam = $18 + 1 + 1 = 20$.  \boxed{20}"
+aime-10,seed3,False,False,False,False,4096,True," 13, 18, 18\}$. 7. $18$ dağıtır $12$: $18-12=6$. Diğerleri $+3$: $8+3=11$, $8+3=11$, $13+3=16$, $18+3=21$. Durum: $\{6, "
+aime-11,seed3,False,False,False,False,4096,True,"3x_8$ Sol taraf: $3 \sum_{j \in K, \text{non-neighbor}} x_j + 3 \sum_{j \in K, \text{neighbor}} x_j + 3x_8$ (Çünkü $x_8$"
+aime-12,seed3,False,False,True,True,2276,False,"[1936, 2011]$. 44'e bölünenler: 1936, 1980. (2 sayı).  Toplam: $2 + (42 \times 3) + 2 = 2 + 126 + 2 = 130$.  \boxed{130}"
+aime-13,seed3,False,True,True,True,1359,False,mantığı bu tür rekabetçi matematik sorularında standarttır.  Sonuç olarak $x$'in %15'i olan $n$ değeri 5'tir.  \boxed{5}
+aime-14,seed3,False,True,True,True,1998,False,ayılar: $F_3 = 2$ $F_4 = 3$ $F_5 = 5$ $F_6 = 8$ $F_7 = 13$ Çarpım: $13 \times 8 \times 8 \times 8 = 6656$.  \boxed{6656}
+aime-15,seed3,False,False,True,True,3399,False,ile $C$'nin çakışmasını gerektirir.  Hesaplama: $|AC| = |AD| = 5$ $|AE| = 2$ $|CE| = |AC| - |AE| = 5 - 2 = 3$  \boxed{3}
+aime-16,seed3,False,False,True,True,1316,False,s 2$ $32 \times 18 = 576$ $8 \times 2 = 16$ $576 \times 16 = 9216$  Her iki yöntem de aynı sonucu veriyor.  \boxed{9216}
+aime-17,seed3,False,False,False,False,4096,True,r ucu. Teğet-secant teoremi genellikle dış bir noktadan uygulanır. Burada $A$ noktası çember üzeri. $A$ noktasından $AC$
+aime-18,seed3,False,True,True,True,1465,False," = 5$ eşitliği sağlanmaktadır.  Sonuç olarak, eşitliği sağlayan tek bir gerçel sayı ikilisi vardır: $(2, 1)$.  \boxed{1}"
+aime-19,seed3,False,False,False,False,4096,True,"eri) çok küçükse, yüksek değerlere (36) ulaşmak zor olabilir. Ama asıl kilit nokta şudur: **$n$ sayısı, $(36+21)$ toplam"
+aime-20,seed3,False,True,True,True,2060,False,times 135\) dışında alt bölenler yok) olmadığı için bu liste eksiksizdir.  Toplam 4 tane ikili bulunmaktadır.  \boxed{4}
+aime-21,seed3,False,True,True,True,1067,False,"toplam soru sayısı ($y$) alabileceği farklı değer sayısı, $x$'in alabileceği geçerli değer sayısına eşittir.  \boxed{10}"
+aime-22,seed3,False,False,False,False,4096,True,"ayı sayısı azalır.     Eğer arada boşluk bırakılırsa (farklı sayılar yan yana ama kuralı sağlayan), sayı sayısı artar mı"
+aime-23,seed3,False,False,False,False,4096,True,es 2 + 45 = 65$. $S(120)..S(129): 10\times 3 + 45 = 75$. ... $S(190)..S(199): 10\times 9 + 45 = 135$. Toplam ($100..199$
+aime-24,seed3,False,False,True,True,1118,False,: $11 + 20 = 31$ *   Üç basamaklı: $102 + 111 + 120 = 333$ *   Toplam: $1 + 31 + 333 = 365$  Sonuç 365'tir.  \boxed{365}
+aime-25,seed3,False,False,False,False,4096,True,"uanlar:    A: 3    B: 0+1 = 1    C: 3+1 = 4    Puanlar: 4, 3, 1. (4, 3, 1).    Sıralama: 4, 3, 1.    n-1=2 takım eşit mi"
+aime-26,seed3,False,False,True,False,3644,False," mi olmalıydı? Hayır, veriyi olduğu gibi alıyoruz.  Cevap: $\frac{30+60\sqrt{3}}{11}$.  \boxed{\frac{30+60\sqrt{3}}{11}}"
+aime-27,seed3,False,False,True,True,1110,False, mükemmel sayı yoktur (Euler'ın teoremi ve Mersenne asalının bulunmasından ötürü).  Sayıların sayısı: 3 tane.  \boxed{3}
+aime-28,seed3,False,True,True,True,2558,False,"qrt[3]{0.25} = \sqrt[3]{1} = 1$ (OK). $x^3+y^3 = 4 - 0.5 = 3.5$.  Alınan değerler: $\{2, 3.5\}$. Çarpım: $7$.  \boxed{7}"
+aime-29,seed3,False,True,True,True,950,False,k fark için $n=1$ olmalıdır.  Sonuç olarak: Yenilen beyaz şekerler: 77 Yenilen kırmızı şekerler: 24 Fark: 53  \boxed{53}
+aime-30,seed3,False,True,True,True,1031,False,"= 6 + 9 = 15$  Kontrol edelim: Sayı $201569$. $201569 \div 71 = 2839$ (Tam sayı, kalan yok). Doğru sonuçtur.  \boxed{15}"
+aime-31,seed3,False,False,False,False,4096,True,"ldı. Peki $x_1, x_2, x_3$ elemanları aynı asala bölünüyor mu? $x_1 = 5p$. $x_2 = 13p$. $x_3 = 31q$ diyelim. $x_1$ ve $x_"
+aime-32,seed3,False,True,True,True,3492,False,", 4, 8, 12, 16\}$ kümesinden üç eleman alarak mod 20'de tüm değerleri üretebildik. En küçük $k$ değeri 3'tür.  \boxed{3}"
+aime-33,seed3,False,True,True,True,1988,False,($W$) = 57  Fark: $$R - W = 90 - 57 = 33$$  Sonuç olarak kırmızı top sayısı beyaz top sayısından 33 tanedir.  \boxed{33}
+aime-34,seed3,False,False,False,False,4096,True,"z kare kullanırsak, koşul sağlanmaz.     Yani her renk en az 4 kare kaplamalıdır.     $4k \le 10000 \Rightarrow k \le 25"
+aime-35,seed3,False,True,True,True,1088,False,"r: $0$ ve $-1$. Toplam = $0 + (-1) = -1$.  Sonuç olarak, denklemin sağlayan gerçel sayılar toplamı $-1$'dir.  \boxed{-1}"
+aime-36,seed3,False,False,True,True,1923,False,$ $$ 22 \times 35 = 770 $$ $$ 770 \times 19 = 770 \times (20 - 1) = 15400 - 770 = 14630 $$  Sonuç: 14630.  \boxed{14630}
+aime-37,seed3,False,True,True,True,2966,False,dot CM $$ $$ \text{Alan} = \frac{1}{2} \cdot 12 \cdot 8 $$ $$ \text{Alan} = 6 \cdot 8 = 48 $$  Sonuç 48'dir.  \boxed{48}
+aime-38,seed3,False,True,True,True,3074,False, 1$). - 35: Hayır.  Dolayısıyla ifadenin 15'e ve 30'a her zaman tam bölüneceği söylenebilir. Toplamda 2 sayı.  \boxed{2}
+aime-39,seed3,False,True,True,True,2323,False,ni $|A| = 35$. Soru istediği küme $S \setminus A$. $|S \setminus A| = 82 - 35 = 47$.  Sonuç doğru görünüyor.  \boxed{47}
+aime-40,seed3,False,True,True,True,1396,False,"ekli vardır. Kişi B'nin dağıtımı otomatik olarak belirlendiği için, toplam farklı biçim sayısı 11726'dır.  \boxed{11726}"
+aime-41,seed3,False,False,True,True,729,False,". Döngünün ilk rakamları hep **1**'dir (çünkü ilk 11 tane rakam 1'dir).  Sonuç olarak, 2017. rakam **1**'dir.  \boxed{1}"
+aime-42,seed3,False,False,False,False,4096,True,"silin: 841 ($29^2$).     *   Doğru.  5.  $X=625 \Rightarrow b=2, c=5$. $Y=256$. Tam kare mi? Evet ($16^2$). Sayı: **6256"
+aime-43,seed3,False,True,True,True,1271,False," ise, \(x - x^2 = -(-1) = 1\). O zaman ifade: \(1 + 1 = 2\).  Sonuç: \[ x^{2017} + x^{3017} - x^{4017} = 2 \]  \boxed{2}"
+aime-44,seed3,False,True,True,True,3139,False,Gerçek varış - 13 = $15:09 - 13$ dk = 14:56. Ev saati 14:56. Uyuyor.  Sonuç: Saat 13 dakika geri alınmıştır.  \boxed{13}
+aime-45,seed3,False,False,True,True,2209,False,"m koşulları sağlar. Başka bir çözüm olmadığı kanıtlandı.  Sonuç olarak, aranan pozitif tam sayı sayısı 3'tür.  \boxed{3}"
+aime-46,seed3,False,False,True,True,1678,False," tek bir sayı istendiği için, en temel çözüm olan $k=1$ durumu ($x=5$) doğru cevaptır.  Ali'nin yaşı $x = 5$.  \boxed{5}"
+aime-47,seed3,False,False,False,False,4096,True,"ural var. Üç doğru $A_iA_{i+a}, A_{i+1}A_{i+1+b}, A_{i+2}A_{i+2+c}$ bir noktada kesişiyorsa ve $a+b+c = n$ ise, bu doğru"
+aime-48,seed3,False,True,True,True,3223,False,n=10$ için koşul mutlaka sağlanır.  Soruda $n$'in alabileceği **en küçük** değer isteniyor. Bu değer 10'dur.  \boxed{10}
+aime-49,seed3,False,True,True,True,1033,False,"ı:** Soru, bu sayının rakamları toplamını istiyor. Sayı: $165$ Rakamları: $1, 6, 5$ Toplam: $1 + 6 + 5 = 12$  \boxed{12}"
+aime-50,seed3,False,True,True,True,811,False,ıdır ve 8'dir. Masada toplam taş sayısı = Beyaz taş sayısı + Siyah taş sayısı Toplam taş sayısı = $8 + 1 = 9$  \boxed{9}
+aime-51,seed3,False,True,True,True,1309,False,arrow |EG| = 3 + 6 = 9 \Rightarrow P(C_2) = 4 \times 9 = 36$. *   $36 = 36$ olduğundan sonuç doğrudur.  Sonuç: \boxed{3}
+aime-52,seed3,False,False,False,False,4096,True,"resine... k nin alabileceği en büyük değer"" demek, $k$'nin tahta boyutu olduğu anlaşılıyor. Metindeki ""12 x 12"" ifadesi,"
+aime-53,seed3,False,False,False,False,4096,True,"basamakları $A=1, B=0$. Çelişki: $A=1 \neq 6$). $n=11$ için $S(n)=46+2=48$. ($B=4, A=8$. $n$'nin basamakları $1,1$. Çeli"
+aime-54,seed3,False,True,True,True,596,False,şöyledir: $$\text{Oran} = \frac{0.8T}{0.2T}$$  $T$ terimleri sadeleşir: $$\text{Oran} = \frac{0.8}{0.2} = 4$$  \boxed{4}
+aime-55,seed3,False,True,True,True,1291,False,ıkarma özelliği): $$ 2^{13} + 2^{12} = 2^{12} \times (2 + 1) = 2^{12} \times 3 = 4096 \times 3 = 12288 $$  \boxed{12288}
+aime-56,seed3,False,False,True,True,2805,False,"$n$ pozitif tam sayısı bulundu. Soru: ""7, 11, 13, 17 ve 19 sayılarından kaç tanesi şanslı sayıdır?"" Cevap: 5.  \boxed{5}"
+aime-57,seed3,False,False,False,False,4096,True,"z (toplam 99 top olduğu için, diğer renklerde 96 top varsa 10 tanesini seçebiliriz).             *   Bu durumda seçilen "
+aime-58,seed3,False,False,False,False,4096,True,"1 \Rightarrow 2m = 182021$ (Çift olmalı, tek sayı, imkansız).       $d_1 = 2 \Rightarrow 2m = 282021 - 200000 = 82021$ ("
+aime-59,seed3,False,False,True,True,2652,False,"lta < 0$.  Sadece bir tane tam sayı çözümü bulunmuştur: $m = -2, n = 3$.  **6. Sonuç:** $m + n = -2 + 3 = 1$.  \boxed{1}"
+aime-60,seed3,False,True,True,True,598,False,"a $a$, $b$, $c$'nin farklı olması koşulu sağlandığı sürece bu sonuç değişmez.  Bulunan değer: $$ a - c = 1 $$  \boxed{1}"
+aime-61,seed3,False,True,True,True,3595,False,jant değeri) ve $s(\widehat{ACE}) = 1/2$ (tanjant değeri). Açıları eşit. Koşul sağlandı.  Bulunan $|AE| = 1$.  \boxed{1}
+aime-62,seed3,False,True,True,True,1213,False,"\)  \(x+y\) toplamının alabileceği değerler kümesi: \(\{0, 2, -2\}\). Bu kümede 3 farklı değer bulunmaktadır.  \boxed{3}"
+aime-63,seed3,False,True,True,True,1953,False,"nür) dahil edilmiştir. Soruda ""boş olmayan"" alt kümeler istendiği için 1'i çıkarırız.  Sonuç: $17 - 1 = 16$.  \boxed{16}"
+aime-64,seed3,False,True,True,True,2051,False,-0.5 + 1 + 7.5$ $= 0.5 + 7.5 = 8$  Her iki olası durum için sonuç aynı çıkmaktadır.  Sonuç: $x + 2y + 3z = 8$  \boxed{8}
+aime-65,seed3,False,False,False,False,4096,True,t) = \mathbf{a} + \frac{1}{4}\mathbf{a} + \frac{x}{4}\mathbf{b} = \frac{5}{4}\mathbf{a} + \frac{x}{4}\mathbf{b}$. 6.  **
+aime-66,seed3,False,False,False,False,4096,True," 43 tane $3$, 43 tane $4$. 43 tane çift yapılabilir. - $(0,0)$: 43 tane $0$. Hepsi yan yana gelirse 43 tane çift oluşur."
+aime-67,seed3,False,True,True,True,1270,False,Hesaplanması**  Bulduğumuz $n$ sayısı **60**. Bu sayının rakamları: 6 ve 0. Rakamların toplamı: $$6 + 0 = 6$$  \boxed{6}
+aime-68,seed3,False,True,True,True,2740,False,"(n=0\) durumu geçerlidir. Bulunan ikililer: 1. \(m = 9, n = 0\) 2. \(m = -9, n = 0\)  Toplam ikili sayısı: 2.  \boxed{2}"
+aime-69,seed3,False,True,True,True,916,False, y$'nin buna göre belirlenmesini gösterir. Dolayısıyla sonsuz sayıda çözüm vardır.  $c$ değeri 23 olmalıdır.  \boxed{23}
+aime-70,seed3,False,False,False,False,4096,True, değil ($D$ $AC$ üzerinde).     Bu durumda $\angle AMC$ ve $\angle DBC$ ikizdış açı mıdır?     $AM \parallel BD$ ve $BC$
+aime-71,seed3,False,False,False,False,4096,True," açısi $75^\circ$ değil de $s(\widehat{BCD})$ açısi mi? Metin: ""s(CDE) = s(BCE) = 75"". Bu açık.  Bir daha bakalım, belki"
+aime-72,seed3,False,True,True,True,1797,False,+ 5^2 + 6^3 \] \[ = 1 + 25 + 216 \] \[ = 26 + 216 \] \[ = 242 \]  Seçenekler arasında c) 242 bulunmaktadır.  \boxed{242}
+aime-73,seed3,False,False,True,True,1858,False,"t: $30 - 17 + 1 = 14$.  Sonuç olarak, masa üzerindeki kutu sayısının alabileceği farklı değer sayısı 14'tür.  \boxed{14}"
+aime-74,seed3,False,False,False,False,4096,True,"mplies n=29.4$ (yok).         $q=4 \implies 4n = 147$ (yok).         Senaryo A'da bulduğumuz en küçük $n=26$ ($q=5, r=23"
+aime-75,seed3,False,True,True,True,2110,False,"6, 48, 48, 50, 58$. Verilen liste ile birebir örtüşüyor.  **7. Cevap** Tahtadaki en küçük sayı $a = 10$'dur.  \boxed{10}"
+aime-76,seed3,False,True,True,True,1673,False,"or).  **5. Sonuç** Koşulu sağlayan ve $N < 111$ olan en büyük $N$ değeri, $b=11$ durumu için bulunan 95'tir.  \boxed{95}"
+aime-77,seed3,False,True,True,True,3113,False, (veya $m=9$) başlangıç noktasıdır. $m=1$ ila $m=8$ arası diğer 8 nokta. Toplam 9 farklı nokta.  Cevap 9'dur.  \boxed{9}
+aime-78,seed3,False,True,True,True,2300,False,ileceği değerler: 1. \(x+y = 1\) 2. \(x+y = -2\)  Bu iki değer birbirinden farklıdır. Farklı değer sayısı: 2.  \boxed{2}
+aime-79,seed3,False,True,True,True,1108,False,r. 4 bilyenin sıralanışını $4!$ ile böleriz: $$ \frac{14400}{4!} = \frac{14400}{24} = 600 $$ Sonuç aynıdır.  \boxed{600}
+aime-80,seed3,False,True,True,True,2804,False,l edilir. Dolayısıyla her renk için en az 23 top şarttır. Toplam en az $7 \times 23 = 161$.  Cevap 161'dir.  \boxed{161}
+aime-81,seed3,False,True,True,True,3271,False,^2 \cdot 5 = 720$. *   En büyük sayı: $2^1 \cdot 3^2 \cdot 5^4 = 11250$. *   Fark: $11250 - 720 = 10530$.  \boxed{10530}
+aime-82,seed3,False,True,True,True,1052,False,"max} = \frac{22}{0 + 0 + 2} = \frac{22}{2} = 11$$  Sonuç olarak, ifadenin alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,seed3,False,True,True,True,1406,False,"7 asal sayılardır.  Sonuç olarak, koşulu sağlayan \(p\) asal sayıları 2 ve 17'dir. Bu sayıların sayısı 2'dir.  \boxed{2}"
+aime-84,seed3,False,True,True,True,942,False, $600-480=120$) *   Verilenler ile sonuçlar eşleşmektedir.  Başlangıçtaki portakal suyu hacmi 384 birimdir.  \boxed{384}
+aime-85,seed3,False,False,False,False,4096,True,lam 7) elde edilemez.     Yani $y_{last}=1$ için min $D = 27$.  2.  **$y_{last} = 15$**:     $D = 7m - 15$.     $7m \ge 
+aime-86,seed3,False,False,False,False,4096,True,$\overline{CD}=17 \Rightarrow 17/19 < 1$     Paydalar büyüdükçe paydalar 10'u geçmiyor.     **Çözüm yok.**          Daha
+aime-87,seed3,False,False,False,False,4096,True,"daha iyi. $M=4$: $(0,0)=1, (1,0)=2, (0,1)=3, (2,0)=4$. Satırlar: $sum=0: (0,0)$ $sum=1: (1,0), (0,1)$ $sum=2: (2,0), (1,"
+aime-88,seed3,False,True,True,True,1285,False,"})$ Toplam $= 1 + 1 + \sqrt{5} - \sqrt{5}$ Toplam $= 2$  Sonuç olarak, aranan $a$ değerlerinin toplamı 2'dir.  \boxed{2}"
+aime-89,seed3,False,False,False,False,4096,True,"lur. Bu durumu elde edebilir miyiz? Başlangıç: 55, 60, 65, 70, 75, 80. Bir kutuyu seçip diğerlerine veriyoruz. Her işlem"
+aime-90,seed3,False,False,False,False,4096,True,n bu 21 kişiye ait. Yani 21 kişinin toplam puanı $\geq 210$ olmalıdır. Ama biz varsayımımızda 21 kişinin toplam puanı 14
+aime-91,seed3,False,True,True,True,4043,False,"ın $y$ koordinatı $20$. $F$ noktasının $y$ koordinatı $4$. $|AF| = 20 - 4 = 16$.  Sonuç olarak, $|AF| = 16$.  \boxed{16}"
+aime-92,seed3,False,False,False,False,4096,True,a düşünelim. $N_R$ satırında her biri $\ge 26$ kırmızı. $N_B$ sütununda her biri $\ge 26$ mavi. Toplam kırmızı $K \ge 26
+aime-93,seed3,False,False,False,False,4096,True,"için $u+v$'nin 4'e bölünmesi gerekir. $u, v$ tek sayılar ve $uv = N = 3980025$. $N \equiv 1 \pmod 4$. $u, v$ tek sayılar"
+aime-94,seed3,False,False,False,False,4096,True,", x=3)$, kalan 2 ikili, 16 birim. $x=2 (\binom{2}{2}=1, x=2)$, kalan 0 ikili, 14 birim. Son toplam birim: $5+4+3+2+2 = 1"
+aime-95,seed3,False,False,False,False,4096,True, $p$ tane Fizik sorusu $d_f \ge 2$ olsun.     Bu $p$ sorunun toplam öğrencisi $N_2$.     Bu öğrencilerin seçtiği Matemat
+aime-96,seed3,False,False,False,False,4096,True,lı asal çarpanı olduğu ve bu durumun minimum olduğu kabul edilir. Çünkü $n$ arttıkça ifade büyür ve daha fazla çarpan iç
+aime-97,seed3,False,False,False,False,4096,True,"rsa, $\sum |E_i| \ge m$. Ancak $|\bigcup E_i| < 20$ olması için, bu $E_i$'lerin büyük ölçüde kesişmesi gerekir. Ama kesi"
+aime-98,seed3,False,False,False,False,4096,True,lon \rceil = k+1$. $x_i = k + 0.5$. $\lceil (k+0.5)^2 \rceil = \lceil k^2 + k + 0.25 \rceil = k^2 + k + 1$. $x_i x_j = (
+aime-99,seed3,False,False,False,False,4096,True,"ındaki seçilen karelere komşu olamaz.                 *   Eğer $3 \times 3$ bloklarında standart ""köşeler + merkez"" gibi"
+aime-00,wrong1,True,False,True,True,1264,False," yaklaşım, $n=8$'in tek anlamlı çözüm olduğunu belirtmektir.  Sonuç olarak, $n=8$ değeri için koşul sağlanır.  \boxed{8}"
+aime-01,wrong1,True,True,True,True,1380,False,0^8} = \frac{9^8}{10^7}$  Toplam: $(10 - \frac{9^8}{10^7}) + \frac{9^8}{10^7} = 10$  Sonuç aynı çıkmaktadır.  \boxed{10}
+aime-02,wrong1,True,False,False,False,4096,True, 10^p$. $n+1 = A \cdot 10^{p+1} + 1 \cdot 10^{p+1} = (A+1) \cdot 10^{p+1}$. $S(n) = S(A) + 9$. $S(n+1) = S(A+1)$. Bu çok
+aime-03,wrong1,True,False,False,False,4096,True,"lir. Teğet-kesen teoremi: $x^2 = AC \cdot AD$. $A, C, D$ doğrusal. $AC = x^2/AD$. $CD = AD - AC = AD - x^2/AD$. $CD$'nin"
+aime-04,wrong1,True,False,False,False,4096,True,arı Tekrar Kontrol Edelim**  - **1-9**: $S(n)=n$. En küçük $n$ toplamına sahip sayı kendisidir. Doğru. (9) - **19**: $S=
+aime-05,wrong1,True,True,True,True,312,False," n < 8.75 \]  $n$ bir tam sayı olduğu için, 7.5'ten büyük olan ve 8.75'ten küçük olan tek tam sayı **8**'dir.  \boxed{8}"
+aime-06,wrong1,True,False,False,False,4096,True,"emek ki $B=0$ değil. $B=1$ doğruymuş ama $C=3$ veya $C=2$ durumlarında tıklamadık. Belki $C=4$ için $A, D$ farklı rakaml"
+aime-07,wrong1,True,True,True,True,418,False,"htiyacımız karşılanır, 2 günün bisikleti fazladan).      Dolayısıyla, en az 117 bisiklet bulunması gerekir.  \boxed{117}"
+aime-08,wrong1,True,True,True,True,1058,False,"ır:     1.  $(1, 14)$     2.  $(2, 13)$     3.  $(4, 11)$     4.  $(7, 8)$      Toplamda 4 tane ikili vardır.  \boxed{4}"
+aime-09,wrong1,True,True,True,True,974,False,"$1+1+2=4\equiv1$).  Toplam geçerli altküme sayısı, bu geçerli durumların toplamıdır: $$0 + 4 + 0 + 16 = 20$$  \boxed{20}"
+aime-10,wrong1,True,False,False,False,4096,True,"ü.  O halde strateji: **En büyük sayıyı sürekli hedefe yaklaştırırken, diğerlerini de dengeli tutmak.** Belki de tek bir"
+aime-11,wrong1,True,False,False,False,4096,True,gh}$. Diğer 7 köşe için $3x_i < \sum x_{neigh}$. Bu durumda $3x_{last} - \sum x_{neigh} = -D_{last}$ ve $\sum_{others} D
+aime-12,wrong1,True,False,True,True,2363,False,"sayı: $88 - 1 = 87$.  **Sonuç** Aralık içindeki sayılar: $2, 4, 6, 9, 12, ..., 1936, 1980$. Toplam adet: 87.  \boxed{87}"
+aime-13,wrong1,True,True,True,True,1429,False,"m = 22/5 = 4.4$ (tam sayı değil).      Sonuç olarak, $x$'in %15'i alabileceği en küçük tam sayı değeri 5'tir.  \boxed{5}"
+aime-14,wrong1,True,True,True,True,3471,False,natif kontrol: $8^3 = 512$ $512 \times 10 = 5120$ $512 \times 3 = 1536$ $5120 + 1536 = 6656$.  Sonuç 6656.  \boxed{6656}
+aime-15,wrong1,True,False,False,False,4096,True,olması gerekir. Yoksa problem çözülemez (çünkü $D \in AB$ ise alan 0'dır).  Çözüm adımları: 1.  Problemde $D$ noktasının
+aime-16,wrong1,True,False,True,True,1255,False,sıraları ayırt ettik.  Formül: $4! \times 4! \times 2^4 = 24 \times 24 \times 16 = 9216$.  Sonuç 9216'dır.  \boxed{9216}
+aime-17,wrong1,True,False,False,False,4096,True,"ları değil.  $A$ noktasından geçen doğru $AC$ teğet, $AB$ doğrusu ise kiriş üzerindedir. $A$ noktasından geçen kiriş $AE"
+aime-18,wrong1,True,True,True,True,910,False,dir.  Soruda kaç tede gerçel sayı ikilisi olduğu sorulmaktadır. Bulduğumuz tek çözüm olduğu için cevap 1'dir.  \boxed{1}
+aime-19,wrong1,True,False,False,False,4096,True,"i** gerektiğini ima eder mi? Hayır, toplam değişmiyor.  Şunu deneyelim: $n$ farklı değerleri arayacağız. Hedef: $(36, 21"
+aime-20,wrong1,True,True,True,True,1576,False,"ayı ikilileri şunlardır: 1. $(33, 34)$ 2. $(10, 12)$ 3. $(5, 8)$ 4. $(1, 6)$  Toplamda 4 farklı ikili vardır.  \boxed{4}"
+aime-21,wrong1,True,False,True,True,2264,False,vindeki toplam soru sayısı **25** olmalıdır. Bu durumda alabileceği farklı değer sayısı **1**'dir.  Cevap: 1.  \boxed{1}
+aime-22,wrong1,True,False,False,False,3,False,42
+aime-23,wrong1,True,False,False,False,4096,True,5+6+7+8+9 = 42$. Doğru. 1-216 toplamı: $1965 + 42 = 2007$. Doğru.  217: $2+1+7=10$. 1-217 toplamı: 2017.  Soruda verilen
+aime-24,wrong1,True,False,False,False,4096,True,4$  Toplam: $$1 + 12 + 21 + 30 + 40 + 104$$  Adım adım toplama: $1 + 12 = 13$ $13 + 21 = 34$ $34 + 30 = 64$ $64 + 40 = 1
+aime-25,wrong1,True,False,False,False,4096,True, Toplam Puan $S = 2k + 3m = 13$.         *   $2k + 3m = 13$ ve $k+m=6$.         *   $2(6-m) + 3m = 13 \Rightarrow 12 - 2
+aime-26,wrong1,True,True,True,True,2065,False,6 \cdot \frac{2}{3}}$. $10 = 5 \cdot \sqrt{4}$. $10 = 5 \cdot 2 = 10$. Doğru.  Sonuç olarak $|BC| = 10$'dur.  \boxed{10}
+aime-27,wrong1,True,False,False,False,4096,True,"ı 3 olsun ve bunların toplamı sayıya eşit olsun."" Bu tam olarak $n=6$ durumunu verir.  Başka tam sayılar var mı? 28 için"
+aime-28,wrong1,True,True,True,True,1701,False,"ur. Dolayısıyla ""alabileceği değerler"" kümesi $\{2, 3.5\}$'tir. Çarpım tek bir çarpım işlemidir.  Sonuç: $7$.  \boxed{7}"
+aime-29,wrong1,True,True,True,True,1074,False," her iki miktar da 2 katı, 3 katı olacak ve fark da artacaktır. Bu nedenle en az fark $m=1$ durumuna aittir.  \boxed{53}"
+aime-30,wrong1,True,True,True,True,701,False,asamak $B$ olduğuna göre $B = 9$.  Soruda $A + B$ toplamının bulunması istenmektedir: $$A + B = 6 + 9 = 15$$  \boxed{15}
+aime-31,wrong1,True,False,False,False,4096,True, var. $p_{13}$ sadece 1 ve 3'te var. $p_{23}$ sadece 2 ve 3'te var. $p_{14}$ sadece 1'de var. $p_{24}$ sadece 2'de var. 
+aime-32,wrong1,True,True,True,True,3205,False,"r tam sayı. $20$ modülünde $0, 1, ..., 19$ vardır. $k=3$ için listedeki tüm sayılar üretildi. Cevap 3 olmalı.  \boxed{3}"
+aime-33,wrong1,True,True,True,True,1666,False,"n ne kadar fazladır?"" Bulduğumuz değerler: Kırmızı ($R$) = 90 Beyaz ($B$) = 57  Fark: $R - B = 90 - 57 = 33$  \boxed{33}"
+aime-34,wrong1,True,False,False,False,4096,True,"az 2 komşusu aynı renkte). Eğer 101 farklı renk kullanmak istiyorsak, bu renklere ait karelerin toplam sayısı 10000. Anc"
+aime-35,wrong1,True,True,True,True,813,False,": $0$ ve $-1$. Toplam: $0 + (-1) = -1$.  Sonuç olarak, denklemin sağlayan gerçek sayıların toplamı $-1$'dir.  \boxed{-1}"
+aime-36,wrong1,True,True,True,True,2133,False,"z 2"" kuralı uygulanamazsa, ""en az 0 (çift)"" kuralı geçerlidir ve çözüm $\binom{22}{4}$ olur.  Cevap: 7315.  \boxed{7315}"
+aime-37,wrong1,True,True,True,True,1044,False,} = \frac{AB \times h}{2} $$ $$ \text{Alan} = \frac{12 \times 8}{2} $$ $$ \text{Alan} = \frac{96}{2} = 48 $$  \boxed{48}
+aime-38,wrong1,True,True,True,True,1834,False,ündüğü sayılar 15 ve 30'dur.  **5. Sonuç Sayısını Hesaplama** Tam bölünen sayılar: - 15 - 30  Toplam sayı: 2.  \boxed{2}
+aime-39,wrong1,True,True,True,True,4086,False,"çünkü eğer $2016$'yı bölselerdi, $2016$'nın böleni olurlardı ve yukarıda çıkarılmışlardı).  Sonuç 47 olmalı.  \boxed{47}"
+aime-40,wrong1,True,True,True,True,3310,False,25}{6} = 9 \cdot 13 \cdot 25 = 2925$. $4 \times 2925 = 11700$. $23426 - 11700 = 11726$.  Cevap 11726'dır.  \boxed{11726}
+aime-41,wrong1,True,False,False,False,4096,True,"* Sayılar: 101, 103, ..., 999. Sayı adedi: $(999-101)/2 + 1 = 450$. Her sayı 3 basamaklı. Toplam rakam: $450 \times 3 = "
+aime-42,wrong1,True,False,False,False,4096,True,ç var (256). **2256** 256 (56) -> 56 başlangıç yok. 289 (89) -> 89 başlangıç yok. 324 (24) -> 24 başlangıç yok. 361 (61)
+aime-43,wrong1,True,True,True,True,997,False, 1$ olur. Alternatif olarak yukarıda bulduğumuz $-x^2 + x = 1$ doğrudan yerine konulabilir: $$E = 1 + 1 = 2$$  \boxed{2}
+aime-44,wrong1,True,False,True,True,1418,False,yor. Saat eksikliği burada $99.5 - 36 = 63.5$ dk. Toplam eksiklik: $258.5 + 63.5 = 322$ dk.  Sonuç 322'dir.  \boxed{322}
+aime-45,wrong1,True,True,True,True,2579,False,"2, 8 -> 5, 1, 7 (1 asal değil) - Dörtlü:   - En küçükler bile 576 eder.  Sonuç olarak tam 4 sayı bulunmuştur.  \boxed{4}"
+aime-46,wrong1,True,False,True,True,1253,False, matematik problem kuralları gereği en basit tam sayı çözümü ($k=1$) tercih edilir.  Ali'nin yaşı 5 olabilir.  \boxed{5}
+aime-47,wrong1,True,False,False,False,4096,True,"$n=23$ ise bu doğru çap değildir. Aslında bu problemde $n=23$ bir tuzağı olabilir. Doğru cevap genellikle bu tür ""garip"""
+aime-48,wrong1,True,True,True,True,3012,False,ildir. Dolayısıyla $n=10$ olduğunda koşulu sağlayan bir çift kesinlikle vardır.  En küçük $n$ değeri 10'dur.  \boxed{10}
+aime-49,wrong1,True,False,True,True,1595,False,ısının 51'e tam bölünmesini gerektiriyor. En küçük pozitif tam sayı 51'dir.  Rakamları toplamı = $5 + 1 = 6$.  \boxed{6}
+aime-50,wrong1,True,True,True,True,785,False,. Toplam taş sayısı = Beyaz taşlar + Siyah taşlar Toplam taş sayısı = $w + 1$ Toplam taş sayısı = $8 + 1 = 9$  \boxed{9}
+aime-51,wrong1,True,True,True,True,2269,False," \Rightarrow 12 \times 3 = 36$. $|ED| = 4, |EG| = 3 + 6 = 9 \Rightarrow 4 \times 9 = 36$. Eşitlik sağlanıyor.  \boxed{3}"
+aime-52,wrong1,True,False,False,False,3,False,42
+aime-53,wrong1,True,False,False,False,4096,True,"-> 6. Birler basamağı: 0,1,2,3,4,5 -> 15. Toplam iki basamaklı kısım: 21. Genel toplam: 45+21 = 66. BA yazılımı: $A=1, B"
+aime-54,wrong1,True,True,True,True,679,False,n}} = \frac{0.8T}{0.2T} $$   $T$'ler birbirini götürür:   $$ \frac{0.8}{0.2} = 4 $$  Sonuç olarak oran 4'tür.  \boxed{4}
+aime-55,wrong1,True,True,True,True,1117,False,ak: $2^{13} + 2^{12} = 2^{12} \times (2 + 1) = 2^{12} \times 3$ $4096 \times 3 = 12288$  Sonuç 12288'dir.  \boxed{12288}
+aime-56,wrong1,True,True,True,True,3743,False,$n=5$) - 13: Şanslı ($n=3$) - 17: Şanslı ($n=1$ veya $n=8$) - 19: Şanslı Değil  Toplam şanslı sayı sayısı: 4.  \boxed{4}
+aime-57,wrong1,True,False,False,False,4096,True,"ulması: 5 farklı grup seçilir, her birinden 2şer top alınırsa 10 top oluşur.     Bu, seçilen 5 grubun her birinde en az "
+aime-58,wrong1,True,False,False,False,4096,True,"4$ konumunda değil.  Silinen rakam $p=3$ ($10^3$ basamağı): $n = 1 a b c d$. Silinen $b$ olsun ($10^2$ basamağı, $p=2$)."
+aime-59,wrong1,True,False,False,False,4096,True,"-6 + 3 = -3\). Evet, bu doğru. \((2m+3n)(2m^2 + m - 3n) = 4m^3 + 2m^2n - 6mn^2 + 6m^2n + mn^2 - 9n^3\) \(4m^3 + (2+6)m^2"
+aime-60,wrong1,True,True,True,True,726,False,lu sağlandığında tutarlıdır.  Soruda $a - c$ değeri istenmektedir. Hesapladığımız sonuca göre bu değer 1'dir.  \boxed{1}
+aime-61,wrong1,True,False,False,False,4096,True,"c{3}{5} = \frac{4}{5} = 0.8$. $E = (0.6, 0.8)$. Bu nokta $C(0,2)$ ve $D(0.8, 0.4)$ arasında mı? $x$: $0 < 0.6 < 0.8$. Ev"
+aime-62,wrong1,True,True,True,True,1034,False,"x+y = -2$  $x+y$ toplamının alabileceği farklı değerler: $\{0, 2, -2\}$. Bu kümede **3** farklı değer vardır.  \boxed{3}"
+aime-63,wrong1,True,False,False,False,4096,True,"enin toplamı 3, 12, 21, ... olmalı.    - Çıkarılan küme toplamı 3 olmalı (çünkü en küçük çıkarılabilir toplam 1, 3, 5..."
+aime-64,wrong1,True,True,True,True,3069,False,"olmasak bile (iki çözümün de geçerli olduğu teyit edildi), cevap aynı çıkar.  Sonuç olarak: $x + 2y + 3z = 8$  \boxed{8}"
+aime-65,wrong1,True,True,True,True,2273,False,bir bölüşüm noktası oluşturması beklenir.  Hesaplamalar doğrultusunda: $|MN| = 1$ $|CN| = 2 \times |MN| = 2$.  \boxed{2}
+aime-66,wrong1,True,False,False,False,4096,True," (0,0)$.         $43$ elemanlı bir blokta $42$ ikili vardır.         Son $0$ ile çemberin başka bir elemanı birleşirse? "
+aime-67,wrong1,True,True,True,True,996,False,ır.  **5. Rakamları Toplama** Bulduğumuz $n = 60$ sayısı için rakamları toplamını hesaplayalım: $$6 + 0 = 6$$  \boxed{6}
+aime-68,wrong1,True,True,True,True,3157,False,"liği sağlayan tam sayı ikilileri: 1. $m = 9, n = 0$ 2. $m = -9, n = 0$  Toplam kaç tane ikili vardır? 2 tane.  \boxed{2}"
+aime-69,wrong1,True,True,True,True,1094,False,ır. Bu durumda $z$ herhangi bir gerçel sayı olabilir ve ona göre $x$ ve $y$ belirlenir. Sonsuz çözüm vardır.  \boxed{23}
+aime-70,wrong1,True,False,False,False,4096,True,in karşısındaki kenar $MC$.         $\triangle BDC$'de $\angle BDC$'nin karşısındaki kenar $BC$.         $\triangle AMC$
+aime-71,wrong1,True,False,False,False,4096,True,dehat{ABE}) + s(\widehat{AEB}) = 75^\circ$.     $s(\widehat{ABE}) = 75^\circ - s(\widehat{AEB}) = 75^\circ - s(\widehat{
+aime-72,wrong1,True,True,True,True,2472,False,^2 = 5^2 = 25$ $c^3 = 6^3 = 216$  Toplam: $1 + 25 + 216 = 242$.  Seçenekler arasında 242 bulunmaktadır (c).  \boxed{242}
+aime-73,wrong1,True,True,True,True,1774,False,"ama:** Masa üzerindeki kutu sayısının alabileceği farklı değerler: 21, 22, 23. Toplam farklı değer sayısı: 3.  \boxed{3}"
+aime-74,wrong1,True,False,False,False,4096,True,"n büyük 6 toplamı 39. $n=26$ için $153/26 \approx 5.88$. 1 kişi 6, 25 kişi 5? $153 = 26 \times 5 + 23$. Yani 23 kişi 6, "
+aime-75,wrong1,True,True,True,True,2072,False," toplam listesini oluşturur.          Bulunan sayılar: $10, 18, 20, 28, 30$.     En küçük sayı $a = 10$'dur.  \boxed{10}"
+aime-76,wrong1,True,True,True,True,1726,False,"  $y=11$ için $N = 95$.     $N < 111$ koşulu sağlanıyor.      Sonuç olarak, $N$ sayısı en fazla 95 olabilir.  \boxed{95}"
+aime-77,wrong1,True,False,False,False,4096,True, 3/9 = 1/3$. $k=7 \Rightarrow 140/9 = 15 + 5/9 \Rightarrow 5/9$. $k=8 \Rightarrow 160/9 = 17 + 7/9 \Rightarrow 7/9$. $k=
+aime-78,wrong1,True,True,True,True,837,False, $x + y$ toplamının alabileceği değerler: 1. $x + y = 1$ 2. $x + y = -2$  Toplamda **2** farklı değer vardır.  \boxed{2}
+aime-79,wrong1,True,True,True,True,1228,False,4) = 5 \times 4 \times 3 \times 2 = 120$. Toplam: $5 \times 120 = 600$.  Sonuç her iki yöntemle de aynıdır.  \boxed{600}
+aime-80,wrong1,True,True,True,True,3470,False,için en az 23 top gerekir. 7 renk olduğu için toplam en az $23 \times 7 = 161$ top gerekir.  Cevap 161'dir.  \boxed{161}
+aime-81,wrong1,True,False,False,False,4096,True,"0     1800 ($2^1 \cdot 3^2 \cdot 5^4$ değil, $2^1 \cdot 3^2 \cdot 5^4$ yukarıda 11250 idi. $2^4 \cdot 3^1 \cdot 5^2 = 12"
+aime-82,wrong1,True,True,True,True,1151,False,"fadenin değeri: \[ E_{max} = \frac{22}{2} = 11 \]  Sonuç olarak, ifadenin alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,wrong1,True,True,True,True,1280,False, Tam bölünür.  **Sonuç** $p$ ile tam bölünmesi sağlayan asal sayılar 2 ve 17'dir. Toplamda **2** tane vardır.  \boxed{2}
+aime-84,wrong1,True,True,True,True,942,False,lenen miktar (120) ve son hacim (600) ile sonuçlar uyumlu.  Başlangıçtaki portakal suyu hacmi 384 birimdir.  \boxed{384}
+aime-85,wrong1,True,False,False,False,4096,True,5 \times 3 = 95$.     *   $1 \times 50 + 15 \times 2 + 1 = 81$.     *   $1 \times 50 + 15 + 1 \times 2 = 67$.     *   $1
+aime-86,wrong1,True,False,False,False,4096,True,\overline{CD} \le 99$.     $\frac{100\overline{AB}}{k\overline{AB}-1} \le 99$.     $100\overline{AB} \le 99k\overline{AB
+aime-87,wrong1,True,False,False,False,4096,True,"\in S \implies 2x \notin S \land 3x \notin S$. Bu kısıtlamayı nasıl sağlayabiliriz? Sayıları ""katmanlar"" halinde düşünel"
+aime-88,wrong1,True,True,True,True,1641,False,"öktür. Gerçel kök var.  Hiçbir durum dışlanmış değil, hepsi geçerli.  Bulunan $a$ değerlerinin toplamı 2'dir.  \boxed{2}"
+aime-89,wrong1,True,False,False,False,4096,True,"ğer 5 kutunun toplamı 1 azalır. Bu harika bir bilgi! Diğer kutuların toplamı, her birini bir kez seçtiğimizde 1 azalır. "
+aime-90,wrong1,True,False,True,True,3211,False," kapasitelerini aşar.   - Dolayısıyla $x=22$ olamaz.  Sonuç olarak, en fazla 21 öğrenci 7 puan toplayabilir.  \boxed{21}"
+aime-91,wrong1,True,True,True,True,3798,False,AF = 20 - 4 = 16$.  Bu sonuç koordinat yöntemiyle bulduğumuz sonucun (16) ile aynı.  **Sonuç:** $|AF| = 16$.  \boxed{16}
+aime-92,wrong1,True,False,False,False,4096,True,26 kırmızı içerir). $N_M \ge 26B$ (Çünkü her $B$ sütunu en az 26 mavi içerir).  Burada bir sorun var mı? $N_R + N_M = 25
+aime-93,wrong1,True,False,False,False,4096,True,"1 \times 3 \times 3 \times 1 = 9 \equiv 1\). Üçlü: (1, 1) -> OK. 3. \(X=7 (\equiv 3)\). \(Y = M/7 = 5^2 \times 31 \times"
+aime-94,wrong1,True,False,False,False,4096,True,"taraf: Her ikili için gereken tekrar sayısı. $n=45, k=15, m=12$ için: Sol: $15 \cdot 12 \cdot 11 = 1980$. Sağ: $45 \cdot"
+aime-95,wrong1,True,False,False,False,4096,True,yüzden $count(m) > 2$ ve $count(p) > 2$ olan bir ikiliden **hiç** öğrenci gelemez.         Çünki eğer 1 öğrenci gelseydi
+aime-96,wrong1,True,False,False,False,4096,True,ı içeren yeni asal çarpanlar olsun). $B = 129601$. $129601$ asal mı? $\sqrt{129601} \approx 360$. Bunu test etmek zordur
+aime-97,wrong1,True,False,False,False,4096,True,"rı kapsıyor.     $T_1$ tablosu $h_1, h_2, ..., h_k$ hariç bırakılanların bir kısmını içerir mi?     Her renk bir tabloyu"
+aime-98,wrong1,True,False,False,False,4096,True,l = 2$. $\lceil x_i^2 \rceil = \lceil 3.96 \rceil = 4$. $\lceil x_i x_j \rceil = 4$. $S = 2 \cdot 465 \cdot 4 - 29 \cdot
+aime-99,wrong1,True,False,False,False,4096,True," Satır 2: Her 3. kareye beyaz koy. (1, 4, 7...) -> (1,1) Kırmızı, (2,1) Beyaz. OK. (1,1) ve (2,2)? (2,2) beyaz değil. Bu"
+aime-00,wrong2,True,True,True,True,1396,False, \ge 2$ koşulu altında 2 adet çözüm vardır: $n=2$ ve $n=8$.  Cevap olarak bu çözüm sayısını yazmamız gerekir.  \boxed{2}
+aime-01,wrong2,True,True,True,True,1121,False,ght) + \frac{9^8}{10^7}$$  $-\frac{9^8}{10^7}$ ve $+\frac{9^8}{10^7}$ birbirini götürür. Kalan ifade: $$10$$  \boxed{10}
+aime-02,wrong2,True,True,True,True,3169,False,. $9 \times 6 = 54 \ge 52$. Yani $X$ kısmı 6 basamaklı. $n$ toplam basamak sayısı = $6 + 6 = 12$.  Sonuç 12.  \boxed{12}
+aime-03,wrong2,True,False,False,False,4096,True,- 2|AB||AC|\cos A = 16$. $|BD|^2 = |AB|^2 + |AD|^2 - 2|AB||AD|\cos A = 36$. $2|AB||AC|\cos A = x^2 + |AC|^2 - 16$. $2|AB
+aime-04,wrong2,True,True,True,True,3658,False,$n=2010$'dan küçük olanlar: $1..9$: 9 adet. $19..99$: 9 adet. $199..999$: 9 adet. $1999$: 1 adet. Toplam 28.  \boxed{28}
+aime-05,wrong2,True,True,True,True,654,False,* olduğu belirtilmiştir.     $7.5$ ile $8.75$ arasında olan tek tam sayı **8**'dir.  Bu durumda $n = 8$ olur.  \boxed{8}
+aime-06,wrong2,True,False,False,False,4096,True,i $C=3$ için $A \ge 7$ şartı $2A+E=9$ ile çelişiyor. $C=4$ için $A \ge 9$. $2A+E = 2$. $A=9 \Rightarrow 18+E=2$ imkansız
+aime-07,wrong2,True,True,True,True,438,False,"2 \text{ gün} $$     Bu, 700 günlük ihtiyacı karşılar.  Sonuç olarak, en az 117 bisiklet bulunması gerekir.  \boxed{117}"
+aime-08,wrong2,True,True,True,True,1124,False,".  $(1, 14)$     2.  $(2, 13)$     3.  $(4, 11)$     4.  $(7, 8)$      Toplamda 4 farklı ikili bulunmaktadır.  \boxed{4}"
+aime-09,wrong2,True,True,True,True,1054,False, \times 3 \times 3 = 18$  Şimdi tüm geçerli durumların sayılarını toplayalım: Toplam = $0 + 1 + 1 + 18 = 20$  \boxed{20}
+aime-10,wrong2,True,False,False,False,4096,True,k için 4 vermek lazım. $4/4=1$.    24'ü 16 yapmak için 8 vermek lazım. $8/4=2$.    19'u 15 yapmak için 4 vermek lazım. $
+aime-11,wrong2,True,False,False,False,4096,True,"şeleri de dengelemeliyiz. Bu bir lineer denklem sistemi kurma problemi. $D_1 > 0, D_2 > 0, D_3 > 0, D_4 > 0, D_5 > 0, D_"
+aime-12,wrong2,True,False,True,True,2006,False,çin her biri 3 sayı verir. ($42 \times 3 = 126$) $k = 44$ için 2 sayı verir. ($2$) Toplam: $126 + 2 = 128$.  \boxed{128}
+aime-13,wrong2,True,True,True,True,812,False,"rac{100}{3} = 22$ (Tam sayı, koşul sağlanıyor).      $x$'in %15'i olan bu değer en küçük tam sayı olan 5'tir.  \boxed{5}"
+aime-14,wrong2,True,True,True,True,1232,False,8$$ $$Toplam = 13 \times 512$$  Hesaplama: $13 \times 500 = 6500$ $13 \times 12 = 156$ $6500 + 156 = 6656$  \boxed{6656}
+aime-15,wrong2,True,False,False,False,4096,True,"3.  İki üçgenin tabanı $AB$.     4.  Alan eşitliği $\implies$ Yükseklik eşitliği.     5.  $D$ ve $C$ noktası, $AB$ doğru"
+aime-16,wrong2,True,True,True,True,1235,False," kılar.  Sonuç olarak, her sırada aynı renkte tişört olmalıdır. Hesaplama: $6 \times 24 \times 24 = 3456$.  \boxed{3456}"
+aime-17,wrong2,True,False,False,False,4096,True,B| = \frac{4}{3}x$. O zaman $|AB| = |AE| + |EB| = \frac{5}{3}x + \frac{4}{3}x = \frac{9}{3}x = 3x$. Kontrol: $|AB| \cdot
+aime-18,wrong2,True,True,True,True,1388,False," Dolayısıyla bu denklemi sağlayan tek bir $(x, y)$ ikilisi vardır.  Sonuç olarak, çözüm ikilisi sayısı 1'dir.  \boxed{1}"
+aime-19,wrong2,True,False,False,False,4096,True,"var.     Başlangıç: $(3, 3, \dots, 3)$.     Bir öğrenci $n-1 = 18$ öğrenciye eşit dağıtır.     Başlangıçta 3 şeker var. "
+aime-20,wrong2,True,True,True,True,1661,False,"lileri şunlardır: 1. $(33, 34)$ 2. $(10, 12)$ 3. $(5, 8)$ 4. $(1, 6)$  Toplamda 4 farklı ikili bulunmaktadır.  \boxed{4}"
+aime-21,wrong2,True,False,False,False,4096,True,"çözülen sayıların toplam sayıya oranı değil, **çözülen sayıların birbirine oranı** ile **toplam sayıların birbirine oran"
+aime-22,wrong2,True,False,True,True,1246,False,"azla sayı yazılamaz.  Sonuç olarak, tahtayı tamamen 2'şerli alanlara böldüğümüzde maksimum sayıya ulaşılır.  \boxed{162}"
+aime-23,wrong2,True,False,False,False,4096,True,ğru.     1965+42=2007. Doğru.          217: 10.     2007+10=2017.          2013 sayısı bu dizide yok.          **Düşünce
+aime-24,wrong2,True,False,True,True,2478,False,+ 2 + 3 + 12 + 21 + 30$$ $$1 + 2 + 3 = 6$$ $$6 + 12 = 18$$ $$18 + 21 = 39$$ $$39 + 30 = 69$$  Toplam 69'dur.  \boxed{69}
+aime-25,wrong2,True,False,False,False,4096,True,adır. Neden?         *   Toplam puanlar çok sıkı kısıtlanır.         *   Let's check $n=8$.      **Vaka 6: $n=8$**     *
+aime-26,wrong2,True,False,False,False,4096,True,qrt{150} \approx 12.25$. Eşit değil.  Eğer $a=12$ olsaydı: $t_c = \frac{2 \cdot 12 \cdot 30 \cdot \frac{\sqrt{2}}{2}}{42
+aime-27,wrong2,True,False,False,False,4096,True,a $d_2=2$. O zaman $1 + 2 + d_3 = n$. $d_3$ de $n$'nin bir böleni ve $2 < d_3 < n$. $n = 3 + d_3$. $d_3$ sayısı $3+d_3$'
+aime-28,wrong2,True,True,True,True,2548,False," = 7$.  Sonuç olarak, $x^3 + y^3$ ifadesinin alabileceği değerler $2$ ve $3.5$'tir. Bunların çarpımı $7$'dir.  \boxed{7}"
+aime-29,wrong2,True,True,True,True,908,False,tlik sağlanıyor.)  Bu durumda fark 53'tür. $k$ arttıkça fark da artacaktır. Dolayısıyla minimum fark 53'tür.  \boxed{53}
+aime-30,wrong2,True,True,True,True,1466,False,stenilen Değeri Bulma:**     Soru $A + B$ değerini soruyor.     $A = 6$     $B = 9$     $A + B = 6 + 9 = 15$  \boxed{15}
+aime-31,wrong2,True,False,False,False,4096,True,"emanı ($x$) kapsayabilir. Diğer çarpanlardan biri, 2015'e ek olarak başka bir elemanı ($y$) kapsayabilir. Üçüncü çarpan,"
+aime-32,wrong2,True,False,False,False,4096,True,16=18$   $4+4=8$   $4+8=12$   $4+12=16$   $4+16=0$   $8+8=16$   $8+12=0$   $8+16=4$   $12+12=4$   $12+16=8$   $16+16=12$
+aime-33,wrong2,True,True,True,True,2170,False,plam = $90 + 57 + 35 (Mavi) + 28 (Yeşil) = 210$. Doğru. Koşul: Yeşil (28) < Mavi (35). Doğru.  Cevap 33'tür.  \boxed{33}
+aime-34,wrong2,True,False,False,False,4096,True,"bir renktir.       Aslında bu tip problemlerde, köşe karesinin şartı çok belirleyicidir.       Köşe karesi $v$. $N(v)=\{"
+aime-35,wrong2,True,True,True,True,1253,False,lerin toplamı formülü: $-\frac{b}{a} = -\frac{4}{4} = -1$.  Her iki yöntemle de sonuç -1 olarak çıkmaktadır.  \boxed{-1}
+aime-36,wrong2,True,True,True,True,2127,False,7315$  Alternatif kontrol: $22 \times 21 \times 20 \times 19 = 175560$ $175560 / 24 = 7315$.  Sonuç doğru.  \boxed{7315}
+aime-37,wrong2,True,False,False,False,4096,True,sqrt{100-r^2} = 136 + r^2$ $12\sqrt{100-r^2} = 2r^2$ $6\sqrt{100-r^2} = r^2$ $36(100-r^2) = r^4$ $r^4 + 36r^2 - 3600 = 0
+aime-38,wrong2,True,True,True,True,3546,False, \implies S_5 \equiv 0 \pmod{30}$. Doğru. Diğerleri için karşıt örnekler (1020 sayısı) bulundu.  Cevap 2'dir.  \boxed{2}
+aime-39,wrong2,True,True,True,True,3413,False,'dan küçüktür. Bu sayılar $2016^2$'yi de bölerler. - $2016$'ya bölünmeyenler: $82 - 35 = 47$.  Cevap 47'dir.  \boxed{47}
+aime-40,wrong2,True,True,True,True,2606,False,ımsız olarak 4 türün dağılımı yapıldığında ve toplam 50 kuralının sağlandığı durumların sayısı 11726'dır.  \boxed{11726}
+aime-41,wrong2,True,False,True,True,1744,False,"$89$ dizisinde. $89$ dizisi: $8, 9, 8, 9 \dots$ Tek indisler $\to 8$, Çift indisler $\to 9$. 81 tek. Cevap 8.  \boxed{8}"
+aime-42,wrong2,True,False,False,False,4096,True,"m kareler: 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400.     Her biri için $D = 1440 - y^2$ alalım:     - $y^2="
+aime-43,wrong2,True,False,True,True,1137,False,0'dır.  Detaylı kontrol: $x^2 - x + 1 = 0 \implies -x^2 + x + 1 = 0$.  Elde edilen sonuç: $$x - x^2 + 1 = 0$$  \boxed{0}
+aime-44,wrong2,True,True,True,True,4090,False,rçek zaman - 13 dk = 15:09 - 00:13 = 14:56. Soruda verilen ev saati 14:56. Tam olarak uyuyor.  Cevap 13'tür.  \boxed{13}
+aime-45,wrong2,True,True,True,True,2921,False," şekilde (kare-dışı olmama) çıktı.  **Sonuç** Toplamda 4 farklı pozitif tam sayı bulunmuştur: 42, 62, 69, 77.  \boxed{4}"
+aime-46,wrong2,True,False,True,True,1536,False,"enekler olsaydı (örneğin A) 4, B) 5, C) 6, D) 7), cevap 5 olurdu.  Mantıksal olarak en küçük olası yaş 5'tir.  \boxed{5}"
+aime-47,wrong2,True,False,True,True,3561,False,a $29 = 2n$. $29=2n \Rightarrow n=14.5$ (tam sayı değil). $n=29$. $n \ge 23$ koşulu sağlanır.  Cevap 29'dur.  \boxed{29}
+aime-48,wrong2,True,True,True,True,2869,False,"      Dolayısıyla 10 elemanla şart sağlanır.  Sonuç olarak, şartı sağlayabilecek en küçük $n$ değeri 10'dur.  \boxed{10}"
+aime-49,wrong2,True,True,True,True,833,False,bölündü).  Bulduğumuz en küçük sayı 165'tir. Soruda bu sayının rakamları toplamı isteniyor: $1 + 6 + 5 = 12$  \boxed{12}
+aime-50,wrong2,True,True,True,True,1229,False,"+ 36) - (w + 4) = 32$.     *   Soruda ""32 fazla"" deniyordu. Uyum sağlanıyor.  Masada toplam taş sayısı 9'dur.  \boxed{9}"
+aime-51,wrong2,True,True,True,True,1367,False,$ *   Sağ taraf: $4 \times (3 + 6) = 4 \times 9 = 36$ *   Değerler eşit.  Sonuç olarak $|EF|$ uzunluğu 3'tür.  \boxed{3}
+aime-52,wrong2,True,False,False,False,4096,True,"ktir. Bu her zaman doğrudur (komşu sayısı max 8). Yani $k=8$ için her zaman sağlanır.     Ama soru ""en büyük değer"" diye"
+aime-53,wrong2,True,False,False,False,4096,True,= 10B + A$ eşitliğini kontrol edelim. $A=1$ ise $S_n$'in birler basamağı $1$ olmalı ve onluk basamağı $B$ olmalı. Yani $
+aime-54,wrong2,True,True,True,True,706,False,text{Çıkarılan Toplar}} = \frac{0.8T}{0.2T}$$          $T$'ler birbirini götürür:     $$\frac{0.8}{0.2} = 4$$  \boxed{4}
+aime-55,wrong2,True,True,True,True,1244,False,es (2 + 1) = 2^{12} \times 3$ $4096 \times 3 = 12288$  **Sonuç** Toplam 12288 farklı şekilde yazılabilir.  \boxed{12288}
+aime-56,wrong2,True,True,True,True,2668,False," Şanslı (n=6) - 17: Şanslı (n=1) - 19: Şanslı değil  Şanslı olan sayıların sayısı: 4 tanedir (7, 11, 13, 17).  \boxed{4}"
+aime-57,wrong2,True,False,False,False,4096,True,"8 top var, 10'sunu seçip dağıtabiliriz). Bu durumda aynı renk sayısı 2 olur. Koşul sağlanmaz. Yani, $\sum \min(n_i, 2) <"
+aime-58,wrong2,True,False,False,False,4096,True,/ 11 = 25638.27...$ $282021 - 8 = 282013$. $282013 / 11 = 25637.54...$ $282021 - 9 = 282012$. $282012 / 11 = 25637.45...
+aime-59,wrong2,True,False,False,False,4096,True," kontrolü: $(2m+3n)^2(m-n) = 28$ $m=17, n=-11$ için: $2m+3n = 2(17) + 3(-11) = 34 - 33 = 1$. Kare fazlası 1. $m-n = 17 -"
+aime-60,wrong2,True,True,True,True,702,False,+ b + c = 0$$ $$1 - a + c = 0 \implies a - c = 1$$ Sonuç aynı çıkmaktadır.  Soruda istenen değer $a - c$'dir.  \boxed{1}
+aime-61,wrong2,True,False,False,False,4096,True,ası $AD$ parçasının solunda mı? Hayır. $C$ noktası $y$ ekseni. $D$ noktası $x>0$. $CD$ doğru $x$ arttıkça $y$ azalır. $A
+aime-62,wrong2,True,True,True,True,1166,False,farklıdır: 1.  $0$ 2.  $2$ 3.  $-2$  Dolayısıyla $x+y$ toplamının alabileceği farklı değerlerin sayısı 3'tür.  \boxed{3}
+aime-63,wrong2,True,False,False,False,4096,True,0 + 3 + 5 + 1 + 3 + 5 + 1 = 18$. $18 \equiv 0$. O zaman neden $228 \equiv 3$? $228 = 25 \times 9 + 3$. Çelişki var. Hadi
+aime-64,wrong2,True,False,False,False,4096,True,"5$. $3z+2x = 3(2.5) + 2(-0.5) = 7.5 - 1 = 6.5$. Vay be, hesap makinesiyle tekrar kontrol edelim. $3 \times 2.5 = 7.5$. $"
+aime-65,wrong2,True,False,False,False,4096,True,"ni $A$ ile $F$ arasında.    $EF$ doğrusu, $A$'yı $BC$'den ayırır. $K$ ve $L$ noktaları $A$ ile $EF$ arasında mı?    $|AK"
+aime-66,wrong2,True,False,False,False,4096,True, o fazladan 1 hiçbir sayı ile 7'ye bölünecek şekilde eşleşemez. Benzer şekilde o fazladan 2 de hiçbir sayı ile eşleşemez
+aime-67,wrong2,True,True,True,True,927,False,saplanması** Bulduğumuz $n$ sayısı 60'dır. 60 sayısının rakamları 6 ve 0'dır. Rakamları toplamı: $6 + 0 = 6$.  \boxed{6}
+aime-68,wrong2,True,True,True,True,2923,False," 0$ için $25^n$ kesirli olur, $m^4$ tam sayı olduğu için denklem sağlanamaz.  Toplam çözüm ikilisi sayısı: 2.  \boxed{2}"
+aime-69,wrong2,True,True,True,True,681,False,"st bir parametre olabilir, $y = -7z$ ve $x = 1 + 12z$ şeklinde sonsuz sayıda $(x, y, z)$ üçlüsü elde edilir.  \boxed{23}"
+aime-70,wrong2,True,False,False,False,4096,True," kenarortay $BC$'ye paralel değil, $BC$'yi kesiyor. $B$ köşesinden çıkan dış açortay $AC$'nin uzantısını kesiyor. Parale"
+aime-71,wrong2,True,False,False,False,4096,True,"E noktası"". Genelde $A-E-D$ sıralaması varsayılır. $AE=3$ verildi. Eğer $E$, $D$'nin ötesinde olsaydı ($A-D-E$), o zaman"
+aime-72,wrong2,True,True,True,True,3431,False, \] \[ 1 + 25 + 216 \] \[ 26 + 216 = 242 \]  Bu sonuç seçenekler arasında **c) 242** olarak yer almaktadır.  \boxed{242}
+aime-73,wrong2,True,False,True,True,2029,False,", yani $|A \cap B| = 3$. $|A \cup B| = 10 + 7 - 3 = 14$.  Sonuç olarak, $n$ sayısı 14 farklı değer alabilir.  \boxed{14}"
+aime-74,wrong2,True,False,False,False,4096,True,"ağılımda herhangi 6 öğrenciye verilen toplam: - En büyük 6'lı: 3 tane 7, 3 tane 6 -> 39. - Diğer 6'lılar daha az olur (ç"
+aime-75,wrong2,True,True,True,True,3472,False,". Bu, soruda verilen kümeyle birebir örtüşüyor.  Tahtadaki sayılar: $10, 18, 20, 28, 30$. En küçük sayı: 10.  \boxed{10}"
+aime-76,wrong2,True,True,True,True,1275,False," alırsak: $N = 25(5)-5 = 120$, bu $111$'den büyüktür.  Bu nedenle $N$'nin alabileceği en büyük değer 95'tir.  \boxed{95}"
+aime-77,wrong2,True,True,True,True,1617,False,"rklı kalıntı vardır.      Dolayısıyla, pist üzerinde iki koşucunun aynı anda bulunduğu 9 farklı nokta vardır.  \boxed{9}"
+aime-78,wrong2,True,True,True,True,1100,False,iki değer birbirinden farklıdır. Dolayısıyla $x+y$ toplamının alabileceği farklı değerlerin sayısı **2**'dir.  \boxed{2}
+aime-79,wrong2,True,True,True,True,1628,False,"mes 5$ tahtada 4 bilye, her satır ve sütun için en fazla 1 olacak şekilde yerleştirilebilme sayısı 600'dür.  \boxed{600}"
+aime-80,wrong2,True,False,False,False,4096,True,"22 veya az olması gerekir.     Diyelim ki 7 renkten 6 tanesi 23, 1 tanesi 22 olsun. ($6 \times 23 + 22 = 138 + 22 = 160$"
+aime-81,wrong2,True,True,True,True,3402,False,     Hesaplamayı tekrar kontrol edelim:       11250     -   720     -------       10530  Cevap 10530'dır.  \boxed{10530}
+aime-82,wrong2,True,True,True,True,1070,False,"_{max} = \frac{22}{0 + 0 + 2} = \frac{22}{2} = 11 $$  Sonuç olarak, ifade alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,wrong2,True,True,True,True,1268,False,çalışır.  6.  **Sonuç:**     Koşulu sağlayan asal sayılar $p=2$ ve $p=17$'dir.     Bu sayıların sayısı 2'dir.  \boxed{2}
+aime-84,wrong2,True,True,True,True,876,False, birebir örtüşüyor).  3.  **Sonuç:**     Başlangıçta kavanozda bulunan portakal suyunun hacmi 384 birimdir.  \boxed{384}
+aime-85,wrong2,True,False,False,False,4096,True,$50*5 = 250$.     $50*4 + 15 = 215$.     $50*4 + 1 = 201$.     $50*3 + 15*2 = 180$.     $50*3 + 15 + 1 = 166$.     $50*3
+aime-86,wrong2,True,False,False,False,4096,True,ightarrow 33/32$ (Hayır).  $k=2$ veya $k=1$ gibi daha küçük değerlere bakalım. $k=2$: $\overline{CD} > 50$. $2\overline{
+aime-87,wrong2,True,False,False,False,4096,True,"\dots\}$. $a, b$ ardışık tek sayılar olsun. $a = b+2$. $a-b = 2$. $2 \nmid b$ mi? $b$ tek ise $2$ sayısı $b$'yi bölemez."
+aime-88,wrong2,True,True,True,True,1939,False,"a=0$ durumu da ayrı bir çözümdür. Toplam = $2 + 0 = 2$.  Sonuç olarak, aranan $a$ değerlerinin toplamı 2'dir.  \boxed{2}"
+aime-89,wrong2,True,False,False,False,4096,True," olursa, kalan 5 kutu çok küçük olur. Kalan 5 kutunun toplamı ne kadar küçük olabilir? Diyelim ki 5 kutunun da değeri $k"
+aime-90,wrong2,True,True,True,True,3186,False,"t).          Bu senaryo tamamen tutarlıdır.          Sonuç olarak, $k=15$ mümkündür ve $k > 15$ imkansızdır.  \boxed{15}"
+aime-91,wrong2,True,True,True,True,3033,False,|FA|} = \frac{1}{4}$ bulunur. 6.  $|AF| + |FD| = 20$ ve $|FD| = |AF|/4$ kullanılarak $|AF| = 16$ hesaplanır.  \boxed{16}
+aime-92,wrong2,True,False,False,False,4096,True, $N_R - 1250 \le 25K$.     $K \le \frac{N_R - 1250}{25}$.          Bu eşitsizlik sadece $N_R \ge 1250$ olduğunda geçerli
+aime-93,wrong2,True,False,False,False,4096,True,"lmalıdır.     Listeyi tekrar kontrol edelim:     Alt küme çarpımları:     $\emptyset \to 1$. (Geçerli, $\gcd(1, 1995)=1$"
+aime-94,wrong2,True,False,False,False,4096,True,"ı çözüyorsa, bu soru çiftini sadece onlar çözmüş demektir.     $S_1$ ve $S_2$'nin ortakladığı soru sayısı $x$ ise, bu $x"
+aime-95,wrong2,True,False,False,False,4096,True,         $|G_2|$: Fizik sıklığı $\le 2$ olan öğrenciler.     Fizik soruları 11 tane. Her biri en fazla 2 kez seçilebilir
+aime-96,wrong2,True,False,False,False,4096,True,37$ (2 asal). $7^4+4 = 2405 = 5 \cdot 13 \cdot 37$ (3 asal). $9^4+4 = 6565 = 5 \cdot 13 \cdot 101$ (3 asal). $11^4+4 = 1
+aime-97,wrong2,True,False,False,False,4096,True,istematik bir yaklaşım: **Pigeonhole Principle** ile tersini düşünelim. Koşul 1'in sağlanmaması için: En az bir 20'lilik
+aime-98,wrong2,True,False,False,False,4096,True,41 \implies 8$. $S = 31 \cdot 8 = 248$. $x_i = k.9$ için $S = 31 \lfloor (k+0.9)^2 \rfloor \approx 31 (k+0.9)^2$. Hala s
+aime-99,wrong2,True,False,False,False,4096,True,"ine dokunamaz.  O halde bir $2 \times 2$ blojda: 1 Kırmızı ve 1 Beyaz koyarsak, bunlar birbirine dokunur mu? Kareler: A,"
+aime-00,wrong3,True,True,True,True,742,False,"ı yani çözüm kümesinin eleman sayısını arıyoruz.  Çözüm kümesi $\{2, 8\}$ olup içinde 2 eleman bulunmaktadır.  \boxed{2}"
+aime-01,wrong3,True,True,True,True,3174,False,"4+1=10$ (0, 1 borçlu).     Sonuç: $100000000$.      İfade: $\frac{100000000}{10000000} = 10$.  Cevap 10'dur.  \boxed{10}"
+aime-02,wrong3,True,True,True,True,3717,False,samak ($9\times 11 + 6$). Toplam $12+6=18$. Daha büyük. $k=1$ imkansız.  Yani minimum basamak sayısı 12'dir.  \boxed{12}
+aime-03,wrong3,True,False,False,False,4096,True,"ğil, $A-B-C-D$ sırası). O zaman $|AB| = x$, $|BC| = 4 \Rightarrow |AC| = x+4$. $|BD| = 6 \Rightarrow |AD| = x+6$. Teorem"
+aime-04,wrong3,True,True,True,True,3892,False,"29 \implies n=2999 > 2010$. $k$ değerleri $1, 2, \dots, 28$. Her biri farklı bir $n$ üretir. Toplam 28 tane.  \boxed{28}"
+aime-05,wrong3,True,True,True,True,324,False,5 \]  Böylece \(n\) için aralık: \[ 7.5 < n < 8.75 \]  Bu aralık içindeki tek tam sayı (integer) değer 8'dir.  \boxed{8}
+aime-06,wrong3,True,False,False,False,4096,True,$: $10 - 3D \equiv 7 \Rightarrow -3D \equiv -3 \Rightarrow 3D \equiv 3 \Rightarrow D=1$ veya $D=...$.   $D=1$: $10B = 33
+aime-07,wrong3,True,True,True,True,419,False,"yaç duymamız gerekir. Dolayısıyla, sayıyı yukarı yuvarlamalıyız.      Gerekli minimum bisiklet sayısı: 117.  \boxed{117}"
+aime-08,wrong3,True,True,True,True,1140,False," 1.  $(1, 14)$     2.  $(2, 13)$     3.  $(4, 11)$     4.  $(7, 8)$      Toplamda 4 tane ikili bulunmaktadır.  \boxed{4}"
+aime-09,wrong3,True,True,True,True,1219,False,nucu bulalım: Toplam = (Senaryo 1) + (Senaryo 2) + (Senaryo 3) + (Senaryo 4) Toplam = $0 + 1 + 1 + 18 = 20$.  \boxed{20}
+aime-10,wrong3,True,False,False,False,4096,True,"ru ""En az kaç adım"" diye soruyor. Belki ilk adımda $k=8$ seçmek daha iyidir mi? Başlangıç: $5, 10, 15, 20, 25$. 1. Adım:"
+aime-11,wrong3,True,False,False,False,4096,True,yılarda $A < B \implies A \le B-1$. O zaman $3 \sum_{v \in K} x_v \le \sum_{u \in V} x_u c_u - k$. $\sum_{u \in V} x_u (
+aime-12,wrong3,True,True,True,True,3546,False,"oğru.  $n=5, 6, 7, 8, 9$ için $k=2$. $k=2$'ye bölünenler: 6, 8. (2 tane). Doğru.  Sonuç 88 olarak bulunuyor.  \boxed{88}"
+aime-13,wrong3,True,True,True,True,958,False,"Her iki koşul da sağlanıyor. $x$'in %15'i olan $n_1$, $k$ pozitif tam sayı olduğu için en küçük değeri 5'tir.  \boxed{5}"
+aime-14,wrong3,True,True,True,True,1596,False,ı tekrar kontrol edelim: $13 \times 500 = 6500$ $13 \times 12 = 156$ $6500 + 156 = 6656$.  Cevap doğrudur.  \boxed{6656}
+aime-15,wrong3,True,False,True,True,3085,False,rik yapı ($D$ ve $C$'nin yüksekliklerinin eşitliği sonucu çakışması) çözümü sağlar.  Dolayısıyla cevap 3'tür.  \boxed{3}
+aime-16,wrong3,True,False,True,True,1186,False,). 4. Her sıradaki 2 kişinin yerini değiştir ($2^4$). Sonuç yine aynıdır: $24 \times 24 \times 16 = 9216$.  \boxed{9216}
+aime-17,wrong3,True,False,False,False,4096,True,"$D$ noktasında teğet"" demek istemiş ve $D$ çember üzerindedir. Peki $D$ noktasından $AB$ doğrusu çizildiğinde $E$ noktas"
+aime-18,wrong3,True,True,True,True,1869,False," 2(1) - 5 = 8 + 2 - 5 = 5$ $5 = 5$ olduğundan, bu çözüm doğrudur.  Sadece bir $(x, y)$ ikilisi bulunmaktadır.  \boxed{1}"
+aime-19,wrong3,True,False,False,False,4096,True,"bilir, çünkü $x_i$ değerlerini ayarlayabiliriz (başlangıç $k$'yı değiştirerek). Örneğin $n=3$ olsun. Hedef $36, 21, x$. "
+aime-20,wrong3,True,True,True,True,1440,False,$. Hepsi pozitif tam sayıdır. Bu durumda $b$ değerleri de tekil olarak belirlenir. Toplam çözüm sayısı 4'tür.  \boxed{4}
+aime-21,wrong3,True,True,True,True,2791,False,"in böleni.     $450$'nin $\ge 18$ bölenleri: 18, 25, 30, 45, 50, 75, 90, 150, 225, 450.     Toplam 10 değer.  \boxed{10}"
+aime-22,wrong3,True,False,False,False,4096,True,"lar: $(1,1)=1$, $(1,3)=1$. $(2,1)=2$, $(2,2)=1$, $(2,3)=2$. $(1,1)$ karesi $(2,1)$ ve $(1,2)$'ye komşu. $(1,2)=2$, $(2,1"
+aime-23,wrong3,True,True,True,True,1887,False,"fadesi, bu kavramın birleşimi olarak yorumlanmıştır.)*  Sonuç olarak $N=708$ ve rakamlarının toplamı 15'tir.  \boxed{15}"
+aime-24,wrong3,True,False,False,False,4096,True, *   $n^2 = 5041$ (4 basamak).     *   $S(n) = 8$.     *   $4 \neq 8$. Uygun değil.  63. **$n=72$**:     *   $n^2 = 5184
+aime-25,wrong3,True,False,False,False,4096,True,.             *   $6 + (\text{Arası toplam}) = 20$.             *   Arası toplam = 14.             *   Arası maç sayısı 
+aime-26,wrong3,True,False,True,False,2107,False,"a çevirmeyelim, en sade köklü ifade olarak bırakalım. $x = \frac{60\sqrt{3} + 30}{11}$  \boxed{\frac{60\sqrt{3}+30}{11}}"
+aime-27,wrong3,True,False,False,False,4096,True,"2 > 2$ olsaydı, $2$ sayısı bir bölen olurdu ama üçlüde yer almazdı. Soruda ""Farklı üç pozitif tam sayı böleninin toplamı"
+aime-28,wrong3,True,True,True,True,1438,False," değerleri $\{2, 3.5\}$'dir. Soruda ""alabileceği değerlerin çarpımı"" isteniyor. $$Çarpım = 2 \times 3.5 = 7$$  \boxed{7}"
+aime-29,wrong3,True,True,True,True,814,False,"eğer olan $k=1$ değerini seçmeliyiz. $$ D_{min} = 53 \times 1 = 53 $$  Sonuç olarak, fark en az 53 olabilir.  \boxed{53}"
+aime-30,wrong3,True,True,True,True,746,False,der ve her iki sayı da rakamdır (0-9 arası).  Soru bize $A + B$'nin değerini istiyor: $$A + B = 6 + 9 = 15$$  \boxed{15}
+aime-31,wrong3,True,False,False,False,4096,True,"n ortak böleni yoktur.     Bu durumda kümenin eleman sayısı **maksimum 3** olabilir mi?     Hayır, örnek verelim:     $S"
+aime-32,wrong3,True,True,True,True,3087,False,"a $a \ge 1$ olmalıdır. Sonuç olarak, tüm pozitif kalanlar $k=3$ ile üretilmiştir.  En küçük $k$ değeri 3'tür.  \boxed{3}"
+aime-33,wrong3,True,True,True,True,1503,False,"op sayısı beyaz top sayısından ne kadar fazladır?"" Kırmızı ($R$) = 90 Beyaz ($W$) = 57  Fark: $90 - 57 = 33$  \boxed{33}"
+aime-34,wrong3,True,False,False,False,4096,True,"l? Örneğin, A A / A B şeklinde. Sol alttaki A: Komşuları (üstteki A, sağdaki B). A komşu sayısı: 1 (üstteki). Yetersiz. "
+aime-35,wrong3,True,True,True,True,939,False,+ 0 = 1$ Sağ: $((-1)^2 + (-1) - 1)^2 = (1 - 1 - 1)^2 = (-1)^2 = 1$ Eşit.  Köklerin toplamı: $0 + (-1) = -1$.  \boxed{-1}
+aime-36,wrong3,True,True,True,True,2712,False, / 4 = 5$     $21 / 3 = 7$     $22 / 2 = 11$     $11 \cdot 7 \cdot 5 \cdot 19 = 77 \cdot 95 = 7315$.  7315  \boxed{7315}
+aime-37,wrong3,True,False,False,False,4096,True, dış merkez. $CA^2 = CO^2 - R^2$. (Bunu zaten kullandık).  Acaba $R$ ve $r$ arasındaki ilişkiyi yanlış yorumladım mı? $R
+aime-38,wrong3,True,False,False,False,4096,True,$ tam sayı ise $p_2$ çifttir. $p_3 = 3e_3$. $p_5 = 5(e_5 - e_2e_3)$. $p_5$ çift mi? $p_2 = -2e_2$ çifttir. $p_3 = 3e_3$.
+aime-39,wrong3,True,False,True,True,1360,False,"ölenlerinin sayısındaki tane olup, bunların hiçbiri 2016'yı bölmeyecektir (çünkü kendilerinden küçüktürler).  \boxed{82}"
+aime-40,wrong3,True,True,True,True,3716,False,"uç olarak, problem, 4 değişkenli, üst sınırlı, toplamı sabit bir denklem çözme problemidir. Cevap: 11726.  \boxed{11726}"
+aime-41,wrong3,True,False,True,True,711,False,"akamları ""1""lerden oluşmaktadır. 2017. rakam, bu yeni periyotun ilk rakamı olduğuna göre, bu rakam **1**'dir.  \boxed{1}"
+aime-42,wrong3,True,False,False,False,4096,True,.09$.     *   $16^2 = 256$. Evet! İlk iki basamak 25.     *   Kontrol:         *   $\overline{bc} = 25$.         *   Son
+aime-43,wrong3,True,True,True,True,1156,False, = x - x^2 + 1$ $x^2 = x - 1$ yerine koyalım: $S = x - (x - 1) + 1$ $S = x - x + 1 + 1$ $S = 2$  Sonuç 2'dir.  \boxed{2}
+aime-44,wrong3,True,False,False,False,4096,True,kika.          **Dönüş:**     Okuldan ayrılma: Okul saati 15:00 (Gerçek saat 15:00).     Hız 3 katı -> Süre $27 / 3 = 9$
+aime-45,wrong3,True,True,True,True,2206,False,Bu listedeki sayıların hiçbiri bir asal sayısının karesine bölünmez (hepsi kare-ücretsizdir). Toplam sayı: 4.  \boxed{4}
+aime-46,wrong3,True,False,True,True,2740,False,"* olabilir. (10, 15, 20... da olabilir ama 5 temel çözümdür).  Cevap olarak en olası ve temel değeri verelim.  \boxed{5}"
+aime-47,wrong3,True,False,False,False,4096,True,"ac{(a-2)\pi}{n}$ gibi terimler çıkar. Doğru formül: $A_1A_{1+a}, A_2A_{2+b}, A_3A_{3+c}$ bir noktada kesişir ise: $$ a +"
+aime-48,wrong3,True,True,True,True,2757,False,"edir?"" Bu ifade, ""Koşulu sağlayan (garanti eden) en küçük $n$"" olarak yorumlanmalıdır.  Cevap: $9 + 1 = 10$.  \boxed{10}"
+aime-49,wrong3,True,True,True,True,1018,False, pozitif tam sayıdır.  **3. Rakamları Toplama:** Bulduğumuz sayı $165$. Rakamları toplamı: $1 + 6 + 5 = 12$.  \boxed{12}
+aime-50,wrong3,True,True,True,True,1189,False, 288) / 9 = B - 32$ *   Koşul: Siyah taş ($B$) - Ortalama ($B - 32$) = $32$. Doğru.  Toplam taş sayısı 9'dur.  \boxed{9}
+aime-51,wrong3,True,True,True,True,1479,False,"6 = 9$ $\rightarrow$ Ürün: $4 \times 9 = 36$ *   İki ürün eşittir, çözüm doğrudur.  İstenen değer $|EF|$'dir.  \boxed{3}"
+aime-52,wrong3,True,False,False,False,2,False,5
+aime-53,wrong3,True,False,False,False,4096,True, + 0.5B$    $0 = 10A^2 + 35A + AB + 0.5B^2 - 9.5B$    $0 = 20A^2 + 70A + 2AB + B^2 - 19B$    $B^2 + (2A - 19)B + 20A^2 +
+aime-54,wrong3,True,True,True,True,607,False,ext{Kalan}}{\text{Çıkarılan}} = \frac{0.8T}{0.2T}$$  $T$'ler sadeleşir: $$\text{Oran} = \frac{0.8}{0.2} = 4$$  \boxed{4}
+aime-55,wrong3,True,True,True,True,1187,False,törleme yaparsak: $$2^{13} + 2^{12} = 2^{12} \times (2^1 + 1) = 4096 \times 3 = 12288$$  Sonuç 12288'dir.  \boxed{12288}
+aime-56,wrong3,True,False,False,False,4096,True,=8$ alırsak $20^8 \equiv -1$. **17 Şanslıdır.**  **Sayı 19:** $p=19$. $20 \equiv 1 \pmod{19}$. $ord_{19}(20) = 1$ (TEK).
+aime-57,wrong3,True,False,False,False,4096,True," koyarsak, diğerleri toplam 98 olur. Örneğin: 24, 24, 25, 25, 1. Toplam 99. Bu durumda $\min(n_i, 2)$ topları: $2+2+2+2+"
+aime-58,wrong3,True,False,False,False,4096,True,s S(m)=6$.     *   $d=5 \implies 2S(m)=10 \implies S(m)=5$.     *   $d=7 \implies 2S(m)=8 \implies S(m)=4$.     *   $d=9
+aime-59,wrong3,True,False,False,False,4096,True,"ve $n$ büyük sayılar değil, ama $m+n$ belirli bir değer. Denklemi $n$'ye göre sıralayalım: $-9n^3 - 3mn^2 + (8m^2)n + 4m"
+aime-60,wrong3,True,True,True,True,928,False,"$b$'nin değeri verilmemiş ancak $a-c$ ifadesi tek bir değerle belirlenmiştir.  Sonuç olarak, $a - c = 1$'dir.  \boxed{1}"
+aime-61,wrong3,True,True,True,True,3503,False,"nin $0.2$ katı olduğu görülüyor ($0.6=3\times0.2, 0.8=4\times0.2$). Hipotenüs $5\times0.2 = 1$.  Cevap 1'dir.  \boxed{1}"
+aime-62,wrong3,True,True,True,True,3634,False,"t{2})^2=2+2=4$ (Evet)  Tüm çözümler geçerli. $x+y$ değerleri: $\{2, -2, 0\}$. Bu kümenin eleman sayısı 3'tür.  \boxed{3}"
+aime-63,wrong3,True,True,True,True,1790,False,"a $a=0, b=3, c=0$ toplam 3 eleman, Durum B'de toplam 3 eleman, Durum C'de toplam 6 elemandır.  Sonuç 16'dır.  \boxed{16}"
+aime-64,wrong3,True,False,False,False,4096,True,Doğru) Bu çözüm geçerlidir.  **Durum 2'yi kontrol edelim ($z = 2.5$):** $x = 2 - 2.5 = -0.5$ $y = 3 - 2.5 = 0.5$ $z = 2.
+aime-65,wrong3,True,True,True,True,2273,False, $L$ noktalarının tam konumu) veya üçgenin boyutundan bağımsızdır. Sadece verilen $|MN|=1$ değerine bağlıdır.  \boxed{2}
+aime-66,wrong3,True,False,False,False,4096,True,"l).  Genel mantık: Eğer elimizde $A$ ve $B$ kalınlarda iki grup var ve $A+B$ sayısı $A=B$ ise, onları $a, b, a, b \dots$"
+aime-67,wrong3,True,True,True,True,1113,False,sayı $n = 60$'dır.  Adım 5: Rakamları toplamını hesaplama $n = 60$ sayısı için rakamları toplamı: $6 + 0 = 6$  \boxed{6}
+aime-68,wrong3,True,True,True,True,2646,False,"ki durum da tutarlıdır.  Elde edilen $(m, n)$ ikilileri: 1. $(9, 0)$ 2. $(-9, 0)$  Toplam çözüm sayısı 2'dir.  \boxed{2}"
+aime-69,wrong3,True,True,True,True,1338,False,r. Bu durumda sistem homojen olmayan ama lineer bağımlı satırlara sahip bir durumdur ve sonsuz çözüm üretir.  \boxed{23}
+aime-70,wrong3,True,False,True,True,1552,False, $a = 4$. Bulunan: $b = 8$. $b$ bir tam sayı mı? Evet. Kaç farklı değer? Sadece 8. Yani 1 tane.  Cevap 1'dir.  \boxed{1}
+aime-71,wrong3,True,False,False,False,4096,True,veya $|CE|$ bulabiliriz. $|AE| = 3$. $\frac{|CE|}{\sin(105^\circ)} = \frac{|AE|}{\sin(45^\circ)}$. $|CE| = 3 \cdot \frac
+aime-72,wrong3,True,True,True,True,1831,False,] \[ = 1 + 25 + 216 \] \[ = 26 + 216 \] \[ = 242 \]  Bu sonuç seçenekler arasında yer almaktadır (c şıkkı).  \boxed{242}
+aime-73,wrong3,True,True,True,True,1832,False,". Doğru.  Kesişim kümesi $\{21, 22, 23\}$'tür. Bu kümedeki eleman sayısı 3'tür.  Farklı değerlerin sayısı: 3.  \boxed{3}"
+aime-74,wrong3,True,False,True,True,1322,False,"29,102 \le 4,138,827$ **SAHİP**. (Bu durumda koşul sağlanır).  Bu durumda, öğrenci sayısı en az 23 olabilir.  \boxed{23}"
+aime-75,wrong3,True,True,True,True,3573,False,"Sonuç:** Tahtadaki sayılar 10, 18, 20, 28, 30'dır. Soruda ""en küçük sayı"" isteniyor. En küçük sayı $a = 10$.  \boxed{10}"
+aime-76,wrong3,True,True,True,True,2048,False,(19)+5}{4} = \frac{480}{4} = 120$ olurdu ki bu 111'den büyüktür.  Bu yüzden $N$ sayısı en fazla 95 olabilir.  \boxed{95}
+aime-77,wrong3,True,False,False,False,4096,True,"e: $p=29, q=20$. $p-q=9$. Adım: $20/9$. Payda $9$'a bölündüğünde kalanlar: $20 \equiv 2 \pmod 9$. $2/9, 4/9, 6/9, 8/9, 1"
+aime-78,wrong3,True,True,True,True,1227,False,"larak, $x+y$ toplamının alabileceği değerler: 1. $x+y = 1$ 2. $x+y = -2$  Farklı değerlerin sayısı **2**'dir.  \boxed{2}"
+aime-79,wrong3,True,False,True,True,536,False," 1 = 120$$  Bu durum, 5 elemanın 5 farklı konuma yerleştirilmesinin permütasyon sayısına ($5!$) eşdeğerdir.  \boxed{120}"
+aime-80,wrong3,True,True,True,True,2248,False, kutuda olması gerekir ve bunun için her renge 23 top gereklidir.  Toplam top sayısı = $7 \times 23 = 161$.  \boxed{161}
+aime-81,wrong3,True,False,True,True,1943,False,"esinde sadece **30** sayısı yer alır. Bu nedenle en büyük sayı 30, en küçük sayı 30'dır. Fark: $30 - 30 = 0$.  \boxed{0}"
+aime-82,wrong3,True,True,True,True,1576,False,"nden uzaklaştırırsak payda artar ve oran küçülür.  Sonuç olarak, ifadenin alabileceği en büyük değer 11'dir.  \boxed{11}"
+aime-83,wrong3,True,True,True,True,1580,False,"umu zaten elendi.  Sonuç olarak, koşulu sağlayan asal sayılar **2** ve **17**'dir. Bu sayıların sayısı 2'dir.  \boxed{2}"
+aime-84,wrong3,True,True,True,True,961,False, 600$. (Problemde verilen son hacim 600 ile eşleşiyor).  Başlangıçtaki portakal suyunun hacmi 384 birimdir.  \boxed{384}
+aime-85,wrong3,True,False,False,False,4096,True,"$, $50-15=35$ gibi. Tek bir eşleşmede en küçük pozitif fark $15-1=14$'tür. Ancak biz $B$ ve $K$'yı toplamalar halinde al"
+aime-86,wrong3,True,False,False,False,4096,True,} = 14 \implies 126-100=26$. $\overline{AB} = 14/26$ (Hayır). $\overline{CD} = 15 \implies 135-100=35$. $\overline{AB} =
+aime-87,wrong3,True,False,True,True,921,False,"$. Toplam sayı: 2025.  **Sonuç** Kümenin eleman sayısı $N$, koşulu her zaman sağladığı için 2025 olabilir.  \boxed{2025}"
+aime-88,wrong3,True,True,True,True,1211,False,"5}) + (1 - \sqrt{5})$$ $$T = 0 + 1 + 1 + \sqrt{5} - \sqrt{5}$$ $$T = 2$$  Sonuç olarak, istenen toplam 2'dir.  \boxed{2}"
+aime-89,wrong3,True,False,False,False,4096,True,", 1, 1, 1, 1)$. Bu konfigürasyona varabilir miyiz? Önceki durum: Seçilen kutu $i$ olsun. $x_i^{old} = 400 + 5 = 405$. Di"
+aime-90,wrong3,True,False,False,False,4096,True,", ancak maksimum 408 puan mevcut.   - Bu durumda $k=16$ imkansız.  Sonuç olarak, 7 puan toplayan öğrenci sayısı en fazla"
+aime-91,wrong3,True,True,True,True,2877,False,"F=(0,4)$ olduğuna göre $|FD|=4$. $|AD|=20$ olduğuna göre $|AF| = 20 - 4 = 16$.  Sonuç 16 olarak elde edildi.  \boxed{16}"
+aime-92,wrong3,True,False,False,False,4096,True,isteniyor.     Kalan 24 sütun (1-26) için de 26 mavi kare lazım ama o sütunlarda sadece 2 kare mavi olabilir (çünkü üst 
+aime-93,wrong3,True,False,False,False,4096,True,div 373 = 711.34...$ Hayır. 379'a bölünür mü? $265333 \div 379 = 700.08...$ Hayır. 383'e bölünür mü? $265333 \div 383 = 
+aime-94,wrong3,True,False,False,False,4096,True, öğrencilerin oluşturduğu kesişim kümesinin boyutunun 1 olduğu anlamına gelir. Bu durumda $n$ sınırsız olabilir mi? Eğer
+aime-95,wrong3,True,False,True,True,3138,False,"um tekrar sayısı (2), öğrenci sayısının üst sınırını belirler. Maksimum öğrenci sayısı = $11 \times 2 = 22$.  \boxed{22}"
+aime-96,wrong3,True,False,True,True,3014,False,"ktür. Dolayısıyla en az iki farklı asal çarpanı vardır.  Sonuç olarak, en az farklı asal çarpan sayısı 2'dir.  \boxed{2}"
+aime-97,wrong3,True,False,False,False,4096,True,"adığında ve her renk yeterince büyük olduğunda sağlanır. Ancak $k=2$ için bu imkansız olabilir. Daha doğrusu, bu problem"
+aime-98,wrong3,True,False,False,False,4096,True,2 = 2.25 \implies \lceil 2.25 \rceil = 3$. $x_i x_j = 2.25 \implies \lceil 2.25 \rceil = 3$. $S = 31 \times 3 = 93$. Küç
+aime-99,wrong3,True,False,False,False,4096,True,"0,3)? (0,0) ile $\Delta y=3$. İzinli. (1,1) ile $\Delta x=1, \Delta y=2$. Köşeye komşu. (1,1) B ise (0,3) B olamaz. (0,3"

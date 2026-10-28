@@ -1,0 +1,10 @@
+# E2/E4 üretim yapılandırması
+teacher_model: "Qwen/Qwen3.5-9B"
+agent_checkpoint: "results/E3/models/A-gen-100"   # E3 koşusu sonrası
+a0_checkpoint: "results/E3/models/A0"
+seed: 20260814
+T: 0.8
+top_p: 0.95
+max_new_tokens: 512
+n_train: 5000
+tp_size: 1

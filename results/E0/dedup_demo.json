@@ -1,0 +1,8 @@
+{
+  "dedup_on_total_neglog10p": 22793.324547738608,
+  "dedup_on_N": 787656,
+  "dedup_off_mean_neglog10p": -Infinity,
+  "dedup_off_median_neglog10p": 7.554746326285918,
+  "dedup_off_n": 5000,
+  "note": "kural (d) kapalı olduğunda tekrar eden pencereler skoru şişirir — Blogda gösterim için."
+}

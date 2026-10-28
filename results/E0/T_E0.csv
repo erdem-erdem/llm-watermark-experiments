@@ -1,0 +1,6 @@
+metric,value
+mean_neglog10p,0.46537198659639756
+std_neglog10p,0.4363124380519842
+mean_N,15989.02
+in_0.4_0.6_mean_p,False
+n_parts,50

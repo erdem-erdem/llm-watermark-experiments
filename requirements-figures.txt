@@ -1,0 +1,6 @@
+# CPU-only: enough to rebuild every figure from the committed results/ and to run the toy demo + unit tests.
+# (The full GPU pipeline is installed via Docker or scripts/setup_env.sh — see README.)
+matplotlib>=3.9
+numpy>=1.26
+scipy>=1.13
+pyyaml>=6.0

@@ -1,0 +1,10 @@
+{
+  "label": "B-control",
+  "model": "results/E4/models/B-control",
+  "mean_loss": 2.185430314540863,
+  "ppl": 8.894475151983052,
+  "ci_lo": 2.1246490170061585,
+  "ci_hi": 2.2417022883594035,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

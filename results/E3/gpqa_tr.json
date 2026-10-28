@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "model": "results/E3/models/A-post-10",
+      "accuracy": 0.2967032967032967,
+      "ci_lo": 0.2581959706959707,
+      "ci_hi": 0.33521062271062263,
+      "n": 546,
+      "label": "A-post-10"
+    },
+    {
+      "label": "A-gen-10",
+      "model": "results/E3/models/A-gen-10",
+      "accuracy": 0.2948717948717949,
+      "ci_lo": 0.2564102564102564,
+      "ci_hi": 0.3315018315018315,
+      "n": 546
+    },
+    {
+      "label": "A-gen-100",
+      "model": "results/E3/models/A-gen-100",
+      "accuracy": 0.2802197802197802,
+      "ci_lo": 0.2454212454212454,
+      "ci_hi": 0.31868131868131866,
+      "n": 546
+    },
+    {
+      "label": "A-gen-50",
+      "model": "results/E3/models/A-gen-50",
+      "accuracy": 0.2783882783882784,
+      "ci_lo": 0.24358974358974358,
+      "ci_hi": 0.3132326007326007,
+      "n": 546
+    },
+    {
+      "label": "A-post-100",
+      "model": "results/E3/models/A-post-100",
+      "accuracy": 0.2783882783882784,
+      "ci_lo": 0.24175824175824176,
+      "ci_hi": 0.31868131868131866,
+      "n": 546
+    },
+    {
+      "label": "A-post-50",
+      "model": "results/E3/models/A-post-50",
+      "accuracy": 0.2967032967032967,
+      "ci_lo": 0.2581959706959707,
+      "ci_hi": 0.33521062271062263,
+      "n": 546
+    },
+    {
+      "label": "A-rew",
+      "model": "results/E3/models/A-rew",
+      "accuracy": 0.30952380952380953,
+      "ci_lo": 0.27106227106227104,
+      "ci_hi": 0.34619963369963364,
+      "n": 546
+    },
+    {
+      "label": "A0",
+      "model": "results/E3/models/A0",
+      "accuracy": 0.28205128205128205,
+      "ci_lo": 0.24175824175824176,
+      "ci_hi": 0.31868131868131866,
+      "n": 546
+    },
+    {
+      "label": "B-control",
+      "model": "results/E4/models/B-control",
+      "accuracy": 0.2893772893772894,
+      "ci_lo": 0.2509157509157509,
+      "ci_hi": 0.32783882783882784,
+      "n": 546
+    },
+    {
+      "label": "B-greedy",
+      "model": "results/E4/models/B-greedy",
+      "accuracy": 0.28205128205128205,
+      "ci_lo": 0.2454212454212454,
+      "ci_hi": 0.31868131868131866,
+      "n": 546
+    },
+    {
+      "label": "B-sample",
+      "model": "results/E4/models/B-sample",
+      "accuracy": 0.2893772893772894,
+      "ci_lo": 0.25274725274725274,
+      "ci_hi": 0.32783882783882784,
+      "n": 546
+    }
+  ],
+  "n_questions": 546,
+  "note": null,
+  "shuffle_seed": 20260814
+}

@@ -1,0 +1,4 @@
+# Anahtar seçimi (Bölüm 3.6)
+seed: 20260814
+n_candidates: 20
+n_calibration: 500     # D_orig + D_clean cevaplarında metin tespiti

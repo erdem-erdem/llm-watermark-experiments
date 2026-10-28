@@ -1,0 +1,10 @@
+{
+  "label": "B-greedy",
+  "model": "results/E4/models/B-greedy",
+  "mean_loss": 3.1857003219127655,
+  "ppl": 24.18421921530429,
+  "ci_lo": 3.1209479593217373,
+  "ci_hi": 3.252740679693222,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

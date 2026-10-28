@@ -1,0 +1,16 @@
+{
+  "n_problems": 100,
+  "n_numbers_ok": 91,
+  "n_corrupt_after_retries": 9,
+  "combined_N": 11949,
+  "combined_neglog10p": 427.7249801027304,
+  "median_per_problem_neglog10p": 4.2346658812954825,
+  "median_N": 113.0,
+  "acc_original": 0.44,
+  "acc_rewritten": 0.33,
+  "agree_correct_both": 0.75,
+  "T_rewrite": 1.0,
+  "model": "Qwen/Qwen3.5-9B",
+  "dataset": "ytu-ce-cosmos/tubitak-science-olympiad-tr",
+  "split": "ortaokul_matematik"
+}

@@ -1,0 +1,4 @@
+pair,n_pairs_with_shared_8gram,n_samples_a,n_distinct_a_overlapping,pct_a
+eval_loss↔sweep,61,500,39,7.8
+eval_loss↔train,900,500,136,27.2
+sweep↔train,558,300,139,46.333333333333336

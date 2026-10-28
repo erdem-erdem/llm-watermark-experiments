@@ -1,0 +1,24 @@
+# Tespit orkestrasyonu yapılandırması (analyze/detect_all.py)
+k: 2
+seed: 20260814
+T: 0.8
+top_p: 0.95
+max_new_tokens: 512
+threshold_neglog10p: 6.0        # Blog eşiği: -log10(p) >= 6 → "tespit"
+a0_model: "results/E3/models/A0"   # E0 temiz model koşusu
+agent_checkpoint: "results/E3/models/A-gen-100"
+tp_size: 1
+# E3 tespit üretimi ölçek sınırı: koşu başına prompt sayısı
+# (maliyet: 8 koşu × n × 512 token). 0/null = tüm D_gen (5000).
+e3_detect_n_prompts: 500
+
+# E3 eğrileri için koşullar (model klasörleri; yoksa atlanır)
+a_models:
+  - "A0"
+  - "A-gen-10"
+  - "A-gen-50"
+  - "A-gen-100"
+  - "A-post-10"
+  - "A-post-50"
+  - "A-post-100"
+  - "A-rew"

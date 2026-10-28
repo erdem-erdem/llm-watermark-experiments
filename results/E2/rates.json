@@ -1,0 +1,7 @@
+{
+  "D_gen_detection_rate_at_n400": 1.0,
+  "D_gen_n_at_n400": 15,
+  "D_clean_false_alarm_rate_at_n400": 0.0,
+  "D_clean_n_at_n400": 18,
+  "threshold_neglog10p": 6.0
+}

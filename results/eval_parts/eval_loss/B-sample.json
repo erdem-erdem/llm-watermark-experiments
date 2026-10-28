@@ -1,0 +1,10 @@
+{
+  "label": "B-sample",
+  "model": "results/E4/models/B-sample",
+  "mean_loss": 2.9630248242616655,
+  "ppl": 19.356433101744344,
+  "ci_lo": 2.9029141209274534,
+  "ci_hi": 3.0214256857693194,
+  "n": 500,
+  "total_answer_tokens": 142668
+}

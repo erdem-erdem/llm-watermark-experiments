@@ -1,0 +1,277 @@
+- `2026-10-10T10:52:03+03:00` — `x`
+- `2026-10-10T10:52:04+03:00` — `x`
+- `2026-10-10T11:59:47+03:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-10T11:59:47+03:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T07:49:55+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T07:55:51+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T07:56:06+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T07:56:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T07:56:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T07:56:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T07:56:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T08:05:45+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T08:05:46+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-12T08:05:46+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T08:05:46+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T08:42:40+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full`
+- `2026-10-12T09:45:10+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T09:45:11+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T09:45:31+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T09:45:43+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T09:45:43+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T09:45:43+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T09:45:43+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T09:46:06+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T09:46:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T09:46:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T09:46:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-12T09:46:16+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full`
+- `2026-10-12T10:15:00+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T10:15:00+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T10:15:15+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T10:15:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T10:15:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T10:15:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T10:15:21+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T10:15:39+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T10:15:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T10:15:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T10:15:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-12T10:15:46+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 1/4`
+- `2026-10-12T10:15:46+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 3/4`
+- `2026-10-12T10:15:46+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 2/4`
+- `2026-10-12T10:15:46+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 0/4`
+- `2026-10-12T10:27:16+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full_merge --nshards 4`
+- `2026-10-12T10:27:23+00:00` — `./train/sft.py --config train/configs/A-post-100.yaml`
+- `2026-10-12T10:27:23+00:00` — `./train/sft.py --config train/configs/A0.yaml`
+- `2026-10-12T10:27:23+00:00` — `./train/sft.py --config train/configs/A-rew.yaml`
+- `2026-10-12T10:27:23+00:00` — `./train/sft.py --config train/configs/A-gen-100.yaml`
+- `2026-10-12T10:27:45+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-12T10:27:45+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-12T10:27:45+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-12T10:27:45+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-12T10:28:09+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E0`
+- `2026-10-12T11:37:28+00:00` — `sft --config /tmp/tmpdavljlk9/T-run.yaml`
+- `2026-10-12T11:37:37+00:00` — `sft --config /tmp/tmpdavljlk9/T-run.yaml`
+- `2026-10-12T11:38:39+00:00` — `sft --config /tmp/tmpu34l1e85/T-run.yaml`
+- `2026-10-12T11:38:46+00:00` — `sft --config /tmp/tmpu34l1e85/T-run.yaml`
+- `2026-10-12T11:39:02+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T11:39:02+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T11:39:17+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T11:39:22+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T11:39:22+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T11:39:22+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T11:39:23+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T11:39:39+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T11:39:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T11:39:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-12T11:39:40+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T11:39:45+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 1/4`
+- `2026-10-12T11:39:45+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 0/4`
+- `2026-10-12T11:39:45+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 2/4`
+- `2026-10-12T11:39:46+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 3/4`
+- `2026-10-12T11:39:52+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full_merge --nshards 4`
+- `2026-10-12T11:40:17+00:00` — `sft --config /tmp/tmpzxvf72_1/T-run.yaml`
+- `2026-10-12T11:40:24+00:00` — `sft --config /tmp/tmpzxvf72_1/T-run.yaml`
+- `2026-10-12T11:40:31+00:00` — `./train/sft.py --config train/configs/A-post-100.yaml`
+- `2026-10-12T11:40:31+00:00` — `./train/sft.py --config train/configs/A-gen-100.yaml`
+- `2026-10-12T11:40:31+00:00` — `./train/sft.py --config train/configs/A0.yaml`
+- `2026-10-12T11:40:31+00:00` — `./train/sft.py --config train/configs/A-rew.yaml`
+- `2026-10-12T13:25:55+00:00` — `sft --config /tmp/tmp2i8hxf1x/T-run.yaml`
+- `2026-10-12T13:26:05+00:00` — `sft --config /tmp/tmp2i8hxf1x/T-run.yaml`
+- `2026-10-12T13:26:05+00:00` — `sft --config /tmp/tmp2i8hxf1x/T-run.yaml`
+- `2026-10-12T13:27:47+00:00` — `sft --config /tmp/tmpnh6pn1z4/T-run.yaml`
+- `2026-10-12T13:27:54+00:00` — `sft --config /tmp/tmpnh6pn1z4/T-run.yaml`
+- `2026-10-12T13:27:54+00:00` — `sft --config /tmp/tmpnh6pn1z4/T-run.yaml`
+- `2026-10-12T13:28:11+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T13:28:12+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T13:28:28+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T13:28:35+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T13:28:35+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T13:28:35+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T13:28:35+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T13:29:05+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T13:29:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-12T13:29:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T13:29:07+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T13:29:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 3/4`
+- `2026-10-12T13:29:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 0/4`
+- `2026-10-12T13:29:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 2/4`
+- `2026-10-12T13:29:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 1/4`
+- `2026-10-12T13:29:32+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full_merge --nshards 4`
+- `2026-10-12T13:30:10+00:00` — `sft --config /tmp/tmpz4v1yw_y/T-run.yaml`
+- `2026-10-12T13:30:18+00:00` — `sft --config /tmp/tmpz4v1yw_y/T-run.yaml`
+- `2026-10-12T13:30:18+00:00` — `sft --config /tmp/tmpz4v1yw_y/T-run.yaml`
+- `2026-10-12T13:30:26+00:00` — `./train/sft.py --config train/configs/A-gen-100.yaml`
+- `2026-10-12T13:30:26+00:00` — `./train/sft.py --config train/configs/A-post-100.yaml`
+- `2026-10-12T13:30:26+00:00` — `./train/sft.py --config train/configs/A-rew.yaml`
+- `2026-10-12T13:30:26+00:00` — `./train/sft.py --config train/configs/A0.yaml`
+- `2026-10-12T13:44:29+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-12T13:44:29+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-12T13:44:29+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-12T13:44:29+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-12T13:56:00+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E0`
+- `2026-10-12T15:04:20+00:00` — `sft --config /tmp/tmp7wlmwb_b/T-run.yaml`
+- `2026-10-12T15:04:29+00:00` — `sft --config /tmp/tmp7wlmwb_b/T-run.yaml`
+- `2026-10-12T15:04:29+00:00` — `sft --config /tmp/tmp7wlmwb_b/T-run.yaml`
+- `2026-10-12T15:04:59+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-12T15:05:00+00:00` — `./eval/overlap_check.py`
+- `2026-10-12T15:05:24+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-12T15:05:38+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-12T15:05:38+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-12T15:05:38+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-12T15:05:38+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-12T15:06:27+00:00` — `./analyze/e1_report.py`
+- `2026-10-12T15:06:29+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-12T15:06:29+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-12T15:06:29+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-13T05:45:17+00:00` — `sft --config /tmp/tmpb5p9b3i3/T-run.yaml`
+- `2026-10-13T05:45:26+00:00` — `sft --config /tmp/tmpb5p9b3i3/T-run.yaml`
+- `2026-10-13T05:45:26+00:00` — `sft --config /tmp/tmpb5p9b3i3/T-run.yaml`
+- `2026-10-13T05:45:48+00:00` — `./data/prep_data.py --config configs/prep_data.yaml`
+- `2026-10-13T05:45:48+00:00` — `./eval/overlap_check.py`
+- `2026-10-13T05:46:11+00:00` — `./data/prep_keys.py --config configs/keys.yaml`
+- `2026-10-13T05:46:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 0.8B`
+- `2026-10-13T05:46:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 4B`
+- `2026-10-13T05:46:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 2B`
+- `2026-10-13T05:46:19+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage sweep --model 9B`
+- `2026-10-13T05:46:39+00:00` — `./analyze/e1_report.py`
+- `2026-10-13T05:46:41+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dclean`
+- `2026-10-13T05:46:41+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task dgen`
+- `2026-10-13T05:46:41+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task div`
+- `2026-10-13T05:46:47+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 0/4`
+- `2026-10-13T05:46:47+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 2/4`
+- `2026-10-13T05:46:47+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 1/4`
+- `2026-10-13T05:46:47+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full --shard 3/4`
+- `2026-10-13T05:46:57+00:00` — `./gen/gen_e1.py --config configs/e1_sweep.yaml --stage full_merge --nshards 4`
+- `2026-10-13T05:47:34+00:00` — `sft --config /tmp/tmpqp_drd9n/T-run.yaml`
+- `2026-10-13T05:47:43+00:00` — `sft --config /tmp/tmpqp_drd9n/T-run.yaml`
+- `2026-10-13T05:47:43+00:00` — `sft --config /tmp/tmpqp_drd9n/T-run.yaml`
+- `2026-10-13T05:47:54+00:00` — `./train/sft.py --config train/configs/A0.yaml`
+- `2026-10-13T05:47:54+00:00` — `./train/sft.py --config train/configs/A-gen-100.yaml`
+- `2026-10-13T05:47:54+00:00` — `./train/sft.py --config train/configs/A-post-100.yaml`
+- `2026-10-13T05:47:54+00:00` — `./train/sft.py --config train/configs/A-rew.yaml`
+- `2026-10-13T05:48:01+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T05:48:01+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T05:48:01+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T05:48:01+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T05:48:11+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E0`
+- `2026-10-13T05:49:32+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E2`
+- `2026-10-13T05:49:56+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-50,A-post-100`
+- `2026-10-13T05:49:56+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A0,A-post-10`
+- `2026-10-13T05:49:56+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-10,A-post-50`
+- `2026-10-13T05:49:56+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-100,A-rew`
+- `2026-10-13T05:53:04+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task agent`
+- `2026-10-13T05:53:04+00:00` — `./gen/gen_e2_e4.py --config configs/e2.yaml --task a0`
+- `2026-10-13T06:01:40+00:00` — `./train/sft.py --config train/configs/B-control.yaml`
+- `2026-10-13T06:01:40+00:00` — `./train/sft.py --config train/configs/B-greedy.yaml`
+- `2026-10-13T06:01:40+00:00` — `./train/sft.py --config train/configs/B-sample.yaml`
+- `2026-10-13T06:12:47+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E4`
+- `2026-10-13T06:25:17+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only main,seed0`
+- `2026-10-13T06:25:17+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only wrong2,seed2`
+- `2026-10-13T06:25:17+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only wrong1,seed1`
+- `2026-10-13T06:25:17+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only wrong3,seed3`
+- `2026-10-13T06:38:20+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-10,A-post-50,B-sample`
+- `2026-10-13T06:38:20+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only base,A-gen-100,A-rew`
+- `2026-10-13T06:38:20+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A0,A-post-10,B-greedy`
+- `2026-10-13T06:38:20+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-50,A-post-100,B-control`
+- `2026-10-13T06:39:57+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only base,A-gen-100,A-rew`
+- `2026-10-13T06:40:17+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-10,A-post-50,B-sample`
+- `2026-10-13T06:40:21+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A0,A-post-10,B-greedy`
+- `2026-10-13T06:40:23+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-50,A-post-100,B-control`
+- `2026-10-13T06:41:56+00:00` — `./gen/gen_opening.py --config configs/mini.yaml`
+- `2026-10-13T06:44:42+00:00` — `./gen/gen_mini.py --config configs/mini.yaml`
+- `2026-10-13T06:53:55+00:00` — `./analyze/figures.py`
+- `2026-10-13T06:54:16+00:00` — `./analyze/tables.py`
+- `2026-10-13T06:54:17+00:00` — `./analyze/summary.py`
+- `2026-10-13T08:50:20+00:00` — `sft --config /tmp/tmpox218_7m/T-run.yaml`
+- `2026-10-13T08:50:27+00:00` — `sft --config /tmp/tmpox218_7m/T-run.yaml`
+- `2026-10-13T08:50:27+00:00` — `sft --config /tmp/tmpox218_7m/T-run.yaml`
+- `2026-10-13T08:50:38+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T08:50:38+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T08:50:38+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T08:50:38+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T08:58:27+00:00` — `sft --config /tmp/tmpwdtk77cl/T-run.yaml`
+- `2026-10-13T08:58:36+00:00` — `sft --config /tmp/tmpwdtk77cl/T-run.yaml`
+- `2026-10-13T08:58:36+00:00` — `sft --config /tmp/tmpwdtk77cl/T-run.yaml`
+- `2026-10-13T08:58:48+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T08:58:48+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T08:58:48+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T08:58:48+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T09:16:35+00:00` — `sft --config /tmp/tmp___15pqr/T-run.yaml`
+- `2026-10-13T09:16:44+00:00` — `sft --config /tmp/tmp___15pqr/T-run.yaml`
+- `2026-10-13T09:16:44+00:00` — `sft --config /tmp/tmp___15pqr/T-run.yaml`
+- `2026-10-13T09:16:58+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T09:16:58+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T09:16:58+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T09:16:58+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T09:32:13+00:00` — `sft --config /tmp/tmpszd4r3vv/T-run.yaml`
+- `2026-10-13T09:32:21+00:00` — `sft --config /tmp/tmpszd4r3vv/T-run.yaml`
+- `2026-10-13T09:32:21+00:00` — `sft --config /tmp/tmpszd4r3vv/T-run.yaml`
+- `2026-10-13T09:32:35+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T09:32:35+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T09:32:35+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T09:32:35+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T09:37:31+00:00` — `sft --config /tmp/tmprrg7ym1v/T-run.yaml`
+- `2026-10-13T09:37:42+00:00` — `sft --config /tmp/tmprrg7ym1v/T-run.yaml`
+- `2026-10-13T09:37:42+00:00` — `sft --config /tmp/tmprrg7ym1v/T-run.yaml`
+- `2026-10-13T09:37:55+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T09:37:55+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T09:37:55+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T09:37:55+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T09:39:45+00:00` — `sft --config /tmp/tmplf14fkmt/T-run.yaml`
+- `2026-10-13T09:39:55+00:00` — `sft --config /tmp/tmplf14fkmt/T-run.yaml`
+- `2026-10-13T09:39:55+00:00` — `sft --config /tmp/tmplf14fkmt/T-run.yaml`
+- `2026-10-13T09:40:08+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T09:40:08+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T09:41:25+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T09:41:25+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T09:49:19+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-50`
+- `2026-10-13T09:49:19+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-post-10`
+- `2026-10-13T09:49:19+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-10`
+- `2026-10-13T09:49:19+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-post-50`
+- `2026-10-13T09:50:59+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-post-50`
+- `2026-10-13T09:50:59+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-post-10`
+- `2026-10-13T09:50:59+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-50`
+- `2026-10-13T09:50:59+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-10`
+- `2026-10-13T09:52:34+00:00` — `./analyze/reading_rerun.py --stage text`
+- `2026-10-13T09:52:34+00:00` — `./analyze/reading_rerun.py --stage model --only A-gen-100,A-rew`
+- `2026-10-13T09:52:34+00:00` — `./analyze/reading_rerun.py --stage model --only A0,A-post-10,B-greedy`
+- `2026-10-13T09:52:34+00:00` — `./analyze/reading_rerun.py --stage model --only A-gen-50,A-post-100,B-control`
+- `2026-10-13T09:52:34+00:00` — `./analyze/reading_rerun.py --stage model --only A-gen-10,A-post-50,B-sample`
+- `2026-10-13T10:09:58+00:00` — `./analyze/reading_rerun.py --stage merge`
+- `2026-10-13T10:10:04+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-post-10`
+- `2026-10-13T10:10:04+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-post-50`
+- `2026-10-13T10:10:04+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-50`
+- `2026-10-13T10:10:04+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-10`
+- `2026-10-13T10:53:00+00:00` — `sft --config /tmp/tmpg0je567z/T-run.yaml`
+- `2026-10-13T10:53:08+00:00` — `sft --config /tmp/tmpg0je567z/T-run.yaml`
+- `2026-10-13T10:53:08+00:00` — `sft --config /tmp/tmpg0je567z/T-run.yaml`
+- `2026-10-13T10:53:17+00:00` — `./train/sft.py --config train/configs/A-gen-10.yaml`
+- `2026-10-13T10:53:17+00:00` — `./train/sft.py --config train/configs/A-gen-50.yaml`
+- `2026-10-13T10:53:22+00:00` — `./train/sft.py --config train/configs/A-post-50.yaml`
+- `2026-10-13T10:53:22+00:00` — `./train/sft.py --config train/configs/A-post-10.yaml`
+- `2026-10-13T10:53:27+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-50`
+- `2026-10-13T10:53:27+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-gen-10`
+- `2026-10-13T10:54:39+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-post-50`
+- `2026-10-13T10:54:40+00:00` — `./eval/gpqa_tr.py --config configs/eval.yaml --only A-post-10`
+- `2026-10-13T10:55:53+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-50`
+- `2026-10-13T10:55:53+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-gen-10`
+- `2026-10-13T10:57:02+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-post-10`
+- `2026-10-13T10:57:02+00:00` — `./eval/eval_loss.py --config configs/eval.yaml --only A-post-50`
+- `2026-10-13T10:58:12+00:00` — `./analyze/reading_rerun.py --stage model --only A0,A-gen-50,A-post-10,A-post-100,B-greedy,B-control`
+- `2026-10-13T10:58:12+00:00` — `./analyze/reading_rerun.py --stage model --only A-gen-10,A-gen-100,A-post-50,A-rew,B-sample`
+- `2026-10-13T10:58:12+00:00` — `./analyze/reading_rerun.py --stage text`
+- `2026-10-13T10:59:23+00:00` — `./analyze/reading_rerun.py --stage merge`
+- `2026-10-13T10:59:30+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-10`
+- `2026-10-13T10:59:30+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-gen-50`
+- `2026-10-13T11:01:26+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-post-10`
+- `2026-10-13T11:01:30+00:00` — `./analyze/detect_all.py --config configs/detect.yaml --stage E3 --only A-post-50`
+- `2026-10-13T11:03:14+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only main,wrong2,seed0,seed2`
+- `2026-10-13T11:03:14+00:00` — `./eval/aime_tr.py --config configs/eval.yaml --only wrong1,wrong3,seed1,seed3`
+- `2026-10-13T11:30:00+00:00` — `./gen/gen_opening.py --config configs/mini.yaml`
+- `2026-10-13T11:30:00+00:00` — `./gen/gen_mini.py --config configs/mini.yaml`
+- `2026-10-13T11:48:17+00:00` — `./analyze/e0_complete.py`
+- `2026-10-13T11:54:25+00:00` — `./analyze/e1_complete.py`
+- `2026-10-13T11:54:50+00:00` — `./analyze/e2_complete.py`
+- `2026-10-13T11:55:41+00:00` — `./analyze/mini_from_data.py`

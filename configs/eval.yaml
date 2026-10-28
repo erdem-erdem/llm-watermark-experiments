@@ -1,0 +1,31 @@
+# Değerlendirme yapılandırması (eval/aime_tr.py, eval/gpqa_tr.py, eval/eval_loss.py)
+seed: 20260814
+aime_dataset: "ytu-ce-cosmos/tubitak-science-olympiad-tr"
+aime_split: "ortaokul_matematik"     # SPLIT adı (config: default); soru: question_latex, cevap: answer_value
+aime_max_new_tokens: 4096
+gpqa_dataset: "ytu-ce-cosmos/gpqa-extended_tr"
+gpqa_split: "train"                  # veri setinin TEK split'i
+gpqa_shuffle_seed: 20260814
+# Olimpiyat ölçek sınırı: satır sayısı (maliyet: satır × 8 koşul × 4096 token
+# üretimi). 0/null = sayı-cevaplı TÜM satırlar; --only ile koşul bazlı
+# paralel koşum (results/E2/aime_parts/ altına parça yazılır).
+aime_max_problems: 100
+T: 0.8
+top_p: 0.95
+teacher_model: "Qwen/Qwen3.5-9B"
+
+# Bütün değerlendirilen modeller: taban + 8 A + 3 B
+# (yollar results/E3/models ve results/E4/models altında; yoksa atlanır)
+models:
+  - {label: base,        path: "Qwen/Qwen3.5-2B-Base"}
+  - {label: A0,          path: "results/E3/models/A0"}
+  - {label: A-gen-10,    path: "results/E3/models/A-gen-10"}
+  - {label: A-gen-50,    path: "results/E3/models/A-gen-50"}
+  - {label: A-gen-100,   path: "results/E3/models/A-gen-100"}
+  - {label: A-post-10,   path: "results/E3/models/A-post-10"}
+  - {label: A-post-50,   path: "results/E3/models/A-post-50"}
+  - {label: A-post-100,  path: "results/E3/models/A-post-100"}
+  - {label: A-rew,       path: "results/E3/models/A-rew"}
+  - {label: B-greedy,    path: "results/E4/models/B-greedy"}
+  - {label: B-sample,    path: "results/E4/models/B-sample"}
+  - {label: B-control,   path: "results/E4/models/B-control"}

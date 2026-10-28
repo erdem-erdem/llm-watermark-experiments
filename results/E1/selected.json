@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "T": 1.2,
+  "approved": true,
+  "auto": true,
+  "rule": "fallback_verim",
+  "deviation_from_karar8": true,
+  "yield": 0.53,
+  "median_neglog10p": 106.06153391027127,
+  "mean_similarity": 0.932514431476593,
+  "length_pass_rate": 0.5633333333333334
+}

@@ -1,0 +1,17 @@
+# YEDEK (gevşek) bağımlılık listesi — kilit dosyası yoksa:
+#   docker build -f docker/Dockerfile --build-arg REQ_FILE=requirements.txt -t llm-watermark-experiments .
+# Desteklenen yol KİLİT dosyasıdır (DOCKER_GUIDE.md §4): çalışan makinenin
+# `pip freeze` çıktısı. Bu liste sadece onun yokluğunda bir başlangıç noktasıdır;
+# vllm önce kurulur ve kendi torch sürümünü seçer, gerisi onun etrafına oturur.
+vllm
+transformers>=5.2
+datasets>=2.20
+accelerate>=1.1.0
+sentence-transformers>=3.0
+scipy>=1.13
+matplotlib>=3.9
+numpy>=1.26
+pyyaml>=6.0
+sentencepiece
+tiktoken
+huggingface_hub

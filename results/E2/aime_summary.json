@@ -1,0 +1,59 @@
+{
+  "n_problems": 100,
+  "wm_mean": 0.48,
+  "wm_std": 0.0187082869338697,
+  "nowm_mean": 0.48,
+  "nowm_std": 0.025495097567963927,
+  "overlap": true,
+  "per_condition": {
+    "main": {
+      "accuracy": 0.45,
+      "no_boxed_rate": 0.44,
+      "truncated_rate": 0.44,
+      "wm": true
+    },
+    "seed0": {
+      "accuracy": 0.44,
+      "no_boxed_rate": 0.43,
+      "truncated_rate": 0.43,
+      "wm": false
+    },
+    "seed1": {
+      "accuracy": 0.48,
+      "no_boxed_rate": 0.37,
+      "truncated_rate": 0.38,
+      "wm": false
+    },
+    "seed2": {
+      "accuracy": 0.49,
+      "no_boxed_rate": 0.42,
+      "truncated_rate": 0.42,
+      "wm": false
+    },
+    "seed3": {
+      "accuracy": 0.51,
+      "no_boxed_rate": 0.36,
+      "truncated_rate": 0.36,
+      "wm": false
+    },
+    "wrong1": {
+      "accuracy": 0.48,
+      "no_boxed_rate": 0.44,
+      "truncated_rate": 0.42,
+      "wm": true
+    },
+    "wrong2": {
+      "accuracy": 0.49,
+      "no_boxed_rate": 0.43,
+      "truncated_rate": 0.43,
+      "wm": true
+    },
+    "wrong3": {
+      "accuracy": 0.5,
+      "no_boxed_rate": 0.37,
+      "truncated_rate": 0.36,
+      "wm": true
+    }
+  },
+  "note": "n_problem küçük; farkın yorumu yazara aittir."
+}

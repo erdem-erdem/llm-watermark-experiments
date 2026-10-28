@@ -1,0 +1,19 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - name: Install (CPU)
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements-cpu-tests.txt
+      - name: Unit tests
+        run: make test
+      - name: Toy demo
+        run: make demo
+      - name: Rebuild figures from committed results
+        run: make figures

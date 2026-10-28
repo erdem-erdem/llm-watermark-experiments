@@ -1,0 +1,25 @@
+{
+  "n_parts": 50,
+  "scoring": "score_reading (kural c cevap başına, d küresel) — spesifikasyon uyumlu",
+  "a0_main_dedup_on": {
+    "mean_p": 0.5032605221128152,
+    "median_p": 0.4727499221861906,
+    "ks_p": 0.9830751139829066,
+    "mean_N_per_part": 19796.56
+  },
+  "wrong_keys_dedup_on": {
+    "n_tests": 250,
+    "mean_p": 0.5623823576848568,
+    "ks_p": 0.001744522308702541
+  },
+  "a0_main_dedup_off": {
+    "mean_p": 0.5351896403284658,
+    "median_p": 0.49848563970485393,
+    "ks_p": 0.2936661440794227,
+    "mean_neglog10p": 0.38003523285657176,
+    "mean_N_per_part": 28029.6
+  },
+  "pass_mean_p_0.4_0.6": true,
+  "pass_ks_0.01": false,
+  "note": "kabul ölçütü: ortalama p 0.4–0.6 ve KS p > 0.01 (hem ana hem yanlış anahtarlar, yalnız A₀; tüm A modelleri için analyze.reading_rerun)"
+}
